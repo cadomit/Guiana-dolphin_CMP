@@ -1,0 +1,18 @@
+{
+  "description": "Working draft of topics and requests prepared for the Scientific Committee; wording remains provisional.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "workshop_recs.json",
+    "url": "/_blob/5eaa3e89e07bb87f453971b1241bc25f"
+  },
+  "title": "Draft recommendations from the plenary workshop",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

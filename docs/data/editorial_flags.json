@@ -1,0 +1,58 @@
+[
+{
+"topic": "Status wording",
+"issue": "The CMP gives three different statements of the Brazilian category: 'endangered' (Section 2), 'Vulnerable' for Brazil and Colombia (Executive Summary) and 'Vulnerable', maintained in 2022 (Section 3.2.1). SALVE (validated March 2025) assigns Endangered (A3bce+4bce).",
+"action": "Harmonise the three statements and update Brazil to EN, citing Farro et al. (2025).",
+"priority": "High",
+"source": "SC/69B/CMP/18; Ficha SALVE"
+},
+{
+"topic": "State listings",
+"issue": "SALVE records São Paulo (2009, 2018) and Rio de Janeiro (1999) as Near Threatened, and Santa Catarina as Vulnerable with no year. Arguments that the species is threatened on state lists in RJ and SP need the current decrees.",
+"action": "Verify current Rio de Janeiro and São Paulo listings before citing them as threatened.",
+"priority": "High",
+"source": "Ficha SALVE"
+},
+{
+"topic": "Unit assignment",
+"issue": "Todos os Santos Bay is placed in BRNE3 in one passage and BRNE4 in another; the same section also states that BRNE3 has no abundance effort.",
+"action": "Confirm the management unit and align the text and Annex.",
+"priority": "Medium",
+"source": "SC/69B/CMP/18, 5.3"
+},
+{
+"topic": "Transcription",
+"issue": "The Sepetiba Bay estimate reads '5881,004', presumably 588-1,004 (Flach 2015). SALVE cites more recent estimates (Sepetiba 1,560; Ilha Grande 1,949).",
+"action": "Correct the typography and add the recent estimates.",
+"priority": "Medium",
+"source": "SC/69B/CMP/18, 5.3; Ficha SALVE"
+},
+{
+"topic": "Drafting remnants",
+"issue": "Section 2 contains the placeholder '(add a Table 2, 3, 4 and 5)'; Table 1 retains the template phrase '(may be an educated guess)'; section numbering repeats ('3. Threats', '2. Scientific background', '5. Bibliography', '3.2.2 Honduras').",
+"action": "Resolve before the next submission.",
+"priority": "Low",
+"source": "SC/69B/CMP/18"
+},
+{
+"topic": "Species scope",
+"issue": "The Bertozzi presentation concerns franciscana (Pontoporia blainvillei), not Sotalia; its bycatch and mortality figures are not loaded as Guiana dolphin indicators.",
+"action": "Use only as methodological comparison (interview-based bycatch estimates versus strandings).",
+"priority": "Info",
+"source": "Bertozzi_Bycatch FMA II FMA III.pptx"
+},
+{
+"topic": "Recommendation status",
+"issue": "Several IWC recommendation rows read 'Open CLOSED' in the source table; they are shown here as Closed.",
+"action": "Confirm the intended status in the IWC recommendations database.",
+"priority": "Medium",
+"source": "Sotalia recommendations.docx"
+},
+{
+"topic": "Threat form template",
+"issue": "In the Overall Threat Scoring Form, category 2 is labelled 'Commercial & industrial areas', duplicating category 1; the IUCN scheme names category 2 'Agriculture & aquaculture'.",
+"action": "Check the template label.",
+"priority": "Low",
+"source": "Overall Threat Scoring Form"
+}
+]

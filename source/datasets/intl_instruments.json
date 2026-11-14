@@ -1,0 +1,18 @@
+{
+  "description": "Resolutions and decisions of CMS and IWC on bycatch, marine pollution, disease, noise, habitat and other threats, with the extent of verification.",
+  "edit": {
+    "at": "2026-11-14T12:20:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "intl_instruments.json",
+    "url": "/_blob/08bedb411b7ba45c48b9d1674cf4a61a"
+  },
+  "title": "CMS and IWC instruments relevant to threats",
+  "updated": {
+    "at": "2026-11-14T12:20:00Z",
+    "by": "Claude, from the CMS COP15 decisions page and the IWC decisions register"
+  }
+}

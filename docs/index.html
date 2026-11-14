@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guiana Dolphin CMP — Evidence & Assessment Dashboard</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="app.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script>window.DASH_SOURCES = {"abundance": {"file": "data/abundance.json"}, "actions": {"file": "data/actions.json"}, "cmp_threats": {"file": "data/cmp_threats.json"}, "evidence_counts": {"file": "data/evidence_counts.json"}, "fisheries": {"file": "data/fisheries_scores.json"}, "flags": {"file": "data/editorial_flags.json"}, "immas": {"file": "data/immas.json"}, "intl_instruments": {"file": "data/intl_instruments.json"}, "iwc": {"file": "data/iwc_recommendations.json"}, "lit_records": {"file": "data/lit_landmarks.json"}, "lit_years": {"file": "data/lit_year_counts.json"}, "map_base": {"file": "data/basemap_countries.json"}, "map_layers": {"file": "data/map_layers.json"}, "milestones": {"file": "data/milestones.json"}, "mus": {"file": "data/management_units.json"}, "oa_records": {"file": "data/oa_added_records.json"}, "pubmed_live": {"answer": "snapshots/pubmed_search.json", "calls": {"get_article_metadata": "snapshots/pubmed_metadata.json"}, "args": {"max_results": 10, "query": "Sotalia guianensis", "sort": "pub_date"}}, "pubmed_years": {"file": "data/pubmed_year_counts.json"}, "salve": {"file": "data/salve_indicators.json"}, "scispace_live": {"answer": "snapshots/scispace_search.json", "args": {"query": "What is known about the conservation, abundance and threats of the Guiana dolphin (Sotalia guianensis)? year:2015-2026 sort:newest limit:100"}}, "states": {"file": "data/range_states.json"}, "status": {"file": "data/status_history.json"}, "threat_scores": {"file": "data/threat_scores.json"}, "workshop": {"file": "data/workshop_recs.json"}};</script>
+<script src="dash-runtime.js"></script>
+</head>
+<body>
+<div class="site-banner">Static copy of the dashboard, data as of 14 November 2026. The PubMed and SciSpace tables are snapshots. <a href="https://claude.ai/artifact/79GgPWUJPym9LimjBMkvEd">Open the live version on claude.ai</a> (access may be restricted).</div>
+<div id="dash-root" lang="en">
+
+
+<div class="gd" id="top">
+
+<header class="gd-head">
+  <p class="gd-kicker">Conservation Management Plan · <i>Sotalia guianensis</i></p>
+  <h1 class="gd-title" id="title">Guiana dolphin: evidence and assessment dashboard</h1>
+  <p class="gd-lede" id="lede">The species is assessed as <b data-draw="g_cat" data-source="kpi" data-field="global_cat" data-row="0">—</b> globally (IUCN, <span data-draw="g_year" data-source="kpi" data-field="global_year" data-row="0">—</span>) and as <b data-draw="n_cat" data-source="kpi" data-field="national_cat" data-row="0">—</b> in Brazil (SALVE, <span data-draw="n_year" data-source="kpi" data-field="national_year" data-row="0">—</span>). Abundance estimates are available for <b data-draw="l_est" data-source="kpi" data-field="n_mus_est" data-row="0">—</b> of <span data-draw="l_mus" data-source="kpi" data-field="n_mus" data-row="0">—</span> management units; <b data-draw="l_vh" data-source="kpi" data-field="n_vh" data-row="0">—</b> of the <span data-draw="l_act" data-source="kpi" data-field="n_actions" data-row="0">—</span> planned actions carry Very High priority, and <b data-draw="l_open" data-source="kpi" data-field="n_open" data-row="0">—</b> recommendations of the IWC Scientific Committee remain open.</p>
+
+  <div class="gd-tiles">
+    <div class="gd-tile"><div class="gd-tile-v" data-draw="t_g" data-source="kpi" data-field="global_cat" data-row="0">—</div><div class="gd-tile-l">IUCN Red List category (global)</div></div>
+    <div class="gd-tile"><div class="gd-tile-v" data-draw="t_n" data-source="kpi" data-field="national_cat" data-row="0">—</div><div class="gd-tile-l">Brazilian category (SALVE, 2025)</div></div>
+    <div class="gd-tile"><div class="gd-tile-v" data-draw="t_est" data-source="kpi" data-field="n_mus_est" data-row="0">—</div><div class="gd-tile-l">Management units with an abundance estimate (of <span data-draw="lbl_mus" data-source="kpi" data-field="n_mus" data-row="0">—</span>)</div></div>
+    <div class="gd-tile"><div class="gd-tile-v" data-draw="t_act" data-source="kpi" data-field="n_actions" data-row="0">—</div><div class="gd-tile-l">Planned actions, 2024–2028 (<span data-draw="lbl_vh" data-source="kpi" data-field="n_vh" data-row="0">—</span> Very High priority)</div></div>
+    <div class="gd-tile"><div class="gd-tile-v" data-draw="t_open" data-source="kpi" data-field="n_open" data-row="0">—</div><div class="gd-tile-l">Open IWC recommendations (of <span data-draw="lbl_iwc" data-source="kpi" data-field="n_iwc" data-row="0">—</span>)</div></div>
+    <div class="gd-tile"><div class="gd-tile-v" data-draw="t_scored" data-source="thr_stats" data-field="scored" data-row="0">—</div><div class="gd-tile-l">Threat rows scored provisionally (of <span data-draw="lbl_thr" data-source="thr_stats" data-field="n" data-row="0">—</span>)</div></div>
+  </div>
+</header>
+
+<nav class="gd-nav" aria-label="Sections">
+  <a href="#units" data-go="units">Population</a>
+  <a href="#threats" data-go="threats">Threats</a>
+  <a href="#actions" data-go="actions">Action plan</a>
+  <a href="#iwc" data-go="iwc">IWC</a>
+  <a href="#instruments" data-go="instruments">CMS and IWC instruments</a>
+  <a href="#status" data-go="status">Conservation status</a>
+  <a href="#process" data-go="process">Range states and process</a>
+  <a href="#immas" data-go="immas">IMMAs</a>
+  <a href="#literature" data-go="literature">Literature</a>
+  <a href="#evidence" data-go="evidence">Evidence by action</a>
+  <a href="#updating" data-go="updating">Updating the evidence</a>
+  <a href="#notes" data-go="notes">Editorial notes</a>
+</nav>
+
+<section class="gd-sec" id="units">
+  <h2 class="gd-h2">Population structure and abundance</h2>
+  <p class="gd-sub">The species is currently subdivided into twelve management units (MUs), from Colombia and Central America to southern Brazil. Study-level abundance estimates are shown on a logarithmic scale: bars denote the lower and upper bounds reported, and dots denote point estimates.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="abundance-chart" data-draw="chart_abund" data-source="abundance mus">—</div>
+    <p class="gd-note">Horizontal axis: estimated number of individuals (logarithmic scale). Estimates differ in method, survey area and year and are therefore not additive; they should not be summed within or across units. Units with no recorded estimate (currently <span data-draw="gap_list" data-source="kpi" data-field="gap_mus" data-row="0">—</span>) are identified in the chart.</p>
+  </div>
+  <h3 class="gd-h3">Management units and evidence coverage</h3>
+  <div class="gd-wrap">
+    <table class="gd-table" id="units-table" data-source="mu_cov" data-row-key="mu">
+      <thead><tr><th data-field="mu">Unit</th><th data-field="name">Name</th><th data-field="range">Range</th><th data-field="n_est">Studies</th><th>Estimate bounds</th><th data-field="note">Remarks</th></tr></thead>
+      <tbody data-draw="units_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="threats">
+  <h2 class="gd-h2">Threats</h2>
+  <p class="gd-sub">Threats are presented in two complementary ways: the summary assessment published in the CMP (Table 1), and the provisional scoring forms prepared under the IUCN-based threat classification, which remain under completion.</p>
+
+  <h3 class="gd-h3">Threat summary in the CMP</h3>
+  <div class="gd-wrap">
+    <table class="gd-table" id="cmp-threats-table" data-source="threat_cov" data-row-key="threat">
+      <thead><tr><th data-field="threat">Threat</th><th data-field="kind">Type</th><th data-field="evidence">Evidence of impact</th><th data-field="priority">Priority</th><th>Linked actions</th><th>Most urgent areas</th></tr></thead>
+      <tbody data-draw="threat_body"></tbody>
+    </table>
+  </div>
+  <p class="gd-note">Linked actions are counted from the identifiers listed in the CMP table and matched to the action plan below; priorities are those assigned in the plan.</p>
+
+  <h3 class="gd-h3">Overall threat scoring (provisional)</h3>
+  <p class="gd-p">Of <b data-draw="s_n" data-source="thr_stats" data-field="n" data-row="0">—</b> rows in the overall scoring form, <b data-draw="s_scored" data-source="thr_stats" data-field="scored" data-row="0">—</b> have been scored provisionally, <b data-draw="s_review" data-source="thr_stats" data-field="review" data-row="0">—</b> require review and <b data-draw="s_unscored" data-source="thr_stats" data-field="unscored" data-row="0">—</b> have not been scored. Severity is recorded as “Unknown” for <b data-draw="s_unknown" data-source="thr_stats" data-field="sev_unknown" data-row="0">—</b> of the scored rows, so the present scores indicate timing and scope but cannot yet rank threats by severity.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="threat-status-chart" data-draw="chart_thr" data-source="thr_by_cat">—</div>
+  </div>
+  <div class="gd-controls">
+    <label>Scoring status <select class="dash-select" data-draw="f_t_status" data-source="threat_scores" aria-label="Filter threat rows by scoring status"></select></label>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="threat-score-table" data-source="threat_scores">
+      <thead><tr><th>Category</th><th>Threat</th><th>Timing</th><th>Scope</th><th>Severity</th><th>Cost of mitigation</th><th>Status</th><th>Notes</th></tr></thead>
+      <tbody data-draw="thr_body"></tbody>
+    </table>
+  </div>
+
+  <h3 class="gd-h3">Fisheries threat scoring by gear</h3>
+  <p class="gd-p">Of <b data-draw="f_n" data-source="thr_stats" data-field="f_n" data-row="0">—</b> gear types in the fisheries form, <b data-draw="f_scored" data-source="thr_stats" data-field="f_scored" data-row="0">—</b> have been scored provisionally and <b data-draw="f_pending" data-source="thr_stats" data-field="f_pending" data-row="0">—</b> remain to be scored. A quantified severity (very rapid decline, exceeding 30% over ten years or three generations) is recorded only for: <b data-draw="f_quant" data-source="thr_stats" data-field="f_quant" data-row="0">—</b>.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="gear-status-chart" data-draw="chart_gear" data-source="gear_by">—</div>
+  </div>
+  <div class="gd-controls">
+    <label>Scoring status <select class="dash-select" data-draw="f_g_status" data-source="fisheries" aria-label="Filter gear types by scoring status"></select></label>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="gear-table" data-source="fisheries">
+      <thead><tr><th>Gear class</th><th>Gear type</th><th>Timing</th><th>Scope</th><th>Severity</th><th>Status</th><th>Notes</th></tr></thead>
+      <tbody data-draw="gear_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="actions">
+  <h2 class="gd-h2">Action plan, 2024–2028</h2>
+  <p class="gd-sub">The CMP action plan comprises four strategic lines. Priorities are those assigned in the plan; where an action comprises components of differing priority, the highest is shown and the components are listed in the detail. Budgets are reproduced as stated and are not aggregated.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="actions-chart" data-draw="chart_actions" data-source="actions_by actions">—</div>
+  </div>
+  <div class="gd-controls">
+    <label>Strategic line <select class="dash-select" data-draw="f_a_line" data-source="actions" aria-label="Filter actions by strategic line"></select></label>
+    <label>Priority <select class="dash-select" data-draw="f_a_prio" data-source="actions" aria-label="Filter actions by priority"></select></label>
+    <label>Search <input class="gd-input" type="search" data-param="a_q" placeholder="Identifier, topic or title" aria-label="Search actions by identifier, topic or title"></label>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="actions-table" data-source="actions" data-row-key="id">
+      <thead><tr><th data-field="id">Action</th><th>Strategic line</th><th data-field="topic">Topic</th><th>Description</th><th data-field="region">Region</th><th data-field="years">Years</th><th data-field="priority">Priority</th></tr></thead>
+      <tbody data-draw="actions_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="iwc">
+  <h2 class="gd-h2">IWC Scientific Committee recommendations</h2>
+  <p class="gd-sub">Recommendations and Commission decisions concerning the species since 2018. Status is reproduced from the progress report and should be verified against the Scientific Committee’s own records before citation.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="iwc-chart" data-draw="chart_iwc" data-source="iwc_by iwc">—</div>
+  </div>
+  <div class="gd-controls">
+    <label>Status <select class="dash-select" data-draw="f_i_status" data-source="iwc" aria-label="Filter recommendations by status"></select></label>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="iwc-table" data-source="iwc" data-row-key="id">
+      <thead><tr><th data-field="id">Reference</th><th data-field="year">Year</th><th data-field="theme">Theme</th><th data-field="status">Status</th><th>Summary</th><th>Note</th></tr></thead>
+      <tbody data-draw="iwc_body"></tbody>
+    </table>
+  </div>
+  <h3 class="gd-h3">Draft recommendations from the plenary workshop</h3>
+  <p class="gd-note">Working text prepared in plenary for submission to the Scientific Committee; wording, addressees and reference numbers remain provisional.</p>
+  <div class="gd-wrap">
+    <table class="gd-table" id="workshop-table" data-source="workshop">
+      <thead><tr><th>Topic</th><th>Form</th><th>Request</th><th>Addressee</th><th>State</th></tr></thead>
+      <tbody data-draw="workshop_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="instruments">
+  <h2 class="gd-h2">CMS and IWC instruments relevant to the main threats</h2>
+  <p class="gd-sub">Resolutions and decisions of the Convention on Migratory Species (CMS; Fifteenth Meeting of the Conference of the Parties, Campo Grande, March 2026, and earlier meetings) and of the International Whaling Commission (IWC) that bear on bycatch, marine pollution, disease, underwater noise, habitat and other threats. Each entry was identified from the official register of the respective body; the extent to which its text was read is stated in the verification column.</p>
+  <p class="gd-p">The list holds <b data-draw="x_n" data-source="instr_stats" data-field="n" data-row="0">—</b> entries (<b data-draw="x_cms" data-source="instr_stats" data-field="n_cms" data-row="0">—</b> from the CMS and <b data-draw="x_iwc" data-source="instr_stats" data-field="n_iwc" data-row="0">—</b> from the IWC) in <b data-draw="x_themes" data-source="instr_stats" data-field="n_themes" data-row="0">—</b> themes. The species is named explicitly in <b data-draw="x_named" data-source="instr_stats" data-field="n_named" data-row="0">—</b> of them, the CMS Appendix II listing; in the passages reviewed, none of the remaining instruments refers to the Guiana dolphin or to the coastal dolphins of South America, which are covered only as part of the cetaceans or migratory species concerned. Several texts were identified from titles and summaries and remain to be read in full.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="instruments-chart" data-draw="chart_instr" data-source="instr_by">—</div>
+  </div>
+  <div class="gd-controls">
+    <label>Body <select class="dash-select" data-draw="f_x_body" data-source="intl_instruments" aria-label="Filter instruments by body"></select></label>
+    <label>Theme <select class="dash-select" data-draw="f_x_theme" data-source="intl_instruments" aria-label="Filter instruments by theme"></select></label>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="instruments-table" data-source="intl_instruments" data-row-key="ref,title">
+      <thead><tr><th data-field="body">Body</th><th data-field="ref">Reference</th><th data-field="title">Title</th><th data-field="adopted">Adopted</th><th data-field="theme">Theme</th><th data-field="species_named">Species named</th><th data-field="cmp_actions">Linked CMP actions</th><th>Link</th></tr></thead>
+      <tbody data-draw="instr_body"></tbody>
+    </table>
+  </div>
+  <p class="gd-note">No IWC resolution on cetacean disease or health was identified in the register; two 1998–1999 resolutions on the human health effects of consuming cetaceans were excluded because they concern human health. Resolutions of the daughter agreements ASCOBANS and ACCOBAMS (for example on chemical pollution and marine litter) were excluded because those agreements do not cover the range of the species. The regional priorities in Annex 2 of Resolution 14.9 were not available for review and may refer to the species. Linked CMP actions indicate the thematic correspondence proposed here and are not stated in the instruments themselves.</p>
+</section>
+
+<section class="gd-sec" id="status">
+  <h2 class="gd-h2">International conservation status and the Brazilian assessment</h2>
+  <p class="gd-sub">Assessments are shown by year of publication: the global IUCN Red List, the national red lists of the other range states (north to south), and finally Brazil and its states. Where a listing differs from another, the difference is reported rather than reconciled; see the editorial notes. Darker markers denote higher categories of threat; range states for which no national category was found are marked as such.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="status-chart" data-draw="chart_status" data-source="status">—</div>
+    <p class="gd-note">n.d. = year not recorded in the source. Lines join successive assessments within the same jurisdiction.</p>
+  </div>
+  <h3 class="gd-h3">Quantitative indicators from the 2025 Brazilian assessment</h3>
+  <p class="gd-note">Values are given in the units reported by the sources; no figure has been recalculated. The Brazilian assessment was validated on 6 March 2025 under criteria A3bce+4bce.</p>
+  <div class="gd-controls">
+    <label>Indicator group <select class="dash-select" data-draw="f_s_group" data-source="salve" aria-label="Filter indicators by group"></select></label>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="salve-table" data-source="salve" data-row-key="indicator">
+      <thead><tr><th data-field="group">Group</th><th data-field="indicator">Indicator</th><th>Value</th><th data-field="area">Area</th><th data-field="source">Source</th><th>Note</th></tr></thead>
+      <tbody data-draw="salve_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="process">
+  <h2 class="gd-h2">Range states and process</h2>
+  <p class="gd-sub">Range states, their relationship to the IWC and the national instruments relevant to the species, followed by the principal steps of the CMP process.</p>
+  <div class="gd-wrap">
+    <table class="gd-table" id="states-table" data-source="states" data-row-key="country">
+      <thead><tr><th data-field="country">Country</th><th data-field="iwc">IWC</th><th data-field="proponent">Proponent</th><th data-field="instruments">Relevant instruments</th></tr></thead>
+      <tbody data-draw="states_body"></tbody>
+    </table>
+  </div>
+  <h3 class="gd-h3">Milestones, 2018–2028</h3>
+  <ul class="gd-tl" id="timeline" data-draw="timeline" data-source="milestones"></ul>
+  <p class="gd-note">Hollow markers denote planned steps.</p>
+</section>
+
+<section class="gd-sec" id="immas">
+  <h2 class="gd-h2">Important Marine Mammal Areas (IMMAs)</h2>
+  <p class="gd-sub">IMMAs are discrete areas of habitat identified by the IUCN Joint SSC/WCPA Marine Mammal Protected Areas Task Force as important for one or more marine mammal species. The map shows the approximate coastal occurrence of the Guiana dolphin and the IMMAs whose factsheets name the species.</p>
+  <p class="gd-p"><b data-draw="imma_n" data-source="imma_stats" data-field="n_immas" data-row="0">—</b> IMMAs in <b data-draw="imma_c" data-source="imma_stats" data-field="n_countries" data-row="0">—</b> countries and territories include the Guiana dolphin.</p>
+  <p class="gd-note gd-warn-note"><b>Provisional map.</b> Markers and coastal extents are approximate locations placed from the IMMA factsheets; they are not the official IMMA boundaries, which the Task Force supplies on request under a user licence. The list was compiled from the factsheets and may be incomplete.</p>
+  <div class="gd-legend" id="imma-legend">
+    <span><i class="gd-sw rng"></i>Approximate occurrence of the species (Honduras to Santa Catarina)</span>
+    <span><i class="gd-sw spn"></i>Approximate coastal extent of an IMMA</span>
+    <span><i class="gd-sw dot"></i>IMMA (approximate location, numbered north to south)</span>
+    <span><i class="gd-sw rs"></i>Range state listed in this dashboard</span>
+  </div>
+  <div class="gd-chart gd-map" id="imma-map" data-draw="imma_map" data-source="immas map_base map_layers states"></div>
+  <p class="gd-note">Coastline and borders: Natural Earth 1:50m. The occurrence line follows the mainland coast between the northern (Honduras) and southern (Santa Catarina, Brazil) limits of the species’ distribution and does not show where the species is absent within that stretch.</p>
+  <h3 class="gd-h3">IMMAs that include the Guiana dolphin</h3>
+  <div class="gd-wrap">
+    <table class="gd-table" id="imma-table" data-source="immas" data-row-key="name">
+      <thead><tr><th data-field="no">No.</th><th data-field="name">IMMA (factsheet)</th><th data-field="countries">Countries</th><th data-field="role">Guiana dolphin in the factsheet</th><th data-field="note">Summary</th><th data-field="located">Location on the map</th></tr></thead>
+      <tbody data-draw="imma_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="literature">
+  <h2 class="gd-h2">Scientific literature</h2>
+  <p class="gd-sub">Two open bibliographic indexes are shown on a common scale. OpenAlex was queried for journal articles whose title or abstract names the species; PubMed was searched for the species name across all record types. Counts depend on each index’s coverage and are not comparable with Scopus or Web of Science totals.</p>
+  <p class="gd-p">OpenAlex lists <b data-draw="o_total" data-source="lit_stats" data-field="oa_total" data-row="0">—</b> articles since <span data-draw="o_first" data-source="lit_stats" data-field="oa_first" data-row="0">—</span>, with a peak of <b data-draw="o_peak_n" data-source="lit_stats" data-field="oa_peak_n" data-row="0">—</b> in <span data-draw="o_peak_year" data-source="lit_stats" data-field="oa_peak_year" data-row="0">—</span> and <b data-draw="o_last_n" data-source="lit_stats" data-field="oa_last_n" data-row="0">—</b> in <span data-draw="o_last_year" data-source="lit_stats" data-field="oa_last_year" data-row="0">—</span>; <b data-draw="o_part_n" data-source="lit_stats" data-field="oa_partial_n" data-row="0">—</b> have appeared so far in <span data-draw="o_part_year" data-source="lit_stats" data-field="oa_partial_year" data-row="0">—</span>. PubMed lists <b data-draw="p_last_n" data-source="lit_stats" data-field="pm_last_n" data-row="0">—</b> records for <span data-draw="p_last_year" data-source="lit_stats" data-field="pm_last_year" data-row="0">—</span>. Annual PubMed counts use publication dates, so a record with different electronic and print years is counted in both.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="literature-chart" data-draw="chart_lit" data-source="lit_years pubmed_years">—</div>
+  </div>
+
+  <h3 class="gd-h3">Most recent PubMed records (live)</h3>
+  <p class="gd-note">Snapshot of the PubMed search taken on 14 November 2026; the live version refreshes on opening.</p>
+  <div class="gd-wrap">
+    <table class="gd-table" id="pubmed-table" data-source="pubmed_live" data-row-key="title">
+      <thead><tr><th data-field="date">Date</th><th data-field="first_author">First author</th><th data-field="title">Title</th><th data-field="journal">Journal</th><th>Link</th></tr></thead>
+      <tbody data-draw="pm_body"></tbody>
+    </table>
+  </div>
+
+  <h3 class="gd-h3">Recent records from SciSpace (live)</h3>
+  <p class="gd-note">Snapshot of the SciSpace search taken on 14 November 2026; the live version refreshes on opening. SciSpace searches a broad multidisciplinary index of scholarly papers; only records that name the Guiana dolphin or <i>Sotalia guianensis</i> are retained. Counts and coverage are those of SciSpace and are not comparable with Scopus or Web of Science. The search returns up to one hundred of the most recent records published since 2015. Themes are assigned automatically from keywords in the title and, failing that, in the abstract excerpt; they are an aid to browsing and not a classification of the studies.</p>
+  <div class="gd-controls">
+    <label>Year <select class="dash-select" data-draw="f_sci_year" data-source="scispace_live" aria-label="Filter SciSpace records by year"></select></label>
+    <label>Theme <select class="dash-select" data-draw="f_sci_theme" data-source="scispace_live" aria-label="Filter SciSpace records by theme"></select></label>
+    <span class="gd-note" data-draw="sci_count" data-source="scispace_live">—</span>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="scispace-table" data-source="scispace_live" data-row-key="title">
+      <thead><tr><th data-field="year">Year</th><th data-field="first_author">First author</th><th data-field="title">Title</th><th data-field="venue">Venue</th><th data-field="theme">Theme</th><th data-field="citations">Citations</th><th>Link</th></tr></thead>
+      <tbody data-draw="sci_body"></tbody>
+    </table>
+  </div>
+
+  <h3 class="gd-h3">Most-cited works</h3>
+  <p class="gd-note">From the OpenAlex snapshot; citation counts are those of OpenAlex. This file can be replaced by an export from Scopus or Web of Science (see below).</p>
+  <div class="gd-wrap">
+    <table class="gd-table" id="landmarks-table" data-source="lit_records" data-row-key="title">
+      <thead><tr><th data-field="year">Year</th><th data-field="first_author">First author</th><th data-field="title">Title</th><th data-field="journal">Journal</th><th data-field="citations">Citations</th><th>Link</th></tr></thead>
+      <tbody data-draw="lit_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="evidence">
+  <h2 class="gd-h2">Evidence available for each priority action</h2>
+  <p class="gd-sub">Numbers of distinct documents that name the Guiana dolphin and match a topic defined for each action of the CMP and for each specific objective of the Brazilian national action plan for marine cetaceans (PAN Cetáceos Marinhos, ICMBio Portaria 375/2019, in which the species is a target). PubMed, OpenAlex and SciSpace are combined so that each document is counted once. The counts are a snapshot of <span data-draw="e_retr" data-source="evid_stats" data-field="retrieved" data-row="0">—</span>; the PubMed query behind each row can be opened and rerun, and the records added from OpenAlex and SciSpace are listed below.</p>
+  <p class="gd-p">Counting each document once, <b data-draw="e_base" data-source="evid_stats" data-field="baseline" data-row="0">—</b> records name the species: <b data-draw="e_basepm" data-source="evid_stats" data-field="base_pm" data-row="0">—</b> in PubMed, a further <b data-draw="e_baseoa" data-source="evid_stats" data-field="base_oa" data-row="0">—</b> in OpenAlex only and <b data-draw="e_basesci" data-source="evid_stats" data-field="base_sci" data-row="0">—</b> in SciSpace only. <b data-draw="e_nmeas" data-source="evid_stats" data-field="n_meas" data-row="0">—</b> of the <b data-draw="e_nact" data-source="evid_stats" data-field="n_actions" data-row="0">—</b> CMP actions can be matched to a literature count, from <b data-draw="e_lon" data-source="evid_stats" data-field="lo_n" data-row="0">—</b> records (<span data-draw="e_loid" data-source="evid_stats" data-field="lo_id" data-row="0">—</span>) to <b data-draw="e_hin" data-source="evid_stats" data-field="hi_n" data-row="0">—</b> (<span data-draw="e_hiid" data-source="evid_stats" data-field="hi_id" data-row="0">—</span>). Of the <b data-draw="e_vhmeas" data-source="evid_stats" data-field="n_vh_meas" data-row="0">—</b> Very High priority actions that can be matched, <b data-draw="e_vhlow" data-source="evid_stats" data-field="n_vh_low" data-row="0">—</b> have fewer than <span data-draw="e_thr" data-source="evid_stats" data-field="thr" data-row="0">—</span> records in the integrated count (<span data-draw="e_lowids" data-source="evid_stats" data-field="low_ids" data-row="0">—</span>); on the PubMed counts alone the number was <b data-draw="e_vhlowpm" data-source="evid_stats" data-field="n_vh_low_pm" data-row="0">—</b>.</p>
+
+  <h3 class="gd-h3">CMP action plan</h3>
+  <div class="gd-card">
+    <div class="gd-chart" id="evidence-cmp-chart" data-draw="chart_evid_cmp" data-source="evid_cmp">—</div>
+  </div>
+  <div class="gd-controls">
+    <label>Strategic line <select class="dash-select" data-draw="f_e_line" data-source="actions" aria-label="Filter the evidence by strategic line"></select></label>
+    <label>Priority <select class="dash-select" data-draw="f_e_prio" data-source="actions" aria-label="Filter the evidence by priority"></select></label>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="evidence-cmp-table" data-source="evid_cmp" data-row-key="id">
+      <thead><tr><th data-field="id">Action</th><th data-field="priority">Priority</th><th data-field="label">Evidence topic</th><th data-field="count_pubmed">PubMed</th><th data-field="count_oa">Added from OpenAlex</th><th data-field="count_sci">Added from SciSpace</th><th data-field="count">Integrated</th><th data-field="share">Share of species records</th></tr></thead>
+      <tbody data-draw="evid_body"></tbody>
+    </table>
+  </div>
+
+  <h3 class="gd-h3">Brazilian national action plan for marine cetaceans (PAN)</h3>
+  <p class="gd-note">The ten specific objectives are those of the executive summary published by ICMBio; the English labels are abbreviated renderings and the official Portuguese wording is given beneath each.</p>
+  <div class="gd-card">
+    <div class="gd-chart" id="evidence-pan-chart" data-draw="chart_evid_pan" data-source="evid_pan">—</div>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="evidence-pan-table" data-source="evid_pan" data-row-key="id">
+      <thead><tr><th data-field="id">Objective</th><th data-field="label">Specific objective</th><th>Search</th><th data-field="count_pubmed">PubMed</th><th data-field="count_oa">Added from OpenAlex</th><th data-field="count_sci">Added from SciSpace</th><th data-field="count">Integrated</th><th data-field="share">Share of species records</th></tr></thead>
+      <tbody data-draw="pan_body"></tbody>
+    </table>
+  </div>
+  <p class="gd-note">The PubMed column is the total returned by PubMed for the species clause combined with the topic clause of the row. The OpenAlex column counts only journal articles that are not already in that set: OpenAlex articles that carry a PubMed identifier are treated as the same document and are not added, and items that do not concern the species or that duplicate another version of the same work are excluded. Each remaining article is assigned to a topic if its title matches the topic keywords (English, Portuguese and Spanish) or if the abstract held by OpenAlex contains the specific terms of the corresponding PubMed clause. The abstract search was run on the OpenAlex server, was restricted to records that name the species, and uses the specific phrases of each clause (for example “protected area” or “conservation status”) and not generic words such as “conservation” or “management”, which would match almost every record. This reduces, but does not remove, the asymmetry between the sources: OpenAlex holds no abstract for some records, which remain matched on the title alone, and the keyword rules are a heuristic and not a manual classification, so some broad clauses (for example monitoring, threat mapping and policy) may include studies that are only tangentially related. Three rare phrases (management unit, growth layer and population decline) could not be queried individually and were not applied at abstract level. The SciSpace column counts records returned by the SciSpace search shown above (up to one hundred records published since 2015) that match neither PubMed nor OpenAlex by normalised title: of the one hundred records, 63 were already in OpenAlex, 11 in PubMed, 5 were duplicate versions within SciSpace and 12 were set aside because they concern other species, are occurrence datasets or are taxonomic reference entries; the remaining 9 were added and assigned to topics by reading the title and abstract excerpt. The integrated count therefore counts each document once. A record may match several topics, so counts overlap and must not be added. Neither index covers all regional journals, theses and technical reports, so every count is a lower bound, and a low count indicates a gap in indexed evidence and not an absence of knowledge. Topic clauses are a heuristic proposed for review by the CMP coordinators; several are deliberately broad and are flagged in the notes. Actions that concern governance or capacity building (MON#003, PACB#003 and PACB#004) are not measured by a literature count, and the counts for PACB#001 and PACB#002 are indicative only.</p>
+
+  <h3 class="gd-h3">Records added to the PubMed counts (OpenAlex and SciSpace)</h3>
+  <p class="gd-note">Journal articles that are indexed in OpenAlex without a PubMed identifier and that name the species, and SciSpace records that appear in neither PubMed nor OpenAlex, with the actions and objectives to which each was matched and whether the match rests on the title, the abstract or both. Records that match no topic contribute only to the overall total. Regional and Portuguese-language journals are well represented, which is where PubMed was weakest.</p>
+  <div class="gd-controls">
+    <label>Topic <select class="dash-select" data-draw="f_o_topic" data-source="evidence_counts" aria-label="Filter the added records by topic"></select></label>
+    <label>Search <input class="gd-input" type="search" data-param="o_q" placeholder="Title word or year" aria-label="Search the added records by title word or year"></label>
+    <span class="gd-note" data-draw="oa_count" data-source="oa_records">—</span>
+  </div>
+  <div class="gd-wrap">
+    <table class="gd-table" id="oa-table" data-source="oa_records" data-row-key="openalex_id">
+      <thead><tr><th data-field="year">Year</th><th data-field="title">Title</th><th>Matched actions and objectives</th><th data-field="source">Source</th><th data-field="matched_by">Matched on</th><th data-field="openalex_id">Identifier</th></tr></thead>
+      <tbody data-draw="oa_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="updating">
+  <h2 class="gd-h2">Updating the evidence base</h2>
+  <p class="gd-sub">The dashboard reads its data from attached files and live queries; the page itself has no network access. Five routes keep it current.</p>
+  <div class="gd-card">
+    <ol class="gd-steps">
+      <li><b>Revised CMP or SALVE documents.</b> Where a document is revised, ask Claude to re-extract the affected tables (actions, threats, management units, indicators); the corresponding data files are then replaced and the page redraws without further change.</li>
+      <li><b>Direct replacement of a data file.</b> Editors may open Sources, select a dataset and replace its attached file with a corrected version that keeps the same column headings.</li>
+      <li><b>PubMed and SciSpace (live).</b> The recent-records tables query PubMed and SciSpace through their connectors whenever the dashboard is opened or refreshed. The annual PubMed series is a dated snapshot and can be regenerated on request; the same applies to the PubMed counts per action and per PAN objective and to the list of CMS and IWC instruments, which can be rerun or extended on request.</li>
+      <li><b>OpenAlex (open API).</b> The OpenAlex series, the most-cited works and the OpenAlex records added to the counts per action and per PAN objective are dated snapshots. A new snapshot can be requested at any time; it replaces the attached files and is deduplicated against PubMed by identifier, so that no document is counted twice. The same snapshot re-runs the abstract-level topic search on the OpenAlex server and compares the current SciSpace results with the integrated set by normalised title, so that records found only in SciSpace are added once.</li>
+      <li><b>Scopus and Web of Science.</b> Both require institutional licences and keys, so they cannot be queried from this page. Export the search results (CSV or tab-delimited) and replace the most-cited-works file in Sources; common headings (title, authors, source title, publication year, cited by or times cited, DOI) are mapped automatically.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="gd-sec" id="notes">
+  <h2 class="gd-h2">Editorial and consistency notes</h2>
+  <p class="gd-sub">Points at which the source documents differ or require harmonisation before the next revision of the plan.</p>
+  <div class="gd-wrap">
+    <table class="gd-table" id="flags-table" data-source="flags" data-row-key="topic">
+      <thead><tr><th data-field="topic">Topic</th><th data-field="issue">Observation</th><th data-field="action">Suggested action</th></tr></thead>
+      <tbody data-draw="flags_body"></tbody>
+    </table>
+  </div>
+  <details class="gd-note" id="provenance">
+    <summary>Data provenance and conventions</summary>
+    <p>Figures for the management units, threats, actions, IWC recommendations, status history and SALVE indicators were transcribed from the CMP (SC/69B/CMP/18 rev1), the action plan, the 2024 progress report and the project’s threat scoring forms. Literature series are dated snapshots of open indexes. Each source is listed, with its retrieval date and basis, under Sources. Abundance estimates are reproduced as reported and have not been harmonised across methods. Priorities and budgets are those stated in the plan.</p>
+  </details>
+</section>
+
+<p class="gd-foot">Hover over or touch a chart mark for details; open Sources to inspect the data behind any figure.</p>
+</div>
+<script src="app.js"></script>
+<script src="draw.js"></script>
+<script src="map.js"></script>
+<script src="sci.js"></script>
+<script src="evid.js"></script>
+
+</div>
+</body>
+</html>

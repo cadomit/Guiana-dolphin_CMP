@@ -1,0 +1,18 @@
+{
+  "description": "Gear-level rows of the Cetacean Fisheries Threat Scoring Form (provisional scores).",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "fisheries_scores.json",
+    "url": "/_blob/df6a90f6a69f52987f216b5b4dfda2aa"
+  },
+  "title": "Fisheries threat scoring by gear",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from the project's scoring form"
+  }
+}

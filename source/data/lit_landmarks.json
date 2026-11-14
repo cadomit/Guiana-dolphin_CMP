@@ -1,0 +1,52 @@
+[
+{
+"year": 2014,
+"first_author": "Van Bressem, M.-F.",
+"title": "Cetacean Morbillivirus: Current Knowledge and Future Directions",
+"journal": "Viruses",
+"citations": 267,
+"doi": "https://doi.org/10.3390/v6125145",
+"source": "OpenAlex",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2011,
+"first_author": "Czech-Damal, N. U.",
+"title": "Electroreception in the Guiana dolphin (Sotalia guianensis)",
+"journal": "Proceedings of the Royal Society B",
+"citations": 149,
+"doi": "https://doi.org/10.1098/rspb.2011.1127",
+"source": "OpenAlex",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2007,
+"first_author": "Caballero, S.",
+"title": "Taxonomic status of the genus Sotalia: species level ranking for tucuxi and costero dolphins",
+"journal": "Marine Mammal Science",
+"citations": 136,
+"doi": "https://doi.org/10.1111/j.1748-7692.2007.00110.x",
+"source": "OpenAlex",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2007,
+"first_author": "Van Bressem, M.-F.",
+"title": "A preliminary overview of skin and skeletal diseases and traumata in small cetaceans from South American waters",
+"journal": "Latin American Journal of Aquatic Mammals",
+"citations": 135,
+"doi": "https://doi.org/10.5597/lajam00108",
+"source": "OpenAlex",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2012,
+"first_author": "Lailson-Brito Jr., J.",
+"title": "Mercury-selenium relationships in liver of Guiana dolphin: the possible role of Kupffer cells",
+"journal": "PLoS ONE",
+"citations": 123,
+"doi": "https://doi.org/10.1371/journal.pone.0042162",
+"source": "OpenAlex",
+"retrieved": "2026-11-14"
+}
+]

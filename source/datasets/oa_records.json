@@ -1,0 +1,18 @@
+{
+  "description": "Records that enter the integrated counts in addition to PubMed: OpenAlex journal articles without a PubMed identifier that name the species, after exclusion of off-target items and duplicate versions, and SciSpace records that match neither PubMed nor OpenAlex. Each record carries the topics it was matched to and whether the match rests on the title, the abstract or both. Snapshot of 14 November 2026.",
+  "edit": {
+    "at": "2026-11-14T13:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "oa_added_records.json",
+    "url": "/_blob/eebd9e644fe07e9866dc262cba894654"
+  },
+  "title": "Records added to the PubMed counts (OpenAlex and SciSpace)",
+  "updated": {
+    "at": "2026-11-14T13:10:00Z",
+    "by": "Claude, from the OpenAlex API and SciSpace"
+  }
+}

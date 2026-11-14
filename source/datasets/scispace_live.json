@@ -1,0 +1,16 @@
+{
+  "description": "Recent scholarly records on the Guiana dolphin returned by a SciSpace search, retrieved through the SciSpace connector each time the dashboard is opened or refreshed. Only records that name Sotalia guianensis or the Guiana dolphin are kept.",
+  "edit": {
+    "at": "2026-11-14T12:22:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "args": {
+      "query": "What is known about the conservation, abundance and threats of the Guiana dolphin (Sotalia guianensis)? year:2015-2026 sort:newest limit:100"
+    },
+    "connector": "SciSpace",
+    "kind": "call",
+    "tool": "search"
+  },
+  "title": "SciSpace: recent records (live)"
+}

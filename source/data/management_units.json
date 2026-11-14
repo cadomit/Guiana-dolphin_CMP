@@ -1,0 +1,86 @@
+[
+{
+"mu": "CCOL",
+"name": "Colombia and Central America",
+"range": "Colombia, Costa Rica, Panama, Nicaragua",
+"note": "Central American samples are limited to one low-quality Nicaraguan sample; grouping may mask distinct conservation needs",
+"order": 1
+},
+{
+"mu": "VEML",
+"name": "Lake Maracaibo and Gulf of Venezuela",
+"range": "Venezuela",
+"note": "Directed take for food and oil pollution reported",
+"order": 2
+},
+{
+"mu": "VEOR",
+"name": "Orinoco",
+"range": "Venezuela (Trinidad and Tobago possibly included)",
+"note": "Orinoco delta animals genetically identified as S. guianensis",
+"order": 3
+},
+{
+"mu": "FRGU",
+"name": "French Guiana, Suriname, Guyana",
+"range": "French Guiana, Suriname, Guyana",
+"note": "Only unit with medium- to large-scale (EEZ) aerial surveys",
+"order": 4
+},
+{
+"mu": "BRNO",
+"name": "North Brazil",
+"range": "Amapá, Pará",
+"note": "No abundance effort reported",
+"order": 5
+},
+{
+"mu": "BRNE1",
+"name": "North-east 1",
+"range": "Maranhão, Piauí, Ceará",
+"note": "High genetic structuring; few and small survey areas",
+"order": 6
+},
+{
+"mu": "BRNE2",
+"name": "North-east 2",
+"range": "Rio Grande do Norte, Paraíba, Pernambuco",
+"note": "Long-term mark-recapture data in some areas",
+"order": 7
+},
+{
+"mu": "BRNE3",
+"name": "North-east 3",
+"range": "Alagoas, Sergipe, northern Bahia",
+"note": "No abundance effort reported in the CMP text",
+"order": 8
+},
+{
+"mu": "BRNE4",
+"name": "North-east 4",
+"range": "Central and southern Bahia",
+"note": "Very small estimates for several estuaries",
+"order": 9
+},
+{
+"mu": "BRSE1",
+"name": "South-east 1",
+"range": "Espírito Santo, northern Rio de Janeiro",
+"note": "Low genetic variability; Fundão tailings impact",
+"order": 10
+},
+{
+"mu": "BRSE2",
+"name": "South-east 2",
+"range": "Southern Rio de Janeiro, northern São Paulo",
+"note": "Best-studied unit; Guanabara decline; morbillivirus mortality event",
+"order": 11
+},
+{
+"mu": "BRS/SE",
+"name": "South and south-east",
+"range": "Southern São Paulo, Paraná, Santa Catarina",
+"note": "Largest known population (Paranaguá); local extinctions suspected (Guaratuba)",
+"order": 12
+}
+]

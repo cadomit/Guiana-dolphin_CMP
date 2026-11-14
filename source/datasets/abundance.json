@@ -1,0 +1,18 @@
+{
+  "description": "Study-level estimates (lower and upper bounds; equal where a point estimate is reported) from CMP Section 5.3, SALVE and project presentations.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "abundance.json",
+    "url": "/_blob/b5fb14a006ee9730a0315e8aea738f48"
+  },
+  "title": "Abundance estimates by study",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Journal articles whose title or abstract mentions Sotalia guianensis, counted by year in OpenAlex (open API) on 14 November 2026. The current year is incomplete.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "lit_year_counts.json",
+    "url": "/_blob/a9cd365b9b4ac2f8f29b1befa8ba3328"
+  },
+  "title": "OpenAlex snapshot: articles per year",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, via the OpenAlex API"
+  }
+}

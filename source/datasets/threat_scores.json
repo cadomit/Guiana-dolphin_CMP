@@ -1,0 +1,18 @@
+{
+  "description": "Rows of the IUCN–CMP Overall Threat Scoring Form for the species, as completed to date.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "threat_scores.json",
+    "url": "/_blob/5be15895bde5e56f476a9acb8c8bc98b"
+  },
+  "title": "Overall threat scoring (provisional)",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from the project's scoring form"
+  }
+}

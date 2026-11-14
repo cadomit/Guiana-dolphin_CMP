@@ -1,0 +1,18 @@
+{
+  "description": "Recommendations and Commission decisions concerning the species, 2018–2024, with their current status.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "iwc_recommendations.json",
+    "url": "/_blob/2ec5f62198d9417b814b9a38aebf3c08"
+  },
+  "title": "IWC Scientific Committee recommendations",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

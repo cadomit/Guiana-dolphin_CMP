@@ -1,0 +1,236 @@
+[
+{
+"group": "Assessment",
+"indicator": "Brazilian category (SALVE, 2025)",
+"value": "Endangered (EN)",
+"unit": "",
+"note": "A3bce+4bce",
+"area": "Brazil",
+"source": "Farro et al. (2025)"
+},
+{
+"group": "Assessment",
+"indicator": "Generation length",
+"value": "15.6",
+"unit": "years",
+"note": "",
+"area": "Species",
+"source": "Taylor et al. (2007)"
+},
+{
+"group": "Assessment",
+"indicator": "Inferred population decline over three generations (2000-2047)",
+"value": ">= 30",
+"unit": "%",
+"note": "",
+"area": "Brazil (4 of 8 RMUs documented)",
+"source": "SALVE"
+},
+{
+"group": "Assessment",
+"indicator": "Projected decline over the next three generations",
+"value": ">= 50",
+"unit": "%",
+"note": "",
+"area": "Brazilian RMUs",
+"source": "SALVE"
+},
+{
+"group": "Trend",
+"indicator": "Guanabara Bay decline, 2000-2015",
+"value": "37",
+"unit": "%",
+"note": "",
+"area": "Guanabara Bay, RJ",
+"source": "Azevedo et al. (2017)"
+},
+{
+"group": "Trend",
+"indicator": "Guanabara Bay projected decline over three generations",
+"value": "~90",
+"unit": "%",
+"note": "",
+"area": "Guanabara Bay, RJ",
+"source": "SALVE"
+},
+{
+"group": "Trend",
+"indicator": "Guanabara Bay estimate, 2015 vs 1991",
+"value": "37-40 vs 398",
+"unit": "individuals",
+"note": "",
+"area": "Guanabara Bay, RJ",
+"source": "Azevedo et al. (2017); Geise (1991)"
+},
+{
+"group": "Mortality event",
+"indicator": "Sepetiba Bay population reduction (morbillivirus, 2017-18)",
+"value": "27.3",
+"unit": "%",
+"note": "",
+"area": "Sepetiba Bay, RJ",
+"source": "Cunha et al. (2021)"
+},
+{
+"group": "Mortality event",
+"indicator": "Ilha Grande Bay population reduction (morbillivirus)",
+"value": "4.8-11.1",
+"unit": "%",
+"note": "",
+"area": "Ilha Grande Bay, RJ",
+"source": "Cunha et al. (2021)"
+},
+{
+"group": "Mortality event",
+"indicator": "Carcasses recovered, Sepetiba and Ilha Grande, 2017-2018",
+"value": "277",
+"unit": "carcasses",
+"note": "",
+"area": "RJ",
+"source": "Groch et al. (2018); Cunha et al. (2021)"
+},
+{
+"group": "Strandings",
+"indicator": "Strandings, southern RJ to SC, 2015-2022",
+"value": "1290",
+"unit": "strandings",
+"note": "",
+"area": "South and south-east Brazil",
+"source": "Vidal et al. (2024)"
+},
+{
+"group": "Strandings",
+"indicator": "Stranding rate, southern RJ to SC",
+"value": "3.5",
+"unit": "per week",
+"note": "",
+"area": "South and south-east Brazil",
+"source": "Vidal et al. (2024)"
+},
+{
+"group": "Strandings",
+"indicator": "Share of strandings with signs of human interaction",
+"value": ">30",
+"unit": "%",
+"note": "",
+"area": "South and south-east Brazil",
+"source": "Vidal et al. (2024)"
+},
+{
+"group": "Strandings",
+"indicator": "Strandings in beach-monitoring basins, 2016-2023",
+"value": "3048",
+"unit": "strandings",
+"note": "",
+"area": "Santos, Campos, ES, SE, AL, Potiguar basins",
+"source": "Dias (2024)"
+},
+{
+"group": "Strandings",
+"indicator": "Share with fishery-interaction marks (beach-monitoring basins)",
+"value": "~30",
+"unit": "%",
+"note": "",
+"area": "Same basins",
+"source": "Dias (2024)"
+},
+{
+"group": "Strandings",
+"indicator": "Mean annual strandings, Paraná",
+"value": "81",
+"unit": "animals/yr",
+"note": "",
+"area": "Paraná",
+"source": "C. Domit, pers. comm. (2025)"
+},
+{
+"group": "Strandings",
+"indicator": "Inferred annual mortality, Paraná",
+"value": "268-804",
+"unit": "animals/yr",
+"note": "",
+"area": "Paraná",
+"source": "C. Domit, pers. comm. (2025)"
+},
+{
+"group": "Strandings",
+"indicator": "Inferred annual loss of the Paraná population",
+"value": "11.2-33.6",
+"unit": "% per year",
+"note": "",
+"area": "Paraná",
+"source": "C. Domit, pers. comm. (2025)"
+},
+{
+"group": "Strandings",
+"indicator": "Ceará strandings, 1992-2005 (11.4 per yr)",
+"value": "160",
+"unit": "strandings",
+"note": "",
+"area": "Ceará",
+"source": "Meirelles et al. (2010)"
+},
+{
+"group": "Strandings",
+"indicator": "Ceará strandings, 2006-2015 (21.7 per yr)",
+"value": "326",
+"unit": "strandings",
+"note": "",
+"area": "Ceará",
+"source": "Carvalho et al. (2016)"
+},
+{
+"group": "Viability",
+"indicator": "Cananéia PVA, increased fishing: extinction probability",
+"value": "100",
+"unit": "%",
+"note": "mean time to extinction 14 yr",
+"area": "Cananéia, SP",
+"source": "Almeida et al. (2024)"
+},
+{
+"group": "Viability",
+"indicator": "Cananéia PVA, increased port activity: extinction probability",
+"value": "44.3",
+"unit": "%",
+"note": "mean time to extinction 80.1 yr",
+"area": "Cananéia, SP",
+"source": "Almeida et al. (2024)"
+},
+{
+"group": "Habitat",
+"indicator": "Distribution outside protected areas",
+"value": "77",
+"unit": "%",
+"note": "",
+"area": "Species range",
+"source": "R. Tardin, pers. comm. (2024), cited in SALVE"
+},
+{
+"group": "Habitat",
+"indicator": "Strictly protected share of the protected remainder",
+"value": "3.3",
+"unit": "% of range",
+"note": "",
+"area": "Species range",
+"source": "R. Tardin, pers. comm. (2024), cited in SALVE"
+},
+{
+"group": "Habitat",
+"indicator": "Sepetiba Bay: group size now vs 1998",
+"value": "-63.3",
+"unit": "%",
+"note": "",
+"area": "Sepetiba Bay, RJ",
+"source": "Maciel et al. (2023)"
+},
+{
+"group": "Habitat",
+"indicator": "Sepetiba Bay: vocalisation frequency now vs 1998",
+"value": "-85.2",
+"unit": "%",
+"note": "",
+"area": "Sepetiba Bay, RJ",
+"source": "Maciel et al. (2023)"
+}
+]
