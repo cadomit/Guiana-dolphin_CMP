@@ -1,0 +1,33 @@
+/* Design tokens that the claude.ai dashboard runtime normally provides. */
+:root {
+  --color-fg: #1f2328; --color-fg-muted: #5c6370; --color-bg: #ffffff; --color-panel: #f7f7f5;
+  --color-border-line: #e2e2dc; --color-ok: #2e7d4f; --color-warn: #b7791f; --color-bad: #c0392b;
+  --dash-c0: #2f6f9f; --dash-c1: #d0793a; --dash-c2: #4f9a6b; --dash-c3: #8a5aa8; --dash-c4: #b8a03a;
+  --font-anthropic-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-anthropic-serif: Georgia, "Times New Roman", serif;
+  --cds-font-size-caption: 12px; --cds-font-size-body: 14px; --cds-font-size-heading: 18px; --cds-font-size-title: 26px;
+  --cds-font-weight-medium: 500;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 12px; --cds-gap-lg: 16px; --cds-gap-xl: 24px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px; --cds-pad-xl: 24px;
+  --cds-radius: 8px;
+  --cds-chart-muted: #b9bec6; --cds-chart-status-critical: #c0392b; --cds-chart-grid: #ececec; --cds-chart-axis: #cfcfcf; --cds-chart-reference: #8b8b8b;
+  --cds-text-secondary: #5c6370;
+  --cds-surface-popover: #ffffff; --cds-border: #dcdcd6; --cds-shadow-popover: 0 4px 14px rgba(0,0,0,.15);
+  --cds-dur-slow: 400ms; --cds-ease-out: cubic-bezier(.2,.7,.2,1);
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-fg: #e8e6e1; --color-fg-muted: #a7a49d; --color-bg: #1c1c1a; --color-panel: #252522;
+    --color-border-line: #3a3a36; --color-ok: #5fbf85; --color-warn: #e0a84a; --color-bad: #e2685a;
+    --dash-c0: #6ea8d6; --dash-c1: #e39a62; --dash-c2: #7cc195; --dash-c3: #b48ad0; --dash-c4: #d6c063;
+    --cds-chart-grid: #303030; --cds-chart-axis: #4a4a4a; --cds-text-secondary: #a7a49d;
+    --cds-surface-popover: #2b2b28; --cds-border: #44443f; --cds-shadow-popover: 0 4px 14px rgba(0,0,0,.5);
+  }
+}
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-body); line-height: 1.5; }
+#dash-root { max-width: 1100px; margin: 0 auto; padding: 16px; box-sizing: border-box; position: relative; }
+#dash-root a { color: var(--dash-c0); }
+.dash-select { max-width: 100%; font: inherit; color: var(--color-fg); background-color: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 6px; padding: 4px 8px; }
+.site-banner { max-width: 1100px; margin: 0 auto; padding: 10px 16px; box-sizing: border-box; font-size: 13px; color: var(--color-fg-muted); border-bottom: 1px solid var(--color-border-line); }
+.site-banner a { color: var(--dash-c0); }

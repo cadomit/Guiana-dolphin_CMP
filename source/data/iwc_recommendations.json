@@ -1,0 +1,178 @@
+[
+{
+"id": "SC1899",
+"year": 2018,
+"theme": "Pollution; Directed takes",
+"status": "Superseded",
+"summary": "Lake Maracaibo (Venezuela): concern over directed takes and oil pollution; NGOs and researchers urged to document threats and work with communities.",
+"note": "Superseded by SC20212"
+},
+{
+"id": "SC18100",
+"year": 2018,
+"theme": "Pollution",
+"status": "Open",
+"summary": "Multiple threats to river dolphins in the Amazon, Orinoco and Tocantins basins (dams, habitat fragmentation, contaminants).",
+"note": "Concerns river dolphins; retained in the project list"
+},
+{
+"id": "SC18102",
+"year": 2018,
+"theme": "Conservation management plans; Population assessment; Bycatch",
+"status": "Open",
+"summary": "Workshop on small cetaceans used for food and non-food purposes in South America; calls for abundance surveys and assessment of wildmeat use, including Guiana dolphins in several Brazilian states and Lake Maracaibo; Orinoco monitoring.",
+"note": ""
+},
+{
+"id": "SC1888",
+"year": 2018,
+"theme": "Disease; Bycatch; Noise; Pollution",
+"status": "Open",
+"summary": "Commendation of the response to the cetacean morbillivirus outbreak in Brazilian Guiana dolphins; calls for protective action and monitoring in neighbouring populations.",
+"note": ""
+},
+{
+"id": "SC20150",
+"year": 2020,
+"theme": "Population assessment",
+"status": "Closed",
+"summary": "Importance of population structure for delineating management units; intersessional correspondence group established.",
+"note": "Superseded by SC21113; closed at SC69A"
+},
+{
+"id": "SC20212",
+"year": 2020,
+"theme": "Directed takes; Pollution",
+"status": "Superseded",
+"summary": "Reiterated concern for Lake Maracaibo.",
+"note": "Superseded by SC21155; source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC20211",
+"year": 2020,
+"theme": "Bycatch",
+"status": "Open",
+"summary": "Urgent action to reduce bycatch throughout the range; particular attention to Guanabara Bay and similar estuaries in southern and south-eastern Brazil.",
+"note": ""
+},
+{
+"id": "SC20210",
+"year": 2020,
+"theme": "",
+"status": "Closed",
+"summary": "Known populations are restricted, fragmented and exposed to multiple threats; some are in immediate danger.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC20209",
+"year": 2020,
+"theme": "",
+"status": "Closed",
+"summary": "Progress report requested from the workshop steering group for SC68C.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC20208",
+"year": 2020,
+"theme": "Bycatch; Population assessment",
+"status": "Closed",
+"summary": "Joint intersessional correspondence group on stock structure; funding for genomic analyses encouraged.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC20207",
+"year": 2020,
+"theme": "Bycatch",
+"status": "Closed",
+"summary": "Priority for actions governments can implement quickly, notably fisheries regulation and bycatch reduction.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC20206",
+"year": 2020,
+"theme": "Bycatch",
+"status": "Closed",
+"summary": "Steering group to consult the IWC Bycatch Mitigation Initiative.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC21112",
+"year": 2021,
+"theme": "Population assessment",
+"status": "Closed",
+"summary": "Range-wide SNP genotyping encouraged to delineate management units.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC21113",
+"year": 2021,
+"theme": "Population assessment",
+"status": "Closed",
+"summary": "Correspondence group continued; progress to be reported.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC21155",
+"year": 2021,
+"theme": "Population assessment; Directed takes",
+"status": "Closed",
+"summary": "Venezuela urged to survey Lake Maracaibo cetaceans and monitor small-cetacean hunting.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC21156",
+"year": 2021,
+"theme": "Population assessment",
+"status": "Closed",
+"summary": "Secretariat to contact the government of Venezuela.",
+"note": "Letters sent May 2023"
+},
+{
+"id": "SC21170",
+"year": 2021,
+"theme": "Population assessment",
+"status": "Closed",
+"summary": "Commendation of the working group; coordination with sub-committees; consultation with CMP convenors on a Guiana dolphin CMP.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC2251",
+"year": 2022,
+"theme": "Population assessment",
+"status": "Closed",
+"summary": "Population structure of franciscana and Guiana dolphin to be evaluated via correspondence groups.",
+"note": "Superseded by SC2371 (Guiana) and SC2370 (franciscana)"
+},
+{
+"id": "SC2371",
+"year": 2023,
+"theme": "Population assessment",
+"status": "Closed",
+"summary": "Range-wide genome-wide analysis, stranding sample sharing and environmental DNA recommended.",
+"note": "Source cell reads 'Open CLOSED'"
+},
+{
+"id": "SC23147",
+"year": 2023,
+"theme": "Conservation management plans",
+"status": "Closed",
+"summary": "Endorsement of the nomination by Brazil, France and Panama for a Guiana dolphin CMP; intersessional group established.",
+"note": "Endorsed; ICG established"
+},
+{
+"id": "SC2456",
+"year": 2024,
+"theme": "Conservation management plans",
+"status": "Closed",
+"summary": "Commendation of Brazil, Costa Rica, France and Panama for drafting SC/69B/CMP/18; scientific and technical aspects endorsed.",
+"note": "Endorsed by CC and Commission (IWC69)"
+},
+{
+"id": "CC2412",
+"year": 2024,
+"theme": "Conservation management plans",
+"status": "Closed",
+"summary": "Conservation Committee endorsed the CMP proposals (Lahille's dolphin, Guiana dolphin, Central American humpback whale), the CMP Handbook and the 2025-2028 workplan.",
+"note": "Endorsed"
+}
+]

@@ -1,0 +1,18 @@
+{
+  "description": "Five most-cited works from the OpenAlex snapshot. An editor may replace this file with a Scopus, Web of Science or OpenAlex export (CSV or JSON); common column headings are mapped automatically.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "text",
+    "kind": "file",
+    "name": "lit_landmarks.json",
+    "url": "/_blob/69652b4c8a6c8ac10889c8efc9c2319f"
+  },
+  "title": "Most-cited works (replaceable literature file)",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, via the OpenAlex API"
+  }
+}

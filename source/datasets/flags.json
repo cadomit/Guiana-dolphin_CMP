@@ -1,0 +1,18 @@
+{
+  "description": "Points at which source documents differ or require harmonisation before the next revision.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "editorial_flags.json",
+    "url": "/_blob/c3b652e4cfcec89fecfdd1f20e240b14"
+  },
+  "title": "Editorial and consistency notes",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

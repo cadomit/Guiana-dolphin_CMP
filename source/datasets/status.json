@@ -1,0 +1,18 @@
+{
+  "description": "Global, national and state assessments of the species, with year, category and criteria.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "status_history.json",
+    "url": "/_blob/c19da86fa86c9c4d89764bcaba53d771"
+  },
+  "title": "Conservation status history",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

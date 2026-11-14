@@ -1,0 +1,18 @@
+{
+  "description": "Records returned by PubMed for the search Sotalia guianensis, counted by publication-date year on 14 November 2026. Electronic and print dates both count, so annual figures sum to more than the 130 unique records. The current year is incomplete.",
+  "edit": {
+    "at": "2026-11-14T12:20:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "pubmed_year_counts.json",
+    "url": "/_blob/4c54fa437beae729e61792c98a3d1514"
+  },
+  "title": "PubMed snapshot: records per year",
+  "updated": {
+    "at": "2026-11-14T12:20:00Z",
+    "by": "Claude, via the PubMed connector"
+  }
+}

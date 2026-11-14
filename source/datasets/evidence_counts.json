@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct records naming the species and matching a topic for each CMP action and each PAN objective. count is the integrated total; count_pubmed is the PubMed result, count_oa the OpenAlex records added to it (articles without a PubMed identifier, matched to topics by keywords in the title or in the abstract, plus two OpenAlex records with a PubMed identifier that the PubMed query did not return) and count_sci the SciSpace records that appear in neither source. count_oa_title gives the OpenAlex contribution when only titles are matched. Snapshot of 14 November 2026.",
+  "edit": {
+    "at": "2026-11-14T13:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "evidence_counts.json",
+    "url": "/_blob/c4621ecded2b6ab76f246f46c39d99fc"
+  },
+  "title": "Records per CMP action and PAN objective (PubMed, OpenAlex and SciSpace, deduplicated)",
+  "updated": {
+    "at": "2026-11-14T13:10:00Z",
+    "by": "Claude, from PubMed, the OpenAlex API and SciSpace"
+  }
+}

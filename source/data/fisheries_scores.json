@@ -1,0 +1,202 @@
+[
+{
+"gear_class": "Seine nets",
+"gear": "1.1 Purse seines",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+},
+{
+"gear_class": "Seine nets",
+"gear": "1.2 Sorrounding nets without purse lines",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+},
+{
+"gear_class": "Seine nets",
+"gear": "1.3 Beach seines",
+"timing": "Ongoing.",
+"scope": "Affects <50%.",
+"severity": "Unknown",
+"cost": "Medium",
+"comment": "Beach-seine interactions are reported for north-eastern Brazil (Ceará) (CMP). Overlap with shallow nearshore habitat used by the species is plausible, but the spatial coverage of records is incomplete. Scope (<50%) is a provisional judgement and severity is Unknown, as gear-specific mortality and its contribution to decline have not been quantified. Local measures (area and seasonal restrictions, release protocols) are feasible. Sources: CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, Annex III, fisheries interactions (Ceará).",
+"status": "Scored (provisional)"
+},
+{
+"gear_class": "Seine nets",
+"gear": "1.4 Boat seines",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "Not scored. Seine-fishery interactions are reported from Venezuela (Gulf of Venezuela and Lake Maracaibo) (CMP), but the records do not distinguish boat seines from beach seines or surrounding nets. Gear operation and contemporary mortality should be confirmed before a score is assigned. Sources: CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, Annex III, Gulf of Venezuela/Maracaibo fisheries.",
+"status": "Not scored"
+},
+{
+"gear_class": "Trawls",
+"gear": "2.1 Bottom trawls",
+"timing": "Ongoing.",
+"scope": "Affects <50%.",
+"severity": "Unknown",
+"cost": "Medium",
+"comment": "SALVE lists small-scale single- and double-rig trawls (5.4.5.6.1 and 5.4.5.6.2), used mainly for shrimp and fish, among the gears that capture the species incidentally. Bottom-trawl bycatch has not been quantified at species level, and behaviour around trawlers alone does not demonstrate mortality. Exposure is likely to depend on the use of trawls within the bays and nearshore waters occupied by resident groups; scope (<50%) is a provisional judgement and severity is Unknown pending fleet-specific interaction data. Spatial exclusion zones in estuaries and bays and bycatch-reduction devices are feasible; the human dimension is difficult because trawling supports livelihoods. Sources: SALVE: Farro et al. (2025), doi:10.37002/salve.ficha.14515.3; CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, section 6.1 and Annex III.",
+"status": "Scored (provisional)"
+},
+{
+"gear_class": "Trawls",
+"gear": "2.2 Midwater trawls",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+},
+{
+"gear_class": "Trawls",
+"gear": "2.3 Semipelagic trawls",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+},
+{
+"gear_class": "Passive gillnets",
+"gear": "3.1 Set gillnets (anchored)",
+"timing": "Ongoing.",
+"scope": "Affects 50-90%.",
+"severity": "Very rapid declines (>30% over 10 years or three generations; whichever is the longer)",
+"cost": "Medium",
+"comment": "Set (anchored) gillnets, recorded by SALVE as bottom gillnets (5.4.1.7.1 and 5.4.5.7.1), are the principal gear identified in the Brazilian assessment and the leading documented cause of mortality: approximately 30% or more of stranded animals bear marks of fishery interaction in two large monitoring datasets (3,048 and 1,290 strandings), and in Paraná inferred annual mortality equates to 11.2–33.6% of the estimated population. Scope (50–90%) assumes substantial overlap with resident coastal groups and is a qualitative estimate, since gear-specific records are lacking across much of the range. Severity is scored 'very rapid' on Brazilian evidence: SALVE /ICMBIO (2025)infers a decline of at least 30% over three generations (2000–2047) and projects at least 50% over the next three in the Brazilian RMUs, with fishery mortality the main documented driver; this combined decline cannot be separated from other cumulative pressures, and extrapolation to the species is precautionary. This row identifies set gillnets as the gear of highest concern; however, drift nets could also be included as the most threatened gear type. Spatial and seasonal restrictions, net modification and alternative gears require local evaluation; implementation affects artisanal livelihoods and requires additional resources. Sources: CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, section 6.1.1; SALVE: Farro et al. (2025), doi:10.37002/salve.ficha.14515.3.",
+"status": "Scored (provisional)"
+},
+{
+"gear_class": "Passive gillnets",
+"gear": "3.2 Drift gillnets",
+"timing": "Ongoing.",
+"scope": "Affects 50-90%.",
+"severity": "Unknown",
+"cost": "Medium",
+"comment": "Drift gillnet interactions are reported in the CMP synthesis, including in southern, south-eastern and north-eastern Brazil. Based on the Brazilian database, SALVE/ICMBIO classifies gillnets as bottom (set) nets and does not separate drifting configurations; records described generically as gillnets are therefore attributed to set gillnets (3.1) unless the mode of operation is confirmed. Scope (50–90%) is provisional and requires confirmation of the affected populations, net configuration and effort. Severity is Unknown because the contribution of this gear to decline has not been resolved, and it must not be added to 3.1. Sources: CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, Annex III, fisheries interactions.",
+"status": "Scored (provisional)"
+},
+{
+"gear_class": "Passive gillnets",
+"gear": "3.3 Fixed gillnets (on stakes)",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "Not scored. Verified cases involving gillnets fixed on stakes have not been identified. Records described only as stationary or set nets are not allocated to this category without confirmation of their configuration; the FAO definition should be used to distinguish stakes from anchored gillnets.",
+"status": "Not scored"
+},
+{
+"gear_class": "Passive gillnets",
+"gear": "3.4 Trammel nets",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "Not scored. Species-specific interactions with trammel nets have not been confirmed, and a general gillnet record does not establish this gear type; multilayer nets should be distinguished from ordinary gillnets.",
+"status": "Not scored"
+},
+{
+"gear_class": "Active gillnets",
+"gear": "4.1 Encircling gillnets",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "Not scored. It is not confirmed whether reported encircling operations catch animals by gilling or entangling; such gear belongs here, whereas surrounding nets that retain the catch by enclosure belong under the seine categories. Verified mortality and regional extent are required before scoring. Sources: FAO (He et al. 2021), sections 1 and 7.3.",
+"status": "Not scored"
+},
+{
+"gear_class": "Traps",
+"gear": "5.1 Pots (with rope to surface)",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "Not scored. SALVE records floating traps (5.4.5.4.2) and fixed traps ('curral', 5.4.5.4.3) as small-scale gears that capture the species incidentally, but these fixed and floating structures do not correspond to pots with a rope to the surface. They are therefore considered under Overall 5.4.3, and guidance from the CSG on the appropriate category for weirs and traps would be welcome. Sources: SALVE: Farro et al. (2025), doi:10.37002/salve.ficha.14515.3; FAO (He et al. 2021).",
+"status": "Not scored"
+},
+{
+"gear_class": "Attended hooks and lines",
+"gear": "6.1 Handlines and hand-operated pole-and-lines",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+},
+{
+"gear_class": "Attended hooks and lines",
+"gear": "6.2 Mechanized lines and pole-and-lines",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+},
+{
+"gear_class": "Non-attended hooks and lines",
+"gear": "7.1 Set longlines",
+"timing": "Ongoing.",
+"scope": "Affects <50%.",
+"severity": "Unknown",
+"cost": "Medium",
+"comment": "SALVE/ICMBIO (2025) lists fixed bottom longlines (5.4.5.3.3) among the small-scale gears that capture the species incidentally, and artisanal longline interactions are also reported from Venezuela (CMP). Whether captures involve hook ingestion, line entanglement or deliberate capture is not documented. Scope (<50%) is a provisional judgement and severity is Unknown, pending target species, hook configuration, location and confirmed mortality. Gear modification and spatial measures are feasible; the human dimension is difficult because the fisheries support livelihoods. Sources: SALVE: Farro et al. (2025), doi:10.37002/salve.ficha.14515.3; CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, section 6.1.1 and Annex III.",
+"status": "Scored (provisional)"
+},
+{
+"gear_class": "Non-attended hooks and lines",
+"gear": "7.2 Drifiting longlines",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "Not scored. This category is reserved for verified drifting-longline interactions; the generic longline reports in the CMP do not resolve the mode of deployment. It should be confirmed whether records concern hooks, line entanglement or deliberate capture. Sources: CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, Annex III.",
+"status": "Not scored"
+},
+{
+"gear_class": "Non-attended hooks and lines",
+"gear": "7.3 Vertical lines",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+},
+{
+"gear_class": "Non-attended hooks and lines",
+"gear": "7.4 Trolling lines",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+},
+{
+"gear_class": "Miscelaneous",
+"gear": "8.1 Electric fishing",
+"timing": "",
+"scope": "",
+"severity": "",
+"cost": "",
+"comment": "",
+"status": "Unscored"
+}
+]

@@ -1,0 +1,18 @@
+{
+  "description": "Quantitative statements from the 2025 national assessment and linked sources, kept in the units reported.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "salve_indicators.json",
+    "url": "/_blob/1526b857a3913db3f92b9891e16c4113"
+  },
+  "title": "SALVE assessment indicators (Brazil)",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

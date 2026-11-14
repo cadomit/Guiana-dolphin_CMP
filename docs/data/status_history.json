@@ -1,0 +1,254 @@
+[
+{
+"level": "Global",
+"jurisdiction": "IUCN Red List",
+"area": "",
+"year": 2010,
+"category": "DD",
+"criterion": "",
+"source": "Secchi (2010)"
+},
+{
+"level": "Global",
+"jurisdiction": "IUCN Red List",
+"area": "",
+"year": 2012,
+"category": "DD",
+"criterion": "",
+"source": "IUCN (2012)"
+},
+{
+"level": "Global",
+"jurisdiction": "IUCN Red List",
+"area": "",
+"year": 2018,
+"category": "NT",
+"criterion": "A2d+3d+4d",
+"source": "IUCN (2018); Secchi et al."
+},
+{
+"level": "National",
+"jurisdiction": "Brazil",
+"area": "",
+"year": 2010,
+"category": "VU",
+"criterion": "A3bcde",
+"source": "SALVE listing"
+},
+{
+"level": "National",
+"jurisdiction": "Brazil",
+"area": "",
+"year": 2019,
+"category": "VU",
+"criterion": "A4bcde",
+"source": "Domit et al. (2023)"
+},
+{
+"level": "National",
+"jurisdiction": "Brazil",
+"area": "",
+"year": 2025,
+"category": "EN",
+"criterion": "A3bce+4bce",
+"source": "Farro et al. (2025), SALVE; validated 06/03/2025"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Maranhão",
+"year": 2025,
+"category": "VU",
+"criterion": "",
+"source": "CONSEMA Resolution 082 (2025)"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Ceará",
+"year": 2022,
+"category": "EN",
+"criterion": "A3cde",
+"source": "SEMA-CE (2022)"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Bahia",
+"year": 2017,
+"category": "VU",
+"criterion": "",
+"source": "SEMA-BA (2017)"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Espírito Santo",
+"year": 2019,
+"category": "EN",
+"criterion": "",
+"source": "Fraga, Formigoni & Chaves (2019)"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Espírito Santo",
+"year": 2022,
+"category": "EN",
+"criterion": "",
+"source": "IEMA (2022)"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Rio de Janeiro",
+"year": 1999,
+"category": "NT",
+"criterion": "",
+"source": "SALVE listing"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "São Paulo",
+"year": 2009,
+"category": "NT",
+"criterion": "",
+"source": "SALVE listing"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "São Paulo",
+"year": 2018,
+"category": "NT",
+"criterion": "",
+"source": "São Paulo Decree 63.853 (2018)"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Paraná",
+"year": 2004,
+"category": "VU",
+"criterion": "",
+"source": "Mikich & Bérnils (2004), per CMP"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Paraná",
+"year": 2024,
+"category": "EN",
+"criterion": "",
+"source": "Paraná Decree 6.040 (2024)"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Santa Catarina",
+"year": null,
+"category": "VU",
+"criterion": "",
+"source": "SALVE listing (year recorded as 0)"
+},
+{
+"level": "National",
+"jurisdiction": "Honduras",
+"area": "",
+"year": null,
+"category": "",
+"criterion": "",
+"source": "No national red-list category found in the sources searched (November 2026)"
+},
+{
+"level": "National",
+"jurisdiction": "Nicaragua",
+"area": "",
+"year": null,
+"category": "",
+"criterion": "",
+"source": "No national red-list category found in the sources searched (November 2026)"
+},
+{
+"level": "National",
+"jurisdiction": "Costa Rica",
+"area": "",
+"year": null,
+"category": "",
+"criterion": "",
+"source": "No national red-list category found in the sources searched (November 2026)"
+},
+{
+"level": "National",
+"jurisdiction": "Panama",
+"area": "",
+"year": null,
+"category": "",
+"criterion": "",
+"source": "No national red-list category found in the sources searched (November 2026)"
+},
+{
+"level": "National",
+"jurisdiction": "Colombia",
+"area": "",
+"year": 2006,
+"category": "VU",
+"criterion": "D2",
+"source": "Libro Rojo de los Mamíferos de Colombia (Rodríguez-Mahecha et al. 2006)"
+},
+{
+"level": "National",
+"jurisdiction": "Colombia",
+"area": "",
+"year": 2017,
+"category": "VU",
+"criterion": "",
+"source": "MADS Resolution 1912 (2017), national list of threatened species"
+},
+{
+"level": "National",
+"jurisdiction": "Venezuela",
+"area": "",
+"year": 1999,
+"category": "NT",
+"criterion": "",
+"source": "Libro Rojo de la Fauna Venezolana, 2nd ed. (1999), as reported by WikiEVA"
+},
+{
+"level": "National",
+"jurisdiction": "Venezuela",
+"area": "",
+"year": 2008,
+"category": "VU",
+"criterion": "",
+"source": "Libro Rojo de la Fauna Venezolana, 3rd ed. (2008), as reported by WikiEVA"
+},
+{
+"level": "National",
+"jurisdiction": "Venezuela",
+"area": "",
+"year": 2015,
+"category": "VU",
+"criterion": "A4cde",
+"source": "Libro Rojo de la Fauna Venezolana, 4th ed. (Rodríguez et al. 2015)"
+},
+{
+"level": "National",
+"jurisdiction": "Suriname",
+"area": "",
+"year": null,
+"category": "",
+"criterion": "",
+"source": "No national red-list category found in the sources searched (November 2026)"
+},
+{
+"level": "National",
+"jurisdiction": "French Guiana (France)",
+"area": "",
+"year": 2017,
+"category": "EN",
+"criterion": "C2a(ii)",
+"source": "UICN France, MNHN et al. (2017), Liste rouge des espèces menacées en France: faune vertébrée de Guyane"
+}
+]

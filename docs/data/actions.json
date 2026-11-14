@@ -1,0 +1,233 @@
+[
+{
+"id": "RES#001",
+"line": "RES",
+"topic": "Population structure",
+"title": "Assess population structure and refine management-unit boundaries",
+"region": "Range-wide",
+"years": "3",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 30,000 per year; EUR 100,000 for genomic analysis of samples already collected"
+},
+{
+"id": "RES#002",
+"line": "RES",
+"topic": "Life-history parameters",
+"title": "Estimate reproduction, age, size at maturity, pregnancy rate, calving interval and growth",
+"region": "Areas with resident populations",
+"years": "4",
+"priority": "High",
+"priority_detail": "High",
+"budget": "EUR 300,000 for sampling and analysis across the range"
+},
+{
+"id": "RES#003",
+"line": "RES",
+"topic": "Survival and removal limits",
+"title": "Estimate survival probabilities and Potential Biological Removal; propose population viability modelling",
+"region": "Southern and south-eastern Brazil (3 yr); Colombia (5 yr)",
+"years": "3-5",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 100,000 per area (four areas)"
+},
+{
+"id": "RES#004",
+"line": "RES",
+"topic": "Abundance and trends",
+"title": "Estimate abundance for all known resident populations (photo-ID or aerial surveys)",
+"region": "Range-wide, emphasis on long-term monitoring sites",
+"years": "3",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 100,000 per survey (five areas per year)"
+},
+{
+"id": "RES#005",
+"line": "RES",
+"topic": "Connectivity",
+"title": "Investigate distribution, movements and connectivity among areas and management units",
+"region": "Areas with resident populations",
+"years": "2",
+"priority": "Medium",
+"priority_detail": "Medium",
+"budget": "EUR 100,000 for analysis of samples already collected"
+},
+{
+"id": "RES#006",
+"line": "RES",
+"topic": "Threat mapping",
+"title": "Map threats against dolphin density to identify risk exposure and hotspots",
+"region": "All areas",
+"years": "4",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 30,000 for a first scenario"
+},
+{
+"id": "RES#007",
+"line": "RES",
+"topic": "Health assessment",
+"title": "Investigate health parameters; implement systematic necropsy protocols and health assessment",
+"region": "Areas with resident populations",
+"years": "3",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 100,000 per year"
+},
+{
+"id": "RES#008",
+"line": "RES",
+"topic": "Fisheries interactions",
+"title": "Evaluate fisheries interactions and estimate fisheries mortality; bycatch rapid risk assessment",
+"region": "Areas with resident populations",
+"years": "2",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 20,000 per year per area"
+},
+{
+"id": "RES#009",
+"line": "RES",
+"topic": "Noise pollution",
+"title": "Investigate effects of noise on behaviour, distribution and health; passive and active acoustic monitoring",
+"region": "Areas with resident populations",
+"years": "2",
+"priority": "High",
+"priority_detail": "High",
+"budget": "EUR 20,000 per survey (five areas per year)"
+},
+{
+"id": "RES#010",
+"line": "RES",
+"topic": "Chemical pollution",
+"title": "Investigate chemical pollution levels and effects on health; predictive models of exposure trends",
+"region": "Areas with resident populations",
+"years": "3",
+"priority": "High",
+"priority_detail": "High",
+"budget": "EUR 50,000 per year"
+},
+{
+"id": "MON#001",
+"line": "MON",
+"topic": "Bycatch monitoring",
+"title": "Monitor bycatch and mortality patterns and trends in areas used by resident populations",
+"region": "All areas",
+"years": "4",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 6,000 per year"
+},
+{
+"id": "MON#002",
+"line": "MON",
+"topic": "Population monitoring",
+"title": "Monitor abundance trends and population structure",
+"region": "Areas with resident populations",
+"years": "4",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 100,000 per year"
+},
+{
+"id": "MON#003",
+"line": "MON",
+"topic": "Data management",
+"title": "Develop an integrated data management system for data generated under the CMP",
+"region": "All areas",
+"years": "2",
+"priority": "Medium",
+"priority_detail": "Medium",
+"budget": "EUR 12,000"
+},
+{
+"id": "MON#004",
+"line": "MON",
+"topic": "Impacts and health",
+"title": "Monitor mortality and cumulative effects, necropsy protocols, health assessments and noise (sub-actions a-d)",
+"region": "All areas",
+"years": "4",
+"priority": "Very High",
+"priority_detail": "Very High (a); High (b-d)",
+"budget": "EUR 10,000-15,000 per year for capacity building plus analysis costs per sub-action"
+},
+{
+"id": "MIT#001",
+"line": "MIT",
+"topic": "Bycatch mitigation",
+"title": "Develop and test bycatch mitigation methods; integrate fishers and stakeholders in regional workshops (sub-actions a-b)",
+"region": "All areas",
+"years": "4",
+"priority": "Very High",
+"priority_detail": "Very High (a); High (b)",
+"budget": "EUR 10,000-20,000 per year plus EUR 30,000 analysis per area"
+},
+{
+"id": "MIT#002",
+"line": "MIT",
+"topic": "Pollution and port regulation",
+"title": "Improve habitat quality and health by mitigating pollutants; propose guidelines for port construction and operation",
+"region": "All areas",
+"years": "4",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 20,000 for workshops"
+},
+{
+"id": "MIT#003",
+"line": "MIT",
+"topic": "Habitat protection",
+"title": "Identify hotspots and include them in marine spatial planning and strategic conservation planning",
+"region": "All areas",
+"years": "4",
+"priority": "High",
+"priority_detail": "High",
+"budget": "EUR 5,000"
+},
+{
+"id": "PACB#001",
+"line": "PACB",
+"topic": "Awareness and engagement",
+"title": "Citizen science, environmental education and public outreach with the species as a flagship",
+"region": "All areas",
+"years": "2-4",
+"priority": "Very High",
+"priority_detail": "Very High; High; Medium (sub-actions)",
+"budget": "EUR 10,000-20,000 per year per sub-action"
+},
+{
+"id": "PACB#002",
+"line": "PACB",
+"topic": "Enforcement and livelihoods",
+"title": "Train inspectors to mitigate illegal fisheries; build capacity for alternative livelihoods in fishing communities",
+"region": "All areas",
+"years": "4",
+"priority": "Very High",
+"priority_detail": "Very High",
+"budget": "EUR 4,000-10,000 per year"
+},
+{
+"id": "PACB#003",
+"line": "PACB",
+"topic": "International engagement",
+"title": "Engage with CMS, CITES and national action plans; promote the species as a sentinel of ocean health",
+"region": "All countries",
+"years": "4",
+"priority": "High",
+"priority_detail": "High",
+"budget": "Not specified"
+},
+{
+"id": "PACB#004",
+"line": "PACB",
+"topic": "Training and coordination",
+"title": "Train local students; coordinate science and governance; abundance-protocol harmonisation (sub-actions)",
+"region": "All areas",
+"years": "4",
+"priority": "Very High",
+"priority_detail": "Medium; High; Very High (sub-actions)",
+"budget": "EUR 10,000 per year to EUR 20,000 every two years per sub-action"
+}
+]

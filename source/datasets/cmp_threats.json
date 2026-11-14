@@ -1,0 +1,18 @@
+{
+  "description": "Principal threats, evidence of impact, priority and linked actions as summarised in the CMP.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "cmp_threats.json",
+    "url": "/_blob/5909bf45768ca324b2ab0988a34071a2"
+  },
+  "title": "CMP threat summary (Table 1)",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

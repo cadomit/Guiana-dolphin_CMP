@@ -1,0 +1,202 @@
+[
+{
+"year": 2002,
+"articles": 3,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2003,
+"articles": 4,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2004,
+"articles": 7,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2005,
+"articles": 4,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2006,
+"articles": 11,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2007,
+"articles": 16,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2008,
+"articles": 22,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2009,
+"articles": 31,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2010,
+"articles": 39,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2011,
+"articles": 17,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2012,
+"articles": 19,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2013,
+"articles": 21,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2014,
+"articles": 17,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2015,
+"articles": 15,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2016,
+"articles": 15,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2017,
+"articles": 22,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2018,
+"articles": 18,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2019,
+"articles": 21,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2020,
+"articles": 26,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2021,
+"articles": 22,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2022,
+"articles": 10,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2023,
+"articles": 20,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2024,
+"articles": 18,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2025,
+"articles": 16,
+"partial": false,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+},
+{
+"year": 2026,
+"articles": 25,
+"partial": true,
+"source": "OpenAlex",
+"query": "title_and_abstract.search:\"Sotalia guianensis\", type:article",
+"retrieved": "2026-11-14"
+}
+]

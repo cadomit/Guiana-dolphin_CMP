@@ -1,0 +1,18 @@
+{
+  "description": "The twelve management units proposed for the species, ordered north to south.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "management_units.json",
+    "url": "/_blob/2879ec27626673945908b3f58a5b0f29"
+  },
+  "title": "Management units",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

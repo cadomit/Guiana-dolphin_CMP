@@ -1,0 +1,42 @@
+[
+{
+"threat": "Fisheries interactions (incidental and intentional capture)",
+"cause": "Bycatch in artisanal fisheries, particularly gillnets",
+"evidence": "Strong",
+"impact": "Mortality and serious injury",
+"priority": "High",
+"actions": "RES#008; MON#001; MIT#001; PACB#001; PACB#002; PACB#004",
+"urgent": "All Brazilian RMUs and other areas with resident populations",
+"kind": "Direct lethal"
+},
+{
+"threat": "Diseases",
+"cause": "Sewage, habitat degradation, climate change, urban development",
+"evidence": "Strong",
+"impact": "Increased exposure to impacts, immunosuppression, reduced health, population decline, mortality",
+"priority": "High",
+"actions": "RES#007; MON#004; PACB#003; PACB#004",
+"urgent": "All Brazilian RMUs",
+"kind": "Sub-lethal"
+},
+{
+"threat": "Pollution (chemical, noise and other)",
+"cause": "River run-off, farming, livestock, industry, mining, vessel traffic, dolphin watching, recreational craft, port activities",
+"evidence": "Strong",
+"impact": "Health effects, immunosuppression, behavioural and physiological change, altered reproduction, decline, mortality",
+"priority": "High",
+"actions": "RES#009; RES#010; MON#004; MIT#002; PACB#001; PACB#003; PACB#004",
+"urgent": "All Brazilian RMUs and other areas with resident populations",
+"kind": "Sub-lethal"
+},
+{
+"threat": "Coastal and marine development",
+"cause": "Port construction and operation, wind farms, mineral and oil exploitation, shipping, dredging, pile driving, urban development",
+"evidence": "Strong",
+"impact": "Mortality, behavioural and physiological change, injury, altered communication and social interaction, habitat loss, immunosuppression",
+"priority": "High",
+"actions": "RES#006; RES#009; MON#004; MIT#002; MIT#003; PACB#001; PACB#003; PACB#004",
+"urgent": "All Brazilian RMUs and other areas with resident populations",
+"kind": "Sub-lethal"
+}
+]

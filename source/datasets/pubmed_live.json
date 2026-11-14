@@ -1,0 +1,18 @@
+{
+  "description": "The latest PubMed records for Sotalia guianensis, retrieved through the PubMed connector each time the dashboard is opened or refreshed.",
+  "edit": {
+    "at": "2026-11-14T12:20:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "args": {
+      "max_results": 10,
+      "query": "Sotalia guianensis",
+      "sort": "pub_date"
+    },
+    "connector": "PubMed",
+    "kind": "call",
+    "tool": "search_articles"
+  },
+  "title": "PubMed: most recent records (live)"
+}

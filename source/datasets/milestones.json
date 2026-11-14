@@ -1,0 +1,18 @@
+{
+  "description": "Principal steps of the Conservation Management Plan process, with planned review and update dates.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "milestones.json",
+    "url": "/_blob/04211b8b8fadfd68fa9f609b298c00ae"
+  },
+  "title": "CMP process milestones, 2018–2028",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

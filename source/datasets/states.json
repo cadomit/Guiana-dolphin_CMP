@@ -1,0 +1,18 @@
+{
+  "description": "Range states, IWC membership, proponent status and relevant national instruments.",
+  "edit": {
+    "at": "2026-11-14T12:10:00Z",
+    "via": "claude"
+  },
+  "source": {
+    "format": "json",
+    "kind": "file",
+    "name": "range_states.json",
+    "url": "/_blob/6e65deb0c144c02d23410fac5523f3bc"
+  },
+  "title": "Range states and instruments",
+  "updated": {
+    "at": "2026-11-14T12:10:00Z",
+    "by": "Claude, from project documents"
+  }
+}

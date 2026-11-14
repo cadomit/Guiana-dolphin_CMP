@@ -1,0 +1,2972 @@
+[
+{
+"openalex_id": "W7225828308",
+"source": "OpenAlex",
+"year": 2026,
+"title": "TESTICULAR HISTOLOGY AS A TOOL FOR ASSESSING SEXUAL MATURATION IN MALE Sotalia guianensis (CETARTIODACTYLA: DELPHINIDAE)",
+"doi": "https://doi.org/10.13140/rg.2.2.26911.52640",
+"topics": "health;life",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7225641929",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Toxoplasma gondii at the land-sea interface – lessons from Furtada Island",
+"doi": "https://doi.org/10.46958/rcv.2026.xxxi.n.185.p.30-47",
+"topics": "health;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7204698488",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Spatial overlap between cetaceans and gillnet fisheries in Southeastern Brazilian waters and implications for bycatch mitigation",
+"doi": "https://doi.org/10.1007/s10531-026-03445-2",
+"topics": "bycatch;conn;mitig;monitor;policy;surv;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7204483725",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Genomic insights into the divergence and conservation of Sotalia dolphins",
+"doi": "https://doi.org/10.1186/s12915-026-02716-2",
+"topics": "climate;genetic;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7204221544",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Guiana dolphin strandings are spatially concentrated and increasing in Brazil",
+"doi": "https://doi.org/10.3389/fcosc.2026.1888739",
+"topics": "abund;monitor;strand;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7203859743",
+"source": "OpenAlex",
+"year": 2026,
+"title": "SPECIES DIVERSITY AND SPATIAL DISTRIBUTION OF MARINE MAMMALS RECORDED IN AREAS PROPOSED FOR OFFSHORE WIND FARMS IN BRAZIL",
+"doi": "https://doi.org/10.23900/artefactum.v25i7.3637",
+"topics": "conn;monitor;noise;policy;port;strand;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7166745882",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Preparação osteológica e montagem de esqueletos de boto-cinza (Sotalia guianensis) e toninha (Pontoporia blainvillei) do acervo do Museu Universitário Academia",
+"doi": "https://doi.org/10.34188/bjaerv9n2-373",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7162098910",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Coexistence between cetaceans and artisanal fisheries in southeastern Brazil",
+"doi": "https://doi.org/10.1016/j.rsma.2026.105072",
+"topics": "bycatch;conn;edu;mitig;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7161962673",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Processo de osteomontagem de esqueleto de boto-cinza (Sotalia Guianensis)",
+"doi": "https://doi.org/10.25242/8868165220263199",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7162013561",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Collateral fishing mortality of Guiana dolphins, Sotalia guianensis at a World Heritage Site in southern Brazil",
+"doi": "https://doi.org/10.1016/j.biocon.2026.111909",
+"topics": "bycatch;health;life;mitig;mpa;strand;surv;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7162031016",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Alterações histopatológicas pulmonares em Sotalia guianensis associadas à infecção parasitária de Halocercus brasiliensis",
+"doi": "https://doi.org/10.25242/8868165220263195",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7162068501",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Avaliação histopatológica em baço como indicadores de estresse fisiológico em Sotalia guianensis (Van Bénéden, 1864)",
+"doi": "https://doi.org/10.25242/8868165220263216",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7160661362",
+"source": "OpenAlex",
+"year": 2026,
+"title": "From Natural to Human‐Dominated Seascapes: Habitat Loss for Guiana Dolphins Over Two Decades",
+"doi": "https://doi.org/10.1002/aqc.70386",
+"topics": "bycatch;conn;habitat;monitor;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7156720071",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Shifting Seas, Changing Diets: Evidence of Temporal Dietary Shifts in Marine Megafauna in Southern Brazil (2017–2023)",
+"doi": "https://doi.org/10.1002/aqc.70372",
+"topics": "bycatch;habitat;mitig;monitor;prey;strand;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7160408377",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Histological heart lesions resembling myocardial dysplasia in a Guiana Dolphin (Sotalia guianensis) necropsied on the coast of Ceará, Brazil",
+"doi": "https://doi.org/10.24070/bjvp.1983-0246.019014",
+"topics": "health;strand;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7135196602",
+"source": "OpenAlex",
+"year": 2026,
+"title": "DRONE-RECORDED AGGRESSIVE BEHAVIOR TOWARD A MOTHER-CALF PAIR OF GUIANA DOLPHINS (Sotalia guianensis) IN SOUTHEASTERN BRAZIL: A RARE BEHAVIORAL OBSERVATION",
+"doi": "https://doi.org/10.4257/oeco.2026.3001.07",
+"topics": "life;monitor",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W7130507857",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Site-fidelity of Guiana dolphins, Sotalia guianensis, in a protected marine area in Northeastern Brazil",
+"doi": "https://doi.org/10.26848/rbgf.v19.01.p463-476",
+"topics": "abund;conn;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7128019245",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Abundance and Seasonal Dynamics of Guiana Dolphins ( Sotalia guianensis ) in Southern Brazilian Estuarine and Adjacent Coastal Waters",
+"doi": "https://doi.org/10.1002/aqc.70336",
+"topics": "abund;conn;genetic;monitor;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7119470778",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Social and environmental drivers of foraging behavior in Guiana dolphins (Sotalia guianensis) in Northeastern Brazil",
+"doi": "https://doi.org/10.3389/fmars.2025.1695002",
+"topics": "prey;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7164823274",
+"source": "OpenAlex",
+"year": 2026,
+"title": "Whistle characteristics and species classification algorithm for delphinids in the Southwestern Atlantic Ocean",
+"doi": "https://doi.org/10.1590/2675-2824074.25171",
+"topics": "monitor;noise",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7222052632",
+"source": "OpenAlex",
+"year": 2025,
+"title": "Feeding habits of the Guiana Dolphin Sotalia guianensis in the southwestern Gulf of Venezuela",
+"doi": "https://doi.org/10.22370/rbmo.2025.60.2.5963",
+"topics": "bycatch;prey;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4415758015",
+"source": "OpenAlex",
+"year": 2025,
+"title": "A preliminary study on mercury levels in the soft tissues of the Guiana dolphin (Sotalia guianensis) and edible fish from southern Lake Maracaibo, Venezuela",
+"doi": "https://doi.org/10.5597/lajam00358",
+"topics": "chem;health;port;prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4411535004",
+"source": "OpenAlex",
+"year": 2025,
+"title": "Optimistic climate mitigation scenario halves projected range loss in a neotropical dolphin",
+"doi": "https://doi.org/10.1016/j.ocecoaman.2025.107800",
+"topics": "climate;habitat;mpa;policy;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4411306784",
+"source": "OpenAlex",
+"year": 2025,
+"title": "Employing Local Ecological Knowledge to reveal interactions between artisanal fishers and Guiana Dolphins (Sotalia guianensis) along the Maranhão coast, northern Brazil",
+"doi": "https://doi.org/10.15451/ec2025-06-14.19-1-16",
+"topics": "bycatch;edu;policy;prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4410995341",
+"source": "OpenAlex",
+"year": 2025,
+"title": "Living Under Pressure: Suitable Areas for an Endangered Coastal Dolphin Overlap With Intense Human Activities",
+"doi": "https://doi.org/10.1002/aqc.70156",
+"topics": "legal;policy;port;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4410515203",
+"source": "OpenAlex",
+"year": 2025,
+"title": "Guiana Dolphin (Sotalia guianensis) acoustic behavior differs under different noise conditions",
+"doi": "https://doi.org/10.1093/jmammal/gyaf029",
+"topics": "monitor;noise;port",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4408329906",
+"source": "OpenAlex",
+"year": 2025,
+"title": "An Unusual Record of a Marine Dolphin (Sotalia guianensis) Being Scavenged by Jaguar (Panthera onca) at the Northern Brazilian Amazon",
+"doi": "https://doi.org/10.1578/am.51.2.2025.178",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W4408439782",
+"source": "OpenAlex",
+"year": 2025,
+"title": "CAN AN OUTBREAK OF MORBILLIVIRUS AFFECT THE SOCIAL STRUCTURE OF THE GUIANA DOLPHIN (Sotalia guianensis)? A CASE STUDY OF THE POPULATION OF SEPETIBA BAY IN SOUTHEASTERN BRAZIL",
+"doi": "https://doi.org/10.4257/oeco.2025.2901.05",
+"topics": "health;monitor;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4406381849",
+"source": "OpenAlex",
+"year": 2025,
+"title": "Turismo de Observação de Cetáceos: recomendações ao Parque Nacional do Superagui (PR, Brasil)",
+"doi": "https://doi.org/10.34024/rbecotur.2025.v18.19473",
+"topics": "mpa;vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7198697571",
+"source": "OpenAlex",
+"year": 2025,
+"title": "Coastal dolphin and fisheries interactions off South America with focus on Sotalia guianensis",
+"doi": "",
+"topics": "bycatch",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7214210038",
+"source": "OpenAlex",
+"year": 2025,
+"title": "Identifying Ecological and Socio-Economic Targets Potentially Affected by the Oil of Mysterious Origin in Two Coastal Protected Areas",
+"doi": "https://doi.org/10.25267/costas.2025.v7.i1.0103",
+"topics": "bycatch;health;mitig;mpa;policy;port;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "SCI:1ijm3mnr47eq",
+"source": "SciSpace",
+"year": 2025,
+"title": "Guiana Dolphin long term survey by deep learning",
+"doi": "https://scispace.com/papers/guiana-dolphin-long-term-survey-by-deep-learning-1ijm3mnr47eq",
+"topics": "monitor;noise",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4405929312",
+"source": "OpenAlex",
+"year": 2024,
+"title": "UNUSUAL RESPONSES OF GUIANA DOLPHINS (SOTALIA GUIANENSIS) TO THE PRESENCE OF SWIMMERS AND BOATS",
+"doi": "https://doi.org/10.32360/acmar.v57i2.92318",
+"topics": "monitor;port;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4404679724",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Occurrence of cetacean strandings on the coast of São Paulo, Brazil: a spatio-temporal assessment from 2017 to 2021",
+"doi": "https://doi.org/10.5597/lajam00327",
+"topics": "monitor;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4402892878",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Abundance of two Guiana dolphin (Sotalia guianensis) populations inhabiting adjacent areas in southeastern Brazil",
+"doi": "https://doi.org/10.1111/mms.13188",
+"topics": "abund;conn;health;monitor;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4402686048",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Notes on the occurrence of ectoparasites on cetaceans off the northeastern coast of Brazil",
+"doi": "https://doi.org/10.1080/17451000.2024.2399037",
+"topics": "health;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4402515417",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Abundance, Distribution, and Habitat Suitability Prediction of the Guiana Dolphin and Common Bottlenose Dolphin in the Gulf of Urabá, Colombian Caribbean",
+"doi": "https://doi.org/10.1578/am.50.5.2024.383",
+"topics": "abund;conn;monitor",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4402331066",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Surviving the Tide: Assessing Guiana dolphin persistence amidst growing threats in a protected estuary in South-eastern Brazil",
+"doi": "https://doi.org/10.1016/j.jnc.2024.126713",
+"topics": "bycatch;monitor;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4396954577",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Interactions between Cetaceans (suborder Odontoceti) and Artisanal Fishing in Brazil: an ethnoecological approach",
+"doi": "https://doi.org/10.15451/ec2024-05-13.15-1-28",
+"topics": "bycatch;mitig;monitor",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4394834203",
+"source": "OpenAlex",
+"year": 2024,
+"title": "NURSERY AREA FOR THE THREATENED GUIANA DOLPHIN, SOTALIA GUIANENSIS, ON THE NORTHEAST COAST OF BRAZIL",
+"doi": "https://doi.org/10.36868/ijcs.2024.01.16",
+"topics": "conn;policy;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4392481648",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Feeding habits of the Guiana dolphin, Sotalia guianensis, (Van Bénéden, 1864) (Cetacea: Delphinidae) in Sepetiba and Ilha Grande bays, southeastern Brazil",
+"doi": "https://doi.org/10.1016/j.rsma.2024.103446",
+"topics": "health;life;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4391258194",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Ups and downs: An insight on the stranding pattern of Guiana dolphins, Sotalia guianensis, in the Amazon Estuary, Northern Brazil",
+"doi": "https://doi.org/10.1002/aqc.4074",
+"topics": "abund;bycatch;monitor;strand;surv;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4390603709",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Postmortem interval applied to cetacean carcasses: Observations from laboratory and field studies with the Abrolhos Bank Region, Brazil",
+"doi": "https://doi.org/10.1016/j.fsiae.2024.100082",
+"topics": "strand;surv;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4402608248",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Rings of Power: evidence of mud ring feeding performed by Guiana dolphins",
+"doi": "https://doi.org/10.1017/s002531542400078x",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W4404246512",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Guiana dolphin movements across three decades between Sepetiba and Ilha Grande bays in southeastern Brazil",
+"doi": "https://doi.org/10.1590/2675-2824072.23094",
+"topics": "abund;conn;monitor",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7198764631",
+"source": "OpenAlex",
+"year": 2024,
+"title": "Parasitos do trato gastrointestinal de Sotalia guianensis (Van Bénéden, 1864) encontrados encalhados no litoral do Paraná",
+"doi": "",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "SCI:h1jge3id6z1g",
+"source": "SciSpace",
+"year": 2024,
+"title": "Artisanal fisher traditional knowledge and perceptions about small cetaceans' bycatch in North Brazil",
+"doi": "https://scispace.com/papers/artisanal-fisher-traditional-knowledge-and-perceptions-about-h1jge3id6z1g",
+"topics": "bycatch;edu",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4390106594",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Perspectivas e limitações do monitoramento participativo de cetáceos: utilização de plataforma de oportunidades pelo setor turístico na APA do Anhatomirim",
+"doi": "https://doi.org/10.5380/dma.v62i0.83306",
+"topics": "monitor;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4387740753",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Stay here, but keep quiet: the effects of anthropogenic noise on Guiana dolphins (Sotalia guianensis) in southeastern Brazil",
+"doi": "https://doi.org/10.1007/s00227-023-04312-2",
+"topics": "noise;tmap",
+"matched_by": "title"
+},
+{
+"openalex_id": "W4387642483",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Guiana dolphins use mangrove margins as a natural barrier to chase fish prey",
+"doi": "https://doi.org/10.1111/eth.13411",
+"topics": "prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4386602532",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Habitat use of Guiana dolphin Sotalia guianensis in a heavily urbanized embayment",
+"doi": "https://doi.org/10.3354/meps14430",
+"topics": "abund;bycatch;conn;habitat;prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4385370733",
+"source": "OpenAlex",
+"year": 2023,
+"title": "From narrow and overlapped to wide and segregated: The isotopic niche of a tropical cetacean community",
+"doi": "https://doi.org/10.1016/j.ecolind.2023.110711",
+"topics": "conn;mpa;policy;prey;strand;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4384406767",
+"source": "OpenAlex",
+"year": 2023,
+"title": "20 years of research on the Guiana dolphin population of Sepetiba Bay, southeastern Brazil: What has changed?",
+"doi": "https://doi.org/10.1002/aqc.3985",
+"topics": "bycatch;chem;conn;habitat;legal;mitig;monitor;noise;prey;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4383897112",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Artisanal fishery with surface gillnets and megafauna strandings",
+"doi": "https://doi.org/10.14393/sn-v35-2023-67973",
+"topics": "bycatch;legal;monitor;strand;surv;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4383213953",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Escape response of Guiana dolphins to bottlenose dolphin playback",
+"doi": "https://doi.org/10.1016/j.jembe.2023.151925",
+"topics": "noise",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W4382932509",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Marine pollution between gyres: plastic debris in marine turtles and dolphins in French Guiana, Equatorial Atlantic",
+"doi": "https://doi.org/10.3856/vol51-issue3-fulltext-2923",
+"topics": "debris;policy;prey;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4376878524",
+"source": "OpenAlex",
+"year": 2023,
+"title": "SAZONALIDADE NA OCORRÊNCIA DO BOTO-CINZA NO SUL DA BAHIA",
+"doi": "https://doi.org/10.56083/rcv3n5-028",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W4372342845",
+"source": "OpenAlex",
+"year": 2023,
+"title": "To be or not to be controlled? The ecological role of the Guiana dolphin in its southernmost range",
+"doi": "https://doi.org/10.1016/j.ecss.2023.108360",
+"topics": "bycatch;conn;prey",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W4361019046",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Population parameters of Guiana dolphins (Sotalia guianensis) in a southern Brazilian estuary",
+"doi": "https://doi.org/10.1007/s42991-023-00354-7",
+"topics": "abund;life;monitor;mpa;policy;port;surv;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4323926165",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Aerial photogrammetry techniques using drones to estimate morphometric measurements and body condition in South American small cetaceans",
+"doi": "https://doi.org/10.1111/mms.13011",
+"topics": "monitor",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W4320915380",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Density, abundance and distribution of the guiana dolphin, (Sotalia guianensis van Benéden, 1864) in Sepetiba Bay, Southeast Brazil",
+"doi": "https://doi.org/10.47536/jcrm.v10i1.657",
+"topics": "abund;conn;monitor",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4385246778",
+"source": "OpenAlex",
+"year": 2023,
+"title": "Assessing Guiana dolphin abundance and density in the Southwestern Atlantic: insights from conservation areas",
+"doi": "https://doi.org/10.1017/s0025315423000486",
+"topics": "abund;mpa;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4312135647",
+"source": "OpenAlex",
+"year": 2022,
+"title": "Seasonality in the occurrence of Guiana dolphin, Sotalia guianensis (Cetacea: Delphinidae) in Port of Malhado, Ilhéus, Bahia, Brazil",
+"doi": "https://doi.org/10.33448/rsd-v11i16.38625",
+"topics": "abund;habitat;port;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4293220773",
+"source": "OpenAlex",
+"year": 2022,
+"title": "First record of sharksucker Echeneis naucrates (Perciformes, Echeneidae) associated with a young Guiana dolphin Sotalia guianensis (Cetartiodactyla, Delphinidae) in north-eastern Brazil",
+"doi": "https://doi.org/10.1017/s0025315422000637",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W4304165685",
+"source": "OpenAlex",
+"year": 2022,
+"title": "Health conditions of Guiana dolphins facing cumulative anthropogenic impacts",
+"doi": "https://doi.org/10.1007/s42991-022-00299-3",
+"topics": "chem;habitat;health;monitor;noise;port;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4285089337",
+"source": "OpenAlex",
+"year": 2022,
+"title": "Intensive and wide-ranging beach surveys uncover temporal and spatial stranding patterns of marine megafauna",
+"doi": "https://doi.org/10.1093/icesjms/fsac119",
+"topics": "abund;strand;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4281799678",
+"source": "OpenAlex",
+"year": 2022,
+"title": "Who Is in Handicrafts: Tooth Morphology and Age Determination as Tools to Assess Vulnerable Dolphins Sotalia spp. Supplying the Trade of Artisanal Charms in Brazil",
+"doi": "https://doi.org/10.3389/fmars.2022.867068",
+"topics": "bycatch;life",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4281481394",
+"source": "OpenAlex",
+"year": 2022,
+"title": "Planning Conservation Strategies of Guiana Dolphin Related to Canal Flow and Habitat Changes in the Estuarine Lagunar Complex of Cananéia",
+"doi": "https://doi.org/10.3389/fcosc.2022.852104",
+"topics": "climate;habitat;mpa;policy;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4229081548",
+"source": "OpenAlex",
+"year": 2022,
+"title": "Abundance and effect of health status on apparent survival of Guiana dolphins, Sotalia guianensis, in an open embayment in north-eastern Brazil",
+"doi": "https://doi.org/10.1002/aqc.3804",
+"topics": "abund;conn;health;legal;monitor;mpa;policy;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4213038252",
+"source": "OpenAlex",
+"year": 2022,
+"title": "Study and conservation of the Guiana Dolphin (Sotalia guianensis) (Van Bénéden, 1864) in French Guiana",
+"doi": "https://doi.org/10.5597/lajam00276",
+"topics": "abund;bycatch;climate;policy;strand;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4220712742",
+"source": "OpenAlex",
+"year": 2022,
+"title": "Risk areas for marine mammals in Colombia",
+"doi": "https://doi.org/10.15517/rev.biol.trop..v70i1.48553",
+"topics": "bycatch;mitig;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "PMID 35283022",
+"source": "OpenAlex (PMID)",
+"year": 2022,
+"title": "Lobomycosis and paracoccidioidomycosis meet again.",
+"doi": "https://doi.org/10.1016/j.riam.2022.01.002",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3209703190",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Emergence of the epibiotic barnacle Xenobalanus globicipitis in Guiana dolphins after a morbillivirus outbreak in Sepetiba Bay, Brazil",
+"doi": "https://doi.org/10.1016/j.ecss.2021.107632",
+"topics": "health;life;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4285344601",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Seasonality of stranded tetrapod fauna in the Paraty Bay, Rio de Janeiro, Brazil",
+"doi": "https://doi.org/10.6008/cbpc2179-6858.2021.010.0014",
+"topics": "abund;strand;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3204326991",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Cetacean community off French Guiana",
+"doi": "https://doi.org/10.5597/lajam00266",
+"topics": "life;noise;tmap",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W3173350715",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Are dolphin-watching boats routes an effective tool for managing tourism in marine protected areas?",
+"doi": "https://doi.org/10.1016/j.ocecoaman.2021.105782",
+"topics": "legal;mpa;policy;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3170960462",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Traditional knowledge of artisanal Fishers and Sotalia guianensis (Van Bénéden, 1864) (Cetacea, Delphinidae) in the Extractive Reserve Baía do Tubarão (Brazilian Amazon coast)",
+"doi": "https://doi.org/10.1016/j.ocecoaman.2021.105700",
+"topics": "bycatch;edu;mpa",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3168798180",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Propagation of Guiana dolphin sounds in their habitat: measured transmission loss and influence of environmental factors",
+"doi": "https://doi.org/10.1080/09524622.2021.1929488",
+"topics": "climate;noise",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3165771302",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Epidemiological features of the first Unusual Mortality Event linked to cetacean morbillivirus in the South Atlantic (Brazil, 2017-2018)",
+"doi": "https://doi.org/10.1111/mms.12824",
+"topics": "health;surv",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3185397782",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Ecologia alimentar de Sotalia guianensis em um complexo estuarino no litoral do estado do Paraná",
+"doi": "",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W4391370851",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Report of the Sotalia guianensis Pre-Assessment Workshop (São Paulo, Brazil, 26-28 November 2019)",
+"doi": "https://doi.org/10.47536/jcrm.v22i1.1007",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3166696709",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Environmental and behavioral factors influencing individual variation in spatial use by Guiana dolphins (Sotalia guianensis)",
+"doi": "https://doi.org/10.1093/jmammal/gyab056",
+"topics": "abund;conn;habitat;mpa;policy;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3158810736",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Habitat use by the Guiana dolphin (Sotalia guianensis) (Cetartiodactyla: Delphinidae) in southeastern Brazil",
+"doi": "https://doi.org/10.1016/j.rsma.2021.101778",
+"topics": "abund;conn;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3155761001",
+"source": "OpenAlex",
+"year": 2021,
+"title": "PERCEPÇÃO DE ATORES SOCIAIS COMO SUBSÍDIO AO ZONEAMENTO AMBIENTAL DE UMA UNIDADE DE CONSERVAÇÃO COSTEIRA NO NORDESTE DO BRASIL",
+"doi": "https://doi.org/10.5380/raega.v50i0.67678",
+"topics": "edu;mpa;policy",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3180360305",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Áreas de vida de botos-cinza, Sotalia guianensis (Van Bénéden, 1864), na Baía de Sepetiba (RJ)",
+"doi": "",
+"topics": "abund;conn",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3131955982",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Characterisation and classification method of burst pulses produced by Guiana dolphins (Sotalia guianensis)",
+"doi": "https://doi.org/10.1080/09524622.2021.1886169",
+"topics": "noise",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3128132036",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Aquatic Wildmeat Consumption of Guiana Dolphins (Sotalia guianensis) in Lake Maracaibo System, Venezuela",
+"doi": "https://doi.org/10.3389/fmars.2021.625801",
+"topics": "bycatch;edu;mitig;port",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W3122395288",
+"source": "OpenAlex",
+"year": 2021,
+"title": "Guiana Dolphin (Sotalia guianensis) in the Maracaibo Lake System, Venezuela: Conservation, Threats, and Population Overview",
+"doi": "https://doi.org/10.3389/fmars.2020.594021",
+"topics": "conn;edu;habitat;policy;port;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "SCI:430h6kiz3a3r",
+"source": "SciSpace",
+"year": 2021,
+"title": "Fidelidade de habitat de botos-cinza (sotalia guianensis) em uma área marinha protegida no Nordeste do Brasil",
+"doi": "https://scispace.com/papers/fidelidade-de-habitat-de-botos-cinza-sotalia-guianensis-em-430h6kiz3a3r",
+"topics": "conn;mpa;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3113244874",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Subcellular Cadmium, Lead and Mercury Compartmentalization in Guiana Dolphins (Sotalia guianensis) From Southeastern Brazil",
+"doi": "https://doi.org/10.3389/fmars.2020.584195",
+"topics": "abund;chem;health;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3208490338",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Videomonitoramento do turismo de observação de botos-cinza, sotalia guianensis, na reserva de fauna costeira de tibau do sul (refauts), Rio Grande do Norte",
+"doi": "",
+"topics": "monitor;mpa;vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3107338895",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Age and growth of franciscana, Pontoporia blainvillei, and Guiana, Sotalia guianensis, dolphins from southeastern Brazil",
+"doi": "https://doi.org/10.1111/mms.12763",
+"topics": "life",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3132960156",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Potential distribution of Guiana dolphin (Sotalia guianensis): a coastal-estuarine and tropical habitat specialist",
+"doi": "https://doi.org/10.1093/jmammal/gyaa153",
+"topics": "climate;conn;policy;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3082897258",
+"source": "OpenAlex",
+"year": 2020,
+"title": "OCORRÊNCIAS DE MAMÍFEROS AQUÁTICOS NO ESTADO DE PERNAMBUCO, BRASIL",
+"doi": "https://doi.org/10.32360/acmar.v53i1.43288",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3049249716",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Niche overlap and diet composition of three sympatric coastal dolphin species in the southwest Atlantic Ocean",
+"doi": "https://doi.org/10.1111/mms.12726",
+"topics": "bycatch;prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3113936422",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Duration of scratches in Guiana dolphin, Sotalia guianensis (Cetartiodactyla: Delphinidae): Supplementary marks to improve abundance estimates",
+"doi": "",
+"topics": "abund",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3034187572",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Occurrence of Guiana dolphin (Sotalia guianensis) in southeast of Brazil: Driven by prey distribution or human fishing activity?",
+"doi": "https://doi.org/10.1002/aqc.3367",
+"topics": "bycatch;conn;prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3046119779",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Epizoic barnacle (Xenobalanus globicipitis) infestations in several cetacean species in south-eastern Brazil",
+"doi": "https://doi.org/10.1080/17451000.2020.1783450",
+"topics": "health;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3010960219",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Preliminary Study on Occurrence and Ecological Aspects of Sotalia guianensis from an Estuarine Area, Northeast Coast of Brazil",
+"doi": "https://doi.org/10.1578/am.46.2.2020.124",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2999058444",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Modelling habitat use by the Guiana dolphin, Sotalia guianensis, in south-eastern Brazil: Effects of environmental and anthropogenic variables, and the adequacy of current management measures",
+"doi": "https://doi.org/10.1002/aqc.3290",
+"topics": "bycatch;conn;edu;habitat;mpa;policy;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3000262350",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Acoustic Description of Beach-Hunting Guiana Dolphins (Sotalia guianensis) in the Cananéia Estuary, Southeastern Brazil",
+"doi": "https://doi.org/10.1578/am.46.1.2020.11",
+"topics": "noise",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3005291301",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Fatal asphyxia due to laryngeal displacement by large-sized prey in a Guiana dolphin (Sotalia guianensis), Brazil",
+"doi": "https://doi.org/10.1590/0103-8478cr20190068",
+"topics": "health;policy;prey;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3095445188",
+"source": "OpenAlex",
+"year": 2020,
+"title": "Ontogeny of the skull of Sotalia guianensis (Cetartiodactyla: Delphinidae) on the Northern coast of Brazil",
+"doi": "https://doi.org/10.1590/1678-4766e2020024",
+"topics": "bycatch;life",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "SCI:541ghxn2hx",
+"source": "SciSpace",
+"year": 2020,
+"title": "Have you seen the dolphins? Dolphin watching participatory monitoring in a Brazilian multiple-use Marine Protected Area",
+"doi": "https://scispace.com/papers/have-you-seen-the-dolphins-dolphin-watching-participatory-541ghxn2hx",
+"topics": "monitor;vessel;mpa;edu;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2992118121",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Diet and foraging opportunism of the Guiana dolphin (Sotalia guianensis) in the Abrolhos Bank, Brazil",
+"doi": "https://doi.org/10.1111/mms.12656",
+"topics": "abund;monitor;noise;prey;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3035526468",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Revisão das Informações do Boto-Cinza (Sotalia guinensis) na Costa Brasileira",
+"doi": "https://doi.org/10.21166/metapre.v2i0.1309",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2990159731",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Scientific collaboration networks in research on human threats to cetaceans in Brazil",
+"doi": "https://doi.org/10.1016/j.marpol.2019.103738",
+"topics": "bycatch;tmap;vessel",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2990077609",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Active contour-based detection of estuarine dolphin whistles in spectrogram images",
+"doi": "https://doi.org/10.1016/j.ecoinf.2019.101036",
+"topics": "monitor;noise",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2983456162",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Trophic dynamics in two South American estuaries encompassing industrial development and a biodiversity hotspot",
+"doi": "https://doi.org/10.1002/aqc.3222",
+"topics": "conn;habitat;life;prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2981259993",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Guiana Dolphin (Sotalia guianensis) in the southern Gulf of Venezuela: Seasonal distribution, group size, and habitat use",
+"doi": "https://doi.org/10.1016/j.rsma.2019.100874",
+"topics": "abund;climate;conn;monitor;prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2990664688",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Environmental factors related to group size and habitat use of Guiana dolphins from São Marcos Bay, Amazon coast",
+"doi": "https://doi.org/10.1007/s42965-019-00041-0",
+"topics": "climate;conn;noise;port;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2960222385",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Cienciometria de mamíferos aquáticos do Ecossistema Babitonga: subsídios para a conservação",
+"doi": "https://doi.org/10.37002/revistacepsul.vol8.673eb2019004",
+"topics": "policy",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2910546048",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Abundance Estimates of Guiana Dolphins (Sotalia guianensis; Van Bénéden, 1864) Inhabiting an Estuarine System in Southeastern Brazil",
+"doi": "https://doi.org/10.1578/am.45.1.2019.56",
+"topics": "abund",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2923854444",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Cetacean movements in coastal waters of the southwestern Atlantic ocean",
+"doi": "https://doi.org/10.1590/1676-0611-bn-2018-0670",
+"topics": "abund;conn;monitor;mpa;policy;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2971804936",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Interactions between cetaceans and artisanal fishermen from Ilhéus, Bahia - Brazil",
+"doi": "https://doi.org/10.1590/1676-0611-bn-2019-0742",
+"topics": "bycatch;edu;monitor;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3005065037",
+"source": "OpenAlex",
+"year": 2019,
+"title": "Influência do turismo sobre o comportamento do Sotalia guianensis (Ván Bénéden, 1864) no complexo estuarino de Cananéia, Brasil",
+"doi": "",
+"topics": "vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2904285979",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Whistle variability of Guiana dolphins in South America: Latitudinal variation or acoustic adaptation?",
+"doi": "https://doi.org/10.1111/mms.12572",
+"topics": "noise",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2951025188",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Quem são e o que pensam os condutores de embarcações turísticas para observação de botos-cinza?",
+"doi": "https://doi.org/10.34024/rbecotur.2018.v11.6684",
+"topics": "edu;legal;monitor;port;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3209683352",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Abordagem etnoecológica da pesca e captura de espécies não-alvo em Itacaré, Bahia (Brasil)",
+"doi": "",
+"topics": "bycatch",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2896181388",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Climate influences on Guiana dolphin diet along the Brazilian coast",
+"doi": "https://doi.org/10.3989/scimar.04775.27a",
+"topics": "climate;prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2887050731",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Concentrations of metals in liver of Guiana dolphins (Sotalia guianensis) from an estuary in Southeast of Brazil",
+"doi": "https://doi.org/10.5132/eec.2018.01.06",
+"topics": "chem",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2807548888",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Behavioral responses of Sotalia guianensis (Cetartiodactyla, Delphinidae) to boat approaches in northeast Brazil",
+"doi": "https://doi.org/10.3856/vol46-issue2-fulltext-3",
+"topics": "noise;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2795633848",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Dolphins, Love and Enchantment: Tracing the Use of Cetacean Products in Brazil",
+"doi": "https://doi.org/10.3389/fmars.2018.00107",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2210159701",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Ocorrência de baços acessórios em boto-cinza (Sotalia guianensis) - aspectos histológicos",
+"doi": "https://doi.org/10.22456/1679-9216.16247",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2789923924",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Variation in Guiana dolphin parental care according to calf age class",
+"doi": "https://doi.org/10.1007/s10211-018-0289-4",
+"topics": "surv",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2791953089",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Breathing synchrony in franciscana (Pontoporia blainvillei) and Guiana dolphins (Sotalia guianensis) in Southern Brazil",
+"doi": "https://doi.org/10.1111/mms.12480",
+"topics": "tmap",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W3217669053",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Relações tróficas no Complexo Estuarino de Paranaguá, Paraná (CEP/PR) e na Baía de Ilha Grande, Rio de Janeiro (BIG/RJ) e bioacumulação de compostos organobromados no boto-cinza, Sotalia Guianensis (Van Beneden, 1864) (Cetacea, Delphinidae) do CEP/PR",
+"doi": "",
+"topics": "chem",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2782947972",
+"source": "OpenAlex",
+"year": 2018,
+"title": "Recurrence of Atypical Coloration in Guiana Dolphins (Sotalia guianensis; Van Bénéden, 1864; Cetartiodactyla: Delphinidae) in Northeastern Brazil",
+"doi": "https://doi.org/10.1578/am.44.1.2018.51",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "SCI:2w44ik9q6v",
+"source": "SciSpace",
+"year": 2018,
+"title": "Sotalia dolphins in their potential sympatry zone: searching for hybrids in the Amazonian estuary",
+"doi": "https://scispace.com/papers/sotalia-dolphins-in-their-potential-sympatry-zone-searching-2w44ik9q6v",
+"topics": "genetic",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "SCI:2w82775mzu",
+"source": "SciSpace",
+"year": 2018,
+"title": "Long-Term Monitoring of Dolphins in a Large Estuarine System of Southeastern Brazil",
+"doi": "https://scispace.com/papers/long-term-monitoring-of-dolphins-in-a-large-estuarine-system-2w82775mzu",
+"topics": "monitor;abund",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "SCI:42ol22cr3p",
+"source": "SciSpace",
+"year": 2018,
+"title": "Anthropogenic Noise and Guiana Dolphins ( Sotalia guianensis ) in Brazil: Ecological and Conservation Concerns",
+"doi": "https://scispace.com/papers/anthropogenic-noise-and-guiana-dolphins-sotalia-guianensis-42ol22cr3p",
+"topics": "noise",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2903718605",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Monitoramento de encalhes e levantamento histórico da diversidade de cetáceos (cetartiodactyla) na Paraíba: 1981 - 2017",
+"doi": "",
+"topics": "monitor;strand",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2773346919",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Habitat Preference and Behaviour of the Guiana Dolphin (Sotalia guianensis) in a Well-Preserved Estuary off Southern Brazil",
+"doi": "https://doi.org/10.17582/journal.pjz/2017.49.6.2235.2242",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2768578041",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Epimeletic Behavior of Guiana Dolphins (Sotalia guianensis) Towards a Calf Supposedly Killed by a Motorboat in Brazil",
+"doi": "https://doi.org/10.1578/am.43.6.2017.614",
+"topics": "vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2749790264",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Differences in the sounds of Guiana dolphin Sotalia guianensis (Cetacea: Delphinidae) between two areas of south-eastern and southern Brazil",
+"doi": "https://doi.org/10.1080/09524622.2017.1361337",
+"topics": "genetic;noise",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2619688184",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Genetic identity of Sotalia dolphins from the Orinoco River",
+"doi": "https://doi.org/10.1111/mms.12422",
+"topics": "genetic",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2613034268",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Real-Time Record of Entanglement of a Guiana Dolphin (Sotalia guianensis) in Recreational Fishing Gear",
+"doi": "https://doi.org/10.1578/am.43.3.2017.320",
+"topics": "bycatch",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1514891214",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Group structure of Guiana dolphins, Sotalia guianensis (Cetacea, Delphinidae) in Ilha Grande Bay, Rio de Janeiro, southeastern Brazil",
+"doi": "https://doi.org/10.3856/vol41-issue2-fulltext-10",
+"topics": "genetic;tmap",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2604532541",
+"source": "OpenAlex",
+"year": 2017,
+"title": "The first confirmed decline of a delphinid population from Brazilian waters: 2000–2015 abundance of Sotalia guianensis in Guanabara Bay, South-eastern Brazil",
+"doi": "https://doi.org/10.1016/j.ecolind.2017.03.045",
+"topics": "abund;chem;conn;habitat;surv;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2603864303",
+"source": "OpenAlex",
+"year": 2017,
+"title": "INTESTINAL HELMINTHS OF FRANCISCANA (Pontoporia blainvillei) AND GUIANA DOLPHINS (Sotalia guianensis) FROM THE NORTH COAST OF SANTA CATARINA STATE, BRAZIL",
+"doi": "https://doi.org/10.4257/oeco.2017.2101.09",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2591206432",
+"source": "OpenAlex",
+"year": 2017,
+"title": "On the feeding habit of the Guiana Dolphin Sotalia guianensis (van Bénéden, 1864) (Mammalia: Cetartiodactyla: Delphinidae) in southeastern Brazil (~220S): has there been any change in more than two decades?",
+"doi": "https://doi.org/10.11609/jott.2745.9.2.9840-9843",
+"topics": "monitor;prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2583817433",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Tidal and seasonal influences in dolphin habitat use in a southern Brazilian estuary",
+"doi": "https://doi.org/10.3989/scimar.04495.25a",
+"topics": "conn;prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2608177904",
+"source": "OpenAlex",
+"year": 2017,
+"title": "Encalhes do boto-cinza, Sotalia guianensis (Cetacea, Delphinidae), e sua relação com a pesca artesanal na Ilha de Santa Catarina, Sul do Brasil",
+"doi": "",
+"topics": "bycatch;strand",
+"matched_by": "title"
+},
+{
+"openalex_id": "SCI:51ymsgrv08",
+"source": "SciSpace",
+"year": 2017,
+"title": "The behavior of sotalia guianesis during boat traffic in Sepetiba Bay, Southeastern Brazil",
+"doi": "https://scispace.com/papers/the-behavior-of-sotalia-guianesis-during-boat-traffic-in-51ymsgrv08",
+"topics": "vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2524616661",
+"source": "OpenAlex",
+"year": 2016,
+"title": "Effects of anthropogenic noise on the acoustic behaviour of Sotalia guianensis (Van Bénéden, 1864) in Pipa, North-eastern Brazil",
+"doi": "https://doi.org/10.1017/s0025315416001338",
+"topics": "edu;legal;noise;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2485478065",
+"source": "OpenAlex",
+"year": 2016,
+"title": "Guiana dolphins form social modules in a large population with high ranging overlap and small demographic changes",
+"doi": "https://doi.org/10.1007/s00265-016-2188-x",
+"topics": "tmap",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2909171925",
+"source": "OpenAlex",
+"year": 2016,
+"title": "O Boto-cinza (Sotalia guianensis) no complexo estuarino lagunar de Cananéia: fatores associados ao uso de habitat",
+"doi": "",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2474790263",
+"source": "OpenAlex",
+"year": 2016,
+"title": "The behavior of the estuarine dolphin (Sotalia guianensis, van Bénéden, 1864) according to fishermen from different fishing environments",
+"doi": "https://doi.org/10.1016/j.ocecoaman.2016.06.011",
+"topics": "bycatch;life;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2400708219",
+"source": "OpenAlex",
+"year": 2016,
+"title": "Acoustic Parameters of Guiana Dolphin (Sotalia guianensis) Whistles in the Southern Gulf of Venezuela",
+"doi": "https://doi.org/10.1578/am.42.2.2016.127",
+"topics": "noise",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2401733198",
+"source": "OpenAlex",
+"year": 2016,
+"title": "Rostrum Contact Behaviors by the Guiana Dolphin (Sotalia guianensis) in Ilhéus, Brazil",
+"doi": "https://doi.org/10.1578/am.42.2.2016.203",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2328514356",
+"source": "OpenAlex",
+"year": 2016,
+"title": "Cadmium concentrations in Sotalia guianensis (Van Bénéden, 1864) in a tropical estuary, southeast of Brazil.",
+"doi": "https://doi.org/10.14210/bjast.v19n1.p39-45",
+"topics": "chem;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2255150182",
+"source": "OpenAlex",
+"year": 2016,
+"title": "Guiana dolphin home range analysis based on 11 years of photo-identification research in a tropical estuary",
+"doi": "https://doi.org/10.1093/jmammal/gyv207",
+"topics": "abund;conn;habitat;monitor;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2525093876",
+"source": "OpenAlex",
+"year": 2016,
+"title": "Review of thirty-two years of toothed whale strandings in Santa Catarina, southern Brazil (Cetacea: Odontoceti)",
+"doi": "https://doi.org/10.1590/s1984-4689zool-20160089",
+"topics": "monitor;policy;strand;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2585482195",
+"source": "OpenAlex",
+"year": 2016,
+"title": "Land use and occupation at Coastal Wildlife Reserve of Tibau do Sul (REFAUTS), Rio Grande do Norte, Brazil (1984 - 2015)",
+"doi": "https://doi.org/10.26848/rbgf.v9.6.p1880-1887",
+"topics": "habitat;port",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3103595858",
+"source": "OpenAlex",
+"year": 2015,
+"title": "ORDENAMENTO DA VISITAÇÃO PÚBLICA DA PRAIA DO ITACURUÇÁ/PEREIRINHA, PARQUE ESTADUAL DA ILHA DO CARDOSO, CANANÉIA-SP",
+"doi": "https://doi.org/10.47977/2318-2148.2015.v3n6p72",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2237037645",
+"source": "OpenAlex",
+"year": 2015,
+"title": "Acoustic parameters of sounds emitted by Sotalia guianensis : dialects or acoustic plasticity",
+"doi": "https://doi.org/10.1093/jmammal/gyv208",
+"topics": "climate;noise;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2206422532",
+"source": "OpenAlex",
+"year": 2015,
+"title": "ASOCIACIONES ENTRE AVES MARINAS Y SOTALIA GUIANENSIS EN EL SUR DEL GOLFO DE VENEZUELA",
+"doi": "https://doi.org/10.15446/caldasia.v37n2.54381",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1829577554",
+"source": "OpenAlex",
+"year": 2015,
+"title": "Day and night sounds of the Guiana dolphin, Sotalia guianensis (Cetacea: Delphinidae) in southeastern Brazil",
+"doi": "https://doi.org/10.1007/s10211-015-0223-y",
+"topics": "noise",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2266028937",
+"source": "OpenAlex",
+"year": 2015,
+"title": "Epidemiological characteristics of skin disorders in cetaceans from South American waters",
+"doi": "https://doi.org/10.5597/lajam190",
+"topics": "climate;health;monitor;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1885460074",
+"source": "OpenAlex",
+"year": 2015,
+"title": "Cetaceans observed in Suriname and adjacent waters",
+"doi": "https://doi.org/10.5597/lajam00189",
+"topics": "abund;monitor;port",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2243033270",
+"source": "OpenAlex",
+"year": 2015,
+"title": "Thoracic limb bone development inSotalia guianensis(Van Beneden 1864) along the coastline of Espírito Santo, Brazil",
+"doi": "https://doi.org/10.1093/jmammal/gyv059",
+"topics": "abund;monitor",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2169385795",
+"source": "OpenAlex",
+"year": 2015,
+"title": "Histopatologia das nefropatias em pequenos cetáceos do Espírito Santo/Brasil",
+"doi": "",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1994650093",
+"source": "OpenAlex",
+"year": 2015,
+"title": "The influence of environmental variables on estuarine dolphins (Sotalia guianensis) spatial distribution and habitat used in the Estuarine Lagunar Complex of Cananéia, southeastern Brazil",
+"doi": "https://doi.org/10.1016/j.ocecoaman.2015.01.013",
+"topics": "climate;conn",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2295890854",
+"source": "OpenAlex",
+"year": 2015,
+"title": "Estimativa etária por meio de nadadeiras peitorais do boto-cinza (Sotalia guianensis) do litoral do Espírito Santo e Norte Fluminense",
+"doi": "",
+"topics": "life",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2563439634",
+"source": "OpenAlex",
+"year": 2015,
+"title": "Modelación de nicho y aspectos biogeográficos del género Sotalia (Cetartiodactyla: Delphinidae) en los ríos Amazonas y Orinoco",
+"doi": "https://doi.org/10.13140/rg.2.2.30347.39205",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2590806669",
+"source": "OpenAlex",
+"year": 2015,
+"title": "MORFOMETRIA CARDÍACA DE Sotalia guianensis (Van Bénéden, 1864) DO LITORAL DO ESPÍRITO SANTO",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2613058124",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Ecologia populacional e comportamento do boto-cinza, Sotalia guianensis (van Bénéden, 1864), na enseada do Mucuripe, Fortaleza, estado do Ceará",
+"doi": "",
+"topics": "abund",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2335526313",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Short Note: Performance of Computer-Assisted Photographic Matching of Guiana Dolphins (Sotalia guianensis)",
+"doi": "https://doi.org/10.1578/am.40.3.2014.313",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2230861951",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Reações comportamentais de Sotalia guianensis, (Boto-cinza), durante encontro com embarcações no estuário do rio Sergipe e foz do rio Poxim, Aracaju, Sergipe.",
+"doi": "",
+"topics": "vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2039179792",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Variation in Guiana dolphin (Sotalia guianensis) whistles: using a broadband recording system to analyze acoustic parameters in three areas of southeastern Brazil",
+"doi": "https://doi.org/10.1007/s10211-014-0183-7",
+"topics": "noise",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2045375157",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Fission‐fusion dynamics of Guiana dolphin (Sotalia guianensis) groups at Pipa Bay, Rio Grande do Norte, Brazil",
+"doi": "https://doi.org/10.1111/mms.12121",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2054584786",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Behavioral event occurrence differs between behavioral states in Sotalia guianensis (Cetarctiodactyla: Delphinidae) dolphins: a multivariate approach",
+"doi": "https://doi.org/10.1590/s1984-46702014000100001",
+"topics": "abund",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2253109053",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Padrões de uso de habitat do boto-cinza (Sotalia guianensis) na região da foz do rio Doce, costa norte do Espírito Santo, Sudeste do Brasil",
+"doi": "",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2300564241",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Morfometria externa de Sotalia guianensis do Espírito Santo e análise do estoque populacional",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7197619157",
+"source": "OpenAlex",
+"year": 2014,
+"title": "Comportamento acústico de Sotalia guianensis (Van Bénéden, 1864) Cetacea: Delphinidae) no entorno de unidades de conservação no litoral do Paraná, sul do Brasil",
+"doi": "",
+"topics": "noise;policy",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1576565068",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Payment for Environmental Services, fishers and cetaceans' conservation",
+"doi": "https://doi.org/10.20396/lobore.v7i4.162",
+"topics": "bycatch;edu;legal;monitor;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2024399674",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Coordinated feeding behavior of the Guiana dolphin, Sotalia guianensis (Cetacea: Delphinidae), in southeastern Brazil: a comparison between populations",
+"doi": "https://doi.org/10.1590/s1984-46702013005000013",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2084924913",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Use of carbon and nitrogen stable isotopes to study the feeding ecology of small coastal cetacean populations in southern Brazil",
+"doi": "https://doi.org/10.1590/s1676-06032013000400009",
+"topics": "prey;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2181055021",
+"source": "OpenAlex",
+"year": 2013,
+"title": "New records of Nasitrema atenuatta and Nasitrema globicephalae (Trematoda: Brachycladiidae) Neiland, Rice and Holden, 1970 in delphinids from South Atlantic",
+"doi": "https://doi.org/10.15560/9.6.1538",
+"topics": "abund;health;strand",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W1167112973",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Estimativa da densidade populacional de filhotes e estrutura de grupo do boto-cinza Sotalia guianensis(Cetacea:Delphinidae) na Baía de Guaraqueçaba",
+"doi": "",
+"topics": "abund",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2017145087",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Accidents between artisanal fisheries and cetaceans on the Brazilian coast and Central Amazon: Proposals for integrated management",
+"doi": "https://doi.org/10.1016/j.ocecoaman.2013.09.004",
+"topics": "bycatch;edu;policy;prey;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2013153696",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Molecular Identification and Historic Demography of the Marine Tucuxi (Sotalia guianensis) at the Amazon River's Mouth by Means of Mitochondrial Control Region Gene Sequences and Implications for Conservation",
+"doi": "https://doi.org/10.3390/d5040703",
+"topics": "bycatch;genetic;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1506084858",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Motorboat noise can potentially mask the whistle sound of estuarine dolphins (Sotalia guianensis)",
+"doi": "https://doi.org/10.15451/ec2013-8-2.5-1-15",
+"topics": "noise;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2605390644",
+"source": "OpenAlex",
+"year": 2013,
+"title": "INGESTION OF PLASTIC DEBRIS BY ESTUARINE DOLPHIN, Sotalia guianensis, OFF NORTHEASTERN BRAZIL",
+"doi": "https://doi.org/10.32360/acmar.v46i1.897",
+"topics": "bycatch;debris;health;strand;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2018130943",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Aerial survey of manatees, dolphins and sea turtles off northeastern Brazil: Correlations with coastal features and human activities",
+"doi": "https://doi.org/10.1016/j.biocon.2013.02.015",
+"topics": "abund;mpa;policy;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2042555757",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Surface patterns of Sotalia guianensis (Cetacea: Delphinidae) in the presence of boats in Port of Malhado, Ilheus, Bahia, Brazil",
+"doi": "https://doi.org/10.3856/vol41-issue1-fulltext-6",
+"topics": "habitat;port;vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2000000777",
+"source": "OpenAlex",
+"year": 2013,
+"title": "Parental care behavior in the Guiana dolphin, Sotalia guianensis (Cetacea: Delphinidae), in Ilha Grande Bay, southeastern Brazil",
+"doi": "https://doi.org/10.1590/s1984-46702013000100002",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2405358025",
+"source": "OpenAlex",
+"year": 2013,
+"title": "How do Guiana dolphin (Sotalia guianensis), from the Cananéia estuary in State of São Paulo, use cerco-fixo fish traps in their fishing activities?",
+"doi": "https://doi.org/10.22491/etologia.v12n1-2.art3",
+"topics": "bycatch;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "PMID 23630189",
+"source": "OpenAlex (PMID)",
+"year": 2013,
+"title": "Case report of flipper anatomic anomaly of Sotalia guianensis from Sepetiba Bay, Rio de Janeiro.",
+"doi": "https://doi.org/10.1002/ar.22706",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1971204736",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Estratégia de maximização de sucesso de perseguição e fuga nos contextos de caça entre golfinhos Sotalia guianensis (Van Bénédén, 1864) e peixes no povoado de Pipa, RN",
+"doi": "https://doi.org/10.5380/abpr.v41i0.30371",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1923365030",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Selecao e uso do habitat pelo boto-cinza, Sotalia guianensis (van Beneden, 1864) (Cetacea, Delphinidae), na Baia de Paraty, Estado do Rio de Janeiro",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2078487714",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Group composition influences on behavioral sequence patterns of the Guiana dolphin Sotalia guianensis",
+"doi": "https://doi.org/10.1007/s10164-012-0347-8",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2757201084",
+"source": "OpenAlex",
+"year": 2012,
+"title": "SOTALIA GUIANENSIS POPULATION DENSITY ESTIMATIVE IN THE BAY OF ANTONINA, BRAZIL",
+"doi": "https://doi.org/10.7213/academica.7741",
+"topics": "abund",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1978556224",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Etnoecologia de pequenos cetáceos: interações entre a pesca artesanal e golfinhos no norte do estado do Rio de Janeiro, Brasil",
+"doi": "https://doi.org/10.5007/2175-7925.2012v25n3p293",
+"topics": "bycatch",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2111619624",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Disentangling social networks from spatiotemporal dynamics: the temporal structure of a dolphin society",
+"doi": "https://doi.org/10.1016/j.anbehav.2012.06.019",
+"topics": "monitor;noise;tmap",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2089706539",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Timing of ontogenetic changes of two cranial regions in Sotalia guianensis (Delphinidae)",
+"doi": "https://doi.org/10.1016/j.mambio.2012.04.007",
+"topics": "genetic;life",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2151503988",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Prey consumed by Guiana dolphin Sotalia guianensis (Cetacea, Delphinidae) and franciscana dolphin Pontoporia blainvillei (Cetacea, Pontoporiidae) in an estuarine environment in southern Brazil",
+"doi": "https://doi.org/10.1590/s0073-47212012000200003",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2168230741",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Feeding habits of Guiana dolphins, Sotalia guianensis, from south-eastern Brazil: new items and a knowledge review",
+"doi": "https://doi.org/10.1017/s0025315412000495",
+"topics": "bycatch;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1845868206",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Capture-recapture abundance estimate of Guiana dolphins in southeastern Brazil",
+"doi": "https://doi.org/10.7773/cm.v38i3.2012",
+"topics": "abund;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2040502277",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Cetaceans registered on the coast of Ilhéus (Bahia), northeastern Brazil",
+"doi": "https://doi.org/10.1590/s1676-06032012000100003",
+"topics": "bycatch;strand",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2047479780",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Crescimento e desenvolvimento de boto-cinza (Sotalia guianensis) do litoral do Espírito Santo",
+"doi": "https://doi.org/10.1590/s0102-09352012000100029",
+"topics": "life",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2027226607",
+"source": "OpenAlex",
+"year": 2012,
+"title": "The economic evaluation of estuarine dolphin (Sotalia guianensis) watching tourism in the Caravelas region, south-eastern Brazil",
+"doi": "https://doi.org/10.1504/ijge.2012.048427",
+"topics": "vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2185275660",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Estuarine dolphins (Sotalia guianensis, Cetacea, Delphinidae) play at Porto de Ilhéus harbor, Bahia, Brazil",
+"doi": "",
+"topics": "habitat;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W750426171",
+"source": "OpenAlex",
+"year": 2012,
+"title": "Análises moleculares como ferramentas voltadas ao estudo do boto-cinza (Sotalia guianensis) na região do Lagamar de Cananéia",
+"doi": "",
+"topics": "genetic",
+"matched_by": "title"
+},
+{
+"openalex_id": "W745001828",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Identificação e análise das áreas domiciliares do boto-cinza, Sotalia guianensis (Van Bénéden, 1864), no estuário de Cananéia, São Paulo",
+"doi": "",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7117414538",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Nota sobre el comportamiento alimenticio del delfín estuarino (Sotalia guianensis) en la costa occidental del lago de Maracaibo",
+"doi": "https://doi.org/10.53157/ecotropicos.7ry4-pgn6",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1969933071",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Use of multiple tools to assess the feeding preference of coastal dolphins",
+"doi": "https://doi.org/10.1007/s00227-011-1726-3",
+"topics": "chem;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1979186381",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Coordinated feeding tactics of the Guiana dolphin, Sotalia guianensis (Cetacea: Delphinidae), in Ilha Grande Bay, Rio de Janeiro, Brazil",
+"doi": "https://doi.org/10.1590/s1984-46702011000300002",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2954582347",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Atividades de observação do comportamento de Sotalia guianensis como subsídio para o Turismo Científico no Parque Estadual Ilha do Cardoso - Cananeia (SP)",
+"doi": "https://doi.org/10.34024/rbecotur.2011.v4.5914",
+"topics": "vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2117654047",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Assessing population parameters and trends of Guiana dolphins (Sotalia guianensis): An eight‐year mark‐recapture study",
+"doi": "https://doi.org/10.1111/j.1748-7692.2010.00456.x",
+"topics": "abund;monitor;policy;surv",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2086242974",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Feeding habits of the Guiana dolphin, Sotalia guianensis (Cetacea: Delphinidae), in Norte Bay, southern Brazil",
+"doi": "https://doi.org/10.3989/scimar.2011.75n1163",
+"topics": "bycatch;prey;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2068343360",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Microsatellite data reveal fine genetic structure in male Guiana dolphins (Sotalia guianesis) in two geographically close embayments at south-eastern coast of Brazil",
+"doi": "https://doi.org/10.1007/s00227-010-1619-x",
+"topics": "genetic;habitat",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2182916138",
+"source": "OpenAlex",
+"year": 2011,
+"title": "Distribution and Status of the Guiana Dolphin Sotalia guianensis (Cetacea, Delphinidae) Population in Babitonga Bay, Southern Brazil",
+"doi": "",
+"topics": "abund;conn",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2289412192",
+"source": "OpenAlex",
+"year": 2011,
+"title": "ESTIMATIVA DE IDADE DO BOTO-CINZA, SOTALIA GUIANENSIS, DO LITORAL DO ESPÍRITO SANTO",
+"doi": "",
+"topics": "life",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1966057204",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Note on the group size and behavior of Guiana dolphins (Sotalia guianensis) (Cetacea: Delphinidae) in Marapanim Bay, Pará, Brazil",
+"doi": "https://doi.org/10.5597/lajam00165",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1970361935",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Cervical ribs and cleft arches in Brazilian Sotalia guianensis: contribution to comparative studies of skeletal morphology in northern and southeastern specimens",
+"doi": "https://doi.org/10.5597/lajam00164",
+"topics": "edu;genetic",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W1979439558",
+"source": "OpenAlex",
+"year": 2010,
+"title": "The triumph of the commons: Working towards the conservation of Guiana dolphins (Sotalia guianensis) in the Cananéia estuary, Brazil",
+"doi": "https://doi.org/10.5597/lajam00169",
+"topics": "policy",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1993420779",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Habitat use of the Guiana dolphin, Sotalia guianensis (Cetacea, Delphinidae), in the Caravelas River Estuary, eastern Brazil",
+"doi": "https://doi.org/10.5597/lajam00159",
+"topics": "climate;conn;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1994414708",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Occurrence of chlorinated pesticides and polychlorinated biphenyls (PCBs) in Guiana dolphins (Sotalia guianensis) from Ubatuba and Baixada Santista, São Paulo, Brazil",
+"doi": "https://doi.org/10.5597/lajam00161",
+"topics": "chem",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2000038492",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Proposed English common name for the neotropical delphinid Sotalia guianensis (P.-J. Van Beneden, 1864)",
+"doi": "https://doi.org/10.5597/lajam00167",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2024527614",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Morphology of the Guiana dolphin (Sotalia guianensis) off southeastern Brazil: growth and geographic variation",
+"doi": "https://doi.org/10.5597/lajam00163",
+"topics": "life;strand;tmap",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2026075814",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Report of the Working Group on Major Threats and Conservation",
+"doi": "https://doi.org/10.5597/lajam00153",
+"topics": "policy",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2042466165",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Mitochondrial DNA diversity, differentiation and phylogeography of the South American riverine and coastal dolphins Sotalia fluviatilis and Sotalia guianensis.",
+"doi": "https://doi.org/10.5597/lajam00155",
+"topics": "abund;bycatch;conn;genetic;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2044018698",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Natural history of dolphins of the genus Sotalia",
+"doi": "https://doi.org/10.5597/lajam00154",
+"topics": "health;life;policy;prey;tmap",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2059710298",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Residence patterns of the Guiana dolphin Sotalia guianensis in Babitonga bay, south coast of Brazil",
+"doi": "https://doi.org/10.5597/lajam00160",
+"topics": "abund;conn",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2065164734",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Initial description of Major Histocompatibility Complex variation at two Class II loci (DQA-DQB) in Sotalia fluviatilis and Sotalia guianensis",
+"doi": "https://doi.org/10.5597/lajam00156",
+"topics": "genetic;health",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2088470283",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Records of Guiana dolphin, Sotalia guianensis, in the State of Ceará, Northeastern Brazil",
+"doi": "https://doi.org/10.5597/lajam00157",
+"topics": "bycatch;monitor;strand",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2132464626",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Feeding ecology of the estuarine dolphin (Sotalia guianensis) on the coast of Rio Grande do Norte, Brazil",
+"doi": "https://doi.org/10.1111/j.1748-7692.2010.00436.x",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2325614560",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Habitat preferences of Guiana dolphins, Sotalia guianensis (Cetacea: Delphinidae), in Norte Bay, southern Brazil",
+"doi": "https://doi.org/10.1017/s0025315410001414",
+"topics": "abund;conn;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2066524014",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Degrees of residence of Guiana dolphins (Sotalia guianensis) in Ilha Grande Bay, south-eastern Brazil: a preliminary assessment",
+"doi": "https://doi.org/10.1017/s0025315410001256",
+"topics": "abund;conn;mpa;policy;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2065201706",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Home ranges of Guiana dolphins (Sotalia guianensis) (Cetacea: Delphinidae) in the Cananéia estuary, Brazil",
+"doi": "https://doi.org/10.1017/s0025315410001311",
+"topics": "abund;conn;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1482227658",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Ethnobiology and photo-identification: identifying anthropic impacts on boto-cinza dolphin Sotalia guianensis in Sepetiba Bay, Brazil",
+"doi": "",
+"topics": "abund;bycatch;monitor;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1970317924",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Spatial distribution and activities of the estuarine dolphin Sotalia guianensis (van Bénédén, 1864) (Cetacea, Delphinidae) in Pontal Bay, Ilhéus, Bahia, Brazil",
+"doi": "https://doi.org/10.1590/s1676-06032010000200007",
+"topics": "conn;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1985930990",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Guiana dolphins (Sotalia guianensis) displaying beach hunting behavior in the Cananéia Estuary, Brazil: social context and conservation issues",
+"doi": "https://doi.org/10.1590/s1679-87592010000200005",
+"topics": "abund;life;monitor;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2056531903",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Guiana dolphins, Sotalia guianensis (Cetacea: Delphinidae), in the Paranaguá Estuarine Complex: insights on the use of area based on the photo-identification technique",
+"doi": "https://doi.org/10.1590/s1984-46702010000300002",
+"topics": "abund;conn;monitor",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2085945606",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Cetacean records along São Paulo state coast, Southeastern Brazil",
+"doi": "https://doi.org/10.1590/s1679-87592010000200004",
+"topics": "port;strand",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2171760532",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Anomalias ósseas congênitas em Sotalia guianensis (Mammalia, Cetacea, Delphinidae) da costa centro-norte do Estado do Rio de Janeiro",
+"doi": "https://doi.org/10.1590/s0100-736x2010000600003",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2136319032",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Determination of cadmium and lead in cetacean Dolphinidae tissue from the coast of Bahia state in Brazil by GFAAS",
+"doi": "https://doi.org/10.1016/j.microc.2010.01.001",
+"topics": "chem",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1593773302",
+"source": "OpenAlex",
+"year": 2010,
+"title": "O comportamento do boto-cinza Sotalia guianensis (van Bénéden, 1864) (Cetacea; Delphinidae) através do olhar dos pescadores artesanais",
+"doi": "",
+"topics": "bycatch",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2045222232",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Primeira descrição de corpo lúteo cavitário gestacional em Sotalia guianensis (Van Bénéden, 1864) - Relato de Caso",
+"doi": "https://doi.org/10.4322/rbcv.2014.149",
+"topics": "life",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2144310676",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Ecology and behavior of the estuarine dolphin, Sotalia guianensis (Cetacea: Delphinidae) in Sepetiba Bay, South-eastern Brazil",
+"doi": "https://doi.org/10.5897/jene.9000045",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2283280303",
+"source": "OpenAlex",
+"year": 2010,
+"title": "ANÁLISE RADIOGRÁFICA DAS ALETAS PEITORAIS PARA DETERMINAÇÃO DE IDADE EM SOTALIA GUIANENSIS POR RADIOGRAFIA DA ALETA PEITORAL",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2589198217",
+"source": "OpenAlex",
+"year": 2010,
+"title": "CARACTERIZAÇÃO DO REPERTÓRIO ACÚSTICO DO BOTO- CINZA, Sotalia guianensis, E IMPACTO DE EMBARCAÇÕES NO",
+"doi": "",
+"topics": "noise;vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2918697307",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Influencia de la presencia de inmaduros y factores ambientales en el comportamiento alimenticio del delfín gris Sotalia guianensis en la playa de Pipa rn Brasíl",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W3207581909",
+"source": "OpenAlex",
+"year": 2010,
+"title": "Caracterización comportamental de delfines en cautiverio Tursiops truncatus (Montagu, 1821) y Sotalia guianensis (van Bénéden, 1864) Acuario y Museo del Mar El Rodadero (Santa Marta - Colombia)",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7120870085",
+"source": "OpenAlex",
+"year": 2010,
+"title": "ETHNOECOLOGY OF SOTALIA GUIANENSIS (GERVAIS, 1853) IN THE AMAZON ESTUARY",
+"doi": "",
+"topics": "bycatch;conn;port",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W4297643665",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Potential conflicts between fishermen and Sotalia guianensis (Van Bénéden, 1864) (Cetacea, Delphinidae) in Brazil",
+"doi": "https://doi.org/10.13102/scb8013",
+"topics": "bycatch;edu",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W7217325133",
+"source": "OpenAlex",
+"year": 2009,
+"title": "A CONTRIBUIÇÃO DO OLHAR E DA PERCEPÇÃO DO TURISTA NA CONSERVAÇÃO DE ÁREAS NATURAIS: O CASO DO TURISMO DE OBSERVAÇÃO DO BOTO-CINZA (Sotalia guianensis) NA REGIÃO DE CANANÉIA, SP.",
+"doi": "",
+"topics": "edu;mpa;policy;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2107279366",
+"source": "OpenAlex",
+"year": 2009,
+"title": "O desenvolvimento do turismo náutico e a sua ligação com a observação do boto-cinza (Sotalia guianensis) na região de Cananéia, litoral sul do Estado de São Paulo",
+"doi": "https://doi.org/10.11606/issn.1984-4867.v20i2p282-301",
+"topics": "vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2116850090",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Aggregations of Guiana dolphins (Sotalia guianensis) in Sepetiba Bay, Rio de Janeiro, south-eastern Brazil: distribution patterns and ecological characteristics",
+"doi": "https://doi.org/10.1017/s0025315409000782",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2158750272",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Commensalism Between Guiana Dolphins Sotalia guianensis and Sea Birds in the North Bay of Santa Catarina, Southern Brazil",
+"doi": "https://doi.org/10.2174/1874450800903010077",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2148508217",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Group structure of Sotalia guianensis in the bays on the coast of Paraná State, south of Brazil",
+"doi": "https://doi.org/10.1017/s0025315409002926",
+"topics": "abund",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2163088298",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Cetacean strandings on the coast of Ceará, north-eastern Brazil (1992–2005)",
+"doi": "https://doi.org/10.1017/s0025315409002215",
+"topics": "bycatch;monitor;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1967346204",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Diurnal and tidal pattern influencing the behaviour of Sotalia guianensis on the north-eastern coast of Brazil",
+"doi": "https://doi.org/10.1017/s1755267209000906",
+"topics": "tmap",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2140184718",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Occupation pattern of a harbor inlet by the estuarine dolphin, Sotalia guianensis (P. J. Van Bénéden, 1864) (Cetacea, Delphinidae)",
+"doi": "https://doi.org/10.1590/s1516-89132009000300029",
+"topics": "bycatch;habitat",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2102703328",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Bone alterations caused by a sting ray spine in the vertebra of Sotalia guianensis (Cetacea, Delphinidae)",
+"doi": "https://doi.org/10.1111/j.1748-7692.2009.00312.x",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2099208099",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Feeding Strategies of the Guiana Dolphin Sotalia guianensis",
+"doi": "https://doi.org/10.2174/1874450800903010070",
+"topics": "conn;prey",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2064080993",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Monitoring tourism schooners observing estuarine dolphins (Sotalia guianensis) in the Estuarine Complex of Cananéia, south-east Brazil",
+"doi": "https://doi.org/10.1002/aqc.1034",
+"topics": "monitor;vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1980907012",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Marine tucuxi dolphin (Sotalia guianensis) and its interaction with passive gill-net fisheries along the northern coast of the Rio de Janeiro State, Brazil",
+"doi": "https://doi.org/10.1017/s1755267209000864",
+"topics": "bycatch;monitor;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1978267924",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Sampling interval for measurements of estuarine dolphins' (Sotalia guianensis) behaviour",
+"doi": "https://doi.org/10.1017/s1755267209000700",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2023778863",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Organochlorine pesticides in marine tucuxi dolphin milk incidentally captured with its calf in Barra de São João, east coast of Rio de Janeiro State, Brazil",
+"doi": "https://doi.org/10.1017/s1755267209000530",
+"topics": "bycatch;chem",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2105088278",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Human-induced injuries to marine tucuxis (Sotalia guianensis) (Cetacea: Delphinidae) in Brazil",
+"doi": "https://doi.org/10.1017/s1755267208000262",
+"topics": "abund;bycatch;chem;habitat;health;tmap",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2060114897",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Sexual coercion and aggression towards a newborn calf of marine tucuxi dolphins (Sotalia guianensis)",
+"doi": "https://doi.org/10.1111/j.1748-7692.2008.00275.x",
+"topics": "legal;life;monitor",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W103554853",
+"source": "OpenAlex",
+"year": 2009,
+"title": "EVIDENCE OF A FAILED PREDATION ATTEMPT ON A GUIANA DOLPHIN, Sotalia guianensis, BY A BULL SHARK, Carcharhinus leucas, IN BRAZILIAN WATERS",
+"doi": "https://doi.org/10.32360/acmar.v42i2.6032",
+"topics": "abund;prey",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W1964157629",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Morfologia do aparato hióide de algumas espécies de odontocetos do sul do Brasil",
+"doi": "https://doi.org/10.5007/2175-7925.2009v22n1p111",
+"topics": "noise",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2003575413",
+"source": "OpenAlex",
+"year": 2009,
+"title": "COMPORTAMENTO DO BOTO-CINZA (Sotalia guianensis) (CETACEA: DELPHINIDAE): AMOSTRAGEM, TERMOS E DEFINIÇÕES",
+"doi": "https://doi.org/10.4257/oeco.2009.1301.15",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2104994319",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Trace elements in different species of cetacean from Rio de Janeiro coast",
+"doi": "https://doi.org/10.1590/s0103-50532009000200008",
+"topics": "bycatch;chem",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3159214031",
+"source": "OpenAlex",
+"year": 2009,
+"title": "Influencia de embarcaciones de turismo en el comportamiento de Sotalia guianensis (Van Bénéden 1864), en Bahía de Madeiro, playa Pipa, Río Grande del norte de Brasil",
+"doi": "",
+"topics": "vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "PMID 19331770",
+"source": "OpenAlex (PMID)",
+"year": 2009,
+"title": "Lobomycosis in inshore and estuarine dolphins.",
+"doi": "https://doi.org/10.3201/eid1504.080955",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1999288826",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Marine tucuxi dolphin (Sotalia guianensis) injuries as a possible indicator of fisheries interaction in southeastern Brazil",
+"doi": "https://doi.org/10.1590/s1679-87592008000400007",
+"topics": "bycatch;health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2002986686",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Behavior of estuarine dolphin, Sotalia guianensis (Cetacea, Delphinidae), in controlled boat traffic situation at southern coast of Rio Grande do Norte, Brazil",
+"doi": "https://doi.org/10.1007/s10531-008-9435-z",
+"topics": "edu;legal;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W3093913037",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Cetaceans trading monitoring during seismic survey in North Fluminense (Rio de Janeiro) and South Capixaba (Espirito Santo) coasts; Monitoramento de encalhe de cetaceos durante levantamento de dados sismicos na costa norte fluminense (Rio de Janeiro) e sul capixaba (Espirito Santo)",
+"doi": "",
+"topics": "monitor;port;strand",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1529644694",
+"source": "OpenAlex",
+"year": 2008,
+"title": "USO DE HÁBITAT Y PRINCIPALES COMPORTAMIENTOS DEL DELFÍN GRIS (Sotalia guianensis, VAN BÉNÉDEN, 1864) EN LA BAHÍA NORTE, ESTADO DE SANTA CATARINA, BRASIL",
+"doi": "",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2030945661",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Site fidelity of Sotalia guianensis (Cetacea: Delphinidae) in Sepetiba Bay, Rio de Janeiro, Brazil",
+"doi": "https://doi.org/10.1590/s0101-81752008000200004",
+"topics": "abund;conn;life",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2073109194",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Aspects of behavioral ecology of Sotalia guianensis in Sepetiba Bay, southeast Brazil",
+"doi": "https://doi.org/10.1111/j.1748-7692.2008.00198.x",
+"topics": "climate",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2145070928",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Social Organization of Marine Tucuxi Dolphins, Sotalia guianensis, in the Cananéia Estuary of Southeastern Brazil",
+"doi": "https://doi.org/10.1644/07-mamm-a-090r2.1",
+"topics": "abund;genetic",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2165232283",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Individual identification and habitat use of the estuarine dolphin Sotalia guianensis (Cetacea: Delphinidae) in Cananéia, south-eastern Brazil, using video images",
+"doi": "https://doi.org/10.1017/s0025315408000398",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1971753545",
+"source": "OpenAlex",
+"year": 2008,
+"title": "The behavior of Sotalia guianensis (Van Bénéden) in Pernambuco coastal waters, Brazil, and a further analysis of its reaction to boat traffic",
+"doi": "https://doi.org/10.1590/s0101-81752008000100001",
+"topics": "bycatch;port;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W1017068353",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Estimativa de abundância do Boto-Cinza, Sotalia Guianensis, no complexo estuarino-lagunar de Cananéia (SP): gerando subsídios para a carta SAO",
+"doi": "",
+"topics": "abund",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2006157433",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Atypical coloration in a specimen of estuarine dolphin, Sotalia guianensis, on the littoral of the state of Rio Grande do Norte, north-east Brazil",
+"doi": "https://doi.org/10.1017/s1755267207008986",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2029167303",
+"source": "OpenAlex",
+"year": 2008,
+"title": "EVALUATING THE EFFECTS OF ANTHROPOGENIC NOISE ON ESTUARINE DOLPHINS (SOTALIA GUIANENSIS) FROM CANANEIA, SOUTHEASTERN BRAZIL",
+"doi": "https://doi.org/10.1080/09524622.2008.9753809",
+"topics": "noise;tmap",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2070328155",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Descrição do comportamento de superfície do boto cinza, Sotalia guianensis, na Praia de Pipa - RN",
+"doi": "https://doi.org/10.1590/s0102-79722008000300020",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2085352970",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Behavioural seasonality of the estuarine dolphin, Sotalia guianensis, on the north-eastern Brazilian coast",
+"doi": "https://doi.org/10.1017/s1755267207006628",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2113006091",
+"source": "OpenAlex",
+"year": 2008,
+"title": "The sharksucker (Echeneis naucrates) attached to a tucuxi dolphin (Sotalia guianensis) in estuarine waters in south-eastern Brazil",
+"doi": "https://doi.org/10.1017/s1755267205000746",
+"topics": "abund;climate",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2182209374",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Proposal for creation of a \"zoning with regulation of use in the Cananéia estuarine-lagoon complex\" aiming the conservation of the estuarine dolphin, Sotalia guianensis (van Bénéden) (Cetacea, Delphinidae)",
+"doi": "",
+"topics": "abund;bycatch;legal;life;mpa;noise;policy;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W285766853",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Monitoramento das interaçoes entre o boto-cinza, Sotalia guianensis (van Bénéden, 1864) e atividades de turismo no complexo estuarino-lagunar de Cananéia, litoral sul do estado de Sao Paulo",
+"doi": "",
+"topics": "monitor;vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W824740337",
+"source": "OpenAlex",
+"year": 2008,
+"title": "Uso de área por Sotalia guianensis (P. J. van Bénéden, 1864) (Cetacea, Delphinidae) no sistema estuarino-lagunar de Cananéia, SP, como subsídio para elaboração de cartas de sensibilidade ambiental a derramamentos de óleo",
+"doi": "",
+"topics": "conn;port",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2091752964",
+"source": "OpenAlex",
+"year": 2007,
+"title": "The influence of seasonality, tide and time of activities on the behavior of Sotalia guianensis (Van Bénéden) (Cetacea, Delphinidae) in Pernambuco, Brazil",
+"doi": "https://doi.org/10.1590/s0101-81752007000400032",
+"topics": "monitor;port;prey;strand",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W1991644456",
+"source": "OpenAlex",
+"year": 2007,
+"title": "A preliminary overview of skin and skeletal diseases and traumata in small cetaceans from South American waters",
+"doi": "https://doi.org/10.5597/lajam00108",
+"topics": "bycatch;genetic;habitat;health;monitor;port;strand;tmap;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2029909909",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Ecological aspects of marine tucuxi dolphins (Sotalia guianensis) based on group size and composition in the Cananéia Estuary, southeastern Brazil",
+"doi": "https://doi.org/10.5597/lajam00110",
+"topics": "climate;legal;vessel",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2080359540",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Isolation of Giardia sp. from an estuarine dolphin (Sotalia guianensis) in Ceará State, northeastern Brazil",
+"doi": "https://doi.org/10.5597/lajam00116",
+"topics": "health",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2044285431",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Behavioral patterns and movement intensity of Sotalia guianensis (P. J. van Bénéden) (Cetacea, Delphinidae) in two different areas on the Brazilian coast",
+"doi": "https://doi.org/10.1590/s0101-81752007000200001",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2008490114",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Twelve microsatellite loci for marine and riverine tucuxi dolphins (Sotalia guianensis and Sotalia fluviatilis)",
+"doi": "https://doi.org/10.1111/j.1471-8286.2007.01839.x",
+"topics": "genetic",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2152318629",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Organ weights of Pontoporia blainvillei and Sotalia guianensis (Cetacea: Pontoporiidae and Delphinidae)",
+"doi": "https://doi.org/10.1017/s0025315407056470",
+"topics": "bycatch",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2058377178",
+"source": "OpenAlex",
+"year": 2007,
+"title": "TAXONOMIC STATUS OF THE GENUS SOTALIA: SPECIES LEVEL RANKING FOR \"TUCUXI\" (SOTALIA FLUVIATILIS) AND \"COSTERO\" (SOTALIA GUIANENSIS) DOLPHINS",
+"doi": "https://doi.org/10.1111/j.1748-7692.2007.00110.x",
+"topics": "genetic",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W1982477081",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Habitat use by marine tucuxis (Sotalia guianensis) (Cetacea: Delphinidae) in Guanabara Bay, south-eastern Brazil",
+"doi": "https://doi.org/10.1017/s0025315407054422",
+"topics": "conn;habitat",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2007121610",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Residence and site fidelity of Sotalia guianensis in the Caravelas River Estuary, eastern Brazil",
+"doi": "https://doi.org/10.1017/s0025315407055683",
+"topics": "conn;monitor",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2112940813",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Stomach contents of the marine tucuxi dolphin (Sotalia guianensis) from Rio de Janeiro, south-eastern Brazil",
+"doi": "https://doi.org/10.1017/s0025315407053647",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1982189153",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Molecular sexing of tucuxi dolphins (Sotalia guianensis and Sotalia fluviatilis) using samples from biopsy darting and decomposed carcasses",
+"doi": "https://doi.org/10.1590/s1415-47572007000600025",
+"topics": "abund;genetic;life;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2355340680",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Potential geographical distribution of seven species of marine cetaceans reported in Venezuela,Southeast Caribbean",
+"doi": "",
+"topics": "conn;mpa;policy",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2969662435",
+"source": "OpenAlex",
+"year": 2007,
+"title": "Aspectos comportamentales y su relación con condiciones medio ambientales del delfín gris Sotalia guianensis (Van Bénédén, 1864) en Bahía de Madeiro, playa Pipa, Río Grande del Norte, Brasil",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2084937619",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Ecology of marine tucuxi, Sotalia guianensis, and bottlenose dolphin, Tursiops truncatus, in Baía Norte, Santa Catarina state, southern Brazil",
+"doi": "https://doi.org/10.5597/lajam00101",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2040946680",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Morfologia do sincrânio do boto-cinza, Sotalia guianensis (P.J. van Bénéden) (Cetacea, Delphinidae)",
+"doi": "https://doi.org/10.1590/s0101-81752006000300007",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2616137089",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Comportamento do boto-cinza, Sotalia guianensis (Van Bénédén) (Cetacea, Delphinidae) na presença de barcos de turismo na Praia de Pipa, Rio Grande do Norte, Brasil",
+"doi": "https://doi.org/10.1590/s0101-81752006000300008",
+"topics": "vessel",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2059574413",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Distribution and habitat use of small cetaceans off Abrolhos Bank, eastern Brazil",
+"doi": "https://doi.org/10.5597/lajam00088",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1597374094",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Comparações entre os comportamentos de forrageio nas diferentes faixas etárias do boto-cinza (Sotalia guianensis) (Cetacea; delphinidae) na Baia dos Golfinhos, Praia de Pipa - RN - Brasil",
+"doi": "",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1963872957",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Nocturnal Activity of the Estuarine Dolphin (Sotalia guianensis) in the Region of Cananéia, São Paulo State, Brazil",
+"doi": "https://doi.org/10.1578/am.32.2.2006.236",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1972208309",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Evidence of Bottom Contact Behavior by Estuarine Dolphins (Sotalia guianensis) on the Eastern Coast of Brazil",
+"doi": "https://doi.org/10.1578/am.32.2.2006.140",
+"topics": "conn",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2039453060",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Latitudinal variation in whistle structure of the estuarine dolphin Sotalia guianensis",
+"doi": "https://doi.org/10.1163/156853906775897905",
+"topics": "noise",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2380836656",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Alterações comportamentais do golfinho Sotalia guianensis (Gervais, 1953) provocadas por embarcações",
+"doi": "",
+"topics": "noise;vessel",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2559487723",
+"source": "OpenAlex",
+"year": 2006,
+"title": "Boto cinza (Sotalia guianensis, Van Benéden, 1864) (Cetacea, Delphinidae): Atividade aérea, forrageio e interações inter-específicas, na Praia de Pipa (Tibau do Sul - RN) e estudo comparativo entre duas populações do Nordeste do Brasil.",
+"doi": "",
+"topics": "prey",
+"matched_by": "title"
+},
+{
+"openalex_id": "W7120616442",
+"source": "OpenAlex",
+"year": 2006,
+"title": "OCORRÊNCIA E COMPORTAMENTO DE UM BOTO-CINZA, Sotalia guianensis, SOLITÁRIO NO NORDESTE DO BRASIL: QUANDO CONSIDERAR UM ENCALHE?",
+"doi": "https://doi.org/10.32360/acmar.v39i1-2.6368",
+"topics": "monitor;strand",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2014171601",
+"source": "OpenAlex",
+"year": 2005,
+"title": "Seasonal and daily patterns of group size, cohesion and activity of the estuarine dolphin, Sotalia guianensis (P.J. van Bénéden) (Cetacea, Delphinidae), in southern Brazil",
+"doi": "https://doi.org/10.1590/s0101-81752005000400029",
+"topics": "abund;climate;prey",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2096248332",
+"source": "OpenAlex",
+"year": 2005,
+"title": "Riverine and marine ecotypes of Sotalia dolphins are different species",
+"doi": "https://doi.org/10.1007/s00227-005-0078-2",
+"topics": "genetic",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2133656460",
+"source": "OpenAlex",
+"year": 2004,
+"title": "Notes on the anatomy, positioning and homology of the pelvic bones in small cetaceans (Cetacea, Delphinidae, Pontoporiidae)",
+"doi": "https://doi.org/10.5597/lajam00060",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2157996571",
+"source": "OpenAlex",
+"year": 2004,
+"title": "An Aggressive Interaction Between Bottlenose Dolphins (Tursiops truncatus) and Estuarine Dolphins (Sotalia guianensis) in Southern Brazil",
+"doi": "https://doi.org/10.1578/am.30.3.2004.391",
+"topics": "policy",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W4389324641",
+"source": "OpenAlex",
+"year": 2004,
+"title": "The vertebral morphology of the estuarine dolphin, Sotalia guianensis (Cetacea, Delphinidae)",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2345817202",
+"source": "OpenAlex",
+"year": 2004,
+"title": "Morfologia da coluna vertebral do boto-cinza, Sotalia guianensis (Cetacea, Delphinidae)",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2365310485",
+"source": "OpenAlex",
+"year": 2004,
+"title": "Variação sazonal na intensidade dos deslocamentos do boto-cinza, Sotalia guianensis (Cetacea: Delphinidae), na Baía Norte da Ilha de Santa Catarina",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2606492927",
+"source": "OpenAlex",
+"year": 2003,
+"title": "Behavior of the Estuarine Dolphin, Sotalia guianensis, at Dolphin Bay – Pipa - Rio Grande do Norte – Brazil.",
+"doi": "https://doi.org/10.5914/tropocean.v31i2.5018",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1980045271",
+"source": "OpenAlex",
+"year": 2003,
+"title": "Etnoecologia e captura acidental de golfinhos (Cetacea: Pontoporidae e Delphinidae) na Baía da Babitonga, Santa Catarina",
+"doi": "https://doi.org/10.5380/dma.v8i0.22053",
+"topics": "bycatch",
+"matched_by": "title"
+},
+{
+"openalex_id": "W1942376068",
+"source": "OpenAlex",
+"year": 2003,
+"title": "Tamanho e composição de grupo dos botos-cinza, Sotalia guianensis (van Bénéden, 1864) (Cetacea, Delphinidae) na baía de Paraty, Rio de Janeiro, Brasil",
+"doi": "https://doi.org/10.5088/atlântica.v25i2.2301",
+"topics": "life;prey",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2255720522",
+"source": "OpenAlex",
+"year": 2003,
+"title": "Age and growth of the estuarine dolphin (Sotalia guianensis) (Cetacea, Delphinidae) on the Paraná Coast, southern Brazil",
+"doi": "",
+"topics": "life",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2178371007",
+"source": "OpenAlex",
+"year": 2002,
+"title": "REPRODUCTION OF THE ESTUARINE DOLPHIN (SOTALIA GUIANENSIS) ON THE COAST OF PARANÁ, SOUTHERN BRAZIL",
+"doi": "https://doi.org/10.1644/1545-1542(2002)083<0507:roteds>2.0.co;2",
+"topics": "bycatch;life",
+"matched_by": "title+abstract"
+},
+{
+"openalex_id": "W2172612137",
+"source": "OpenAlex",
+"year": 2002,
+"title": "SKULL SHAPE AND SIZE DIVERGENCE IN DOLPHINS OF THE GENUS SOTALIA: A TRIDIMENSIONAL MORPHOMETRIC ANALYSIS",
+"doi": "https://doi.org/10.1093/jmammal/83.1.125",
+"topics": "life",
+"matched_by": "abstract"
+},
+{
+"openalex_id": "W2915542558",
+"source": "OpenAlex",
+"year": 2002,
+"title": "Distribuição espaço-temporal do boto Sotalia guianensis Van Bénéden 1964 (Cetacea, Delphinidae) na região de Cananéia, sul do estado de São Paulo",
+"doi": "",
+"topics": "conn",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2082891252",
+"source": "OpenAlex",
+"year": 1991,
+"title": "Sotalia guianensis (Cetacea, Delphinidae) population in the Guanabara Bay, Rio de Janeiro, Brazil",
+"doi": "https://doi.org/10.1515/mamm.1991.55.3.371",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2382541288",
+"source": "OpenAlex",
+"year": 1971,
+"title": "The occurrence and position of the \"connecting sac\" in the nasal tract complex of small odontocetas (Mammalia, Cetacea)",
+"doi": "",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "W2026479404",
+"source": "OpenAlex",
+"year": 1963,
+"title": "Notes on South American Dolphins of the Genera Inia, Sotalia and Tursiops",
+"doi": "https://doi.org/10.2307/1377172",
+"topics": "",
+"matched_by": "title"
+},
+{
+"openalex_id": "SCI:34lxnj23",
+"source": "SciSpace",
+"year": null,
+"title": "P otential conflicts between fishermen and s otalia guianensis (v an b énéden , 1864) (c etacea , d elphinidae ) in b razil",
+"doi": "https://scispace.com/papers/p-otential-conflicts-between-fishermen-and-s-otalia-34lxnj23",
+"topics": "bycatch",
+"matched_by": "title+abstract"
+}
+]

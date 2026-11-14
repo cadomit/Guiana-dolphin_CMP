@@ -1,0 +1,252 @@
+[
+{
+"mu": "CCOL",
+"area": "Gulf of Morrosquillo",
+"country": "Colombia",
+"low": 118,
+"high": 426,
+"source": "Dussán-Duque (2013)",
+"method": "Mark-recapture, c. 300 km2",
+"origin": "CMP 5.3"
+},
+{
+"mu": "CCOL",
+"area": "Gulf of Morrosquillo 2023-24",
+"country": "Colombia",
+"low": 194,
+"high": 415,
+"source": "Project presentation, Colombia (2025); point estimate 283, CV 0.20, 81 km2",
+"method": "Mark-recapture; manuscript submitted",
+"origin": "Project doc"
+},
+{
+"mu": "CCOL",
+"area": "Gulf of Urabá 2017-20",
+"country": "Colombia",
+"low": 53,
+"high": 76,
+"source": "Rosso-Londoño et al. (2024); point estimate 63",
+"method": "Mark-recapture, 2,980 km2",
+"origin": "CMP 5.3; Project doc"
+},
+{
+"mu": "CCOL",
+"area": "Costa Rica / Panama",
+"country": "Costa Rica, Panama",
+"low": 81,
+"high": 100,
+"source": "Gamboa-Poveda (2009)",
+"method": "Single study, c. 10 km2, 2003-2005",
+"origin": "CMP 5.3"
+},
+{
+"mu": "VEML",
+"area": "Lake Maracaibo (west-central)",
+"country": "Venezuela",
+"low": 414,
+"high": 414,
+"source": "Barrios-Garrido et al. (2021)",
+"method": "1.66 ind./km2 over 249.2 km2 (approx. 413.67)",
+"origin": "CMP 5.3"
+},
+{
+"mu": "VEOR",
+"area": "Orinoco River (1)",
+"country": "Venezuela",
+"low": 2205,
+"high": 2205,
+"source": "Gómez-Salazar et al. (2012)",
+"method": "Line transects",
+"origin": "CMP 5.3"
+},
+{
+"mu": "VEOR",
+"area": "Orinoco River (2)",
+"country": "Venezuela",
+"low": 4451,
+"high": 4451,
+"source": "Herrera (2013)",
+"method": "Line transects",
+"origin": "CMP 5.3"
+},
+{
+"mu": "FRGU",
+"area": "French Guiana EEZ (1)",
+"country": "French Guiana",
+"low": 1942,
+"high": 1942,
+"source": "Ridoux et al. (2010)",
+"method": "Aerial survey",
+"origin": "CMP 5.3"
+},
+{
+"mu": "FRGU",
+"area": "French Guiana EEZ (2)",
+"country": "French Guiana",
+"low": 2076,
+"high": 2076,
+"source": "Mannocci et al. (2013)",
+"method": "Aerial survey",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRNE1",
+"area": "Mucuripe embayment, CE",
+"country": "Brazil",
+"low": 26,
+"high": 64,
+"source": "Meirelles (2013)",
+"method": "Small embayment",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRNE2",
+"area": "Southern Rio Grande do Norte",
+"country": "Brazil",
+"low": 192,
+"high": 297,
+"source": "Paro (2010)",
+"method": "",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRNE4",
+"area": "Caravelas River estuary, BA",
+"country": "Brazil",
+"low": 83,
+"high": 182,
+"source": "Cantor et al. (2012)",
+"method": "Eight-year mark-recapture",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRNE4",
+"area": "Canavieiras estuarine complex, BA",
+"country": "Brazil",
+"low": 28,
+"high": 48,
+"source": "Melo (2018)",
+"method": "",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRNE4",
+"area": "Todos os Santos Bay, BA",
+"country": "Brazil",
+"low": 173,
+"high": 267,
+"source": "Bandeira (2019)",
+"method": "MU assignment differs within the CMP text (BRNE3 or BRNE4)",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRSE1",
+"area": "Doce River estuary, ES",
+"country": "Brazil",
+"low": 81,
+"high": 141,
+"source": "Cepile (2008)",
+"method": "",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRSE1",
+"area": "Benevente Bay, ES",
+"country": "Brazil",
+"low": 59,
+"high": 78,
+"source": "Mamede (2015)",
+"method": "",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRSE1",
+"area": "Espírito Santo coast, aerial (summer 2019)",
+"country": "Brazil",
+"low": 393,
+"high": 1256,
+"source": "RRDM-FEST (2019)",
+"method": "Aerial survey of whole unit",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRSE1",
+"area": "Espírito Santo coast, aerial (winter 2019)",
+"country": "Brazil",
+"low": 137,
+"high": 840,
+"source": "RRDM-FEST (2019)",
+"method": "Aerial survey of whole unit",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRSE2",
+"area": "Guanabara Bay, RJ",
+"country": "Brazil",
+"low": 37,
+"high": 40,
+"source": "Azevedo et al. (2017)",
+"method": "2015 estimate; 398 recorded in 1991 (Geise 1991)",
+"origin": "CMP 5.3; SALVE"
+},
+{
+"mu": "BRSE2",
+"area": "Sepetiba Bay, RJ (earlier)",
+"country": "Brazil",
+"low": 588,
+"high": 1004,
+"source": "Flach (2015)",
+"method": "Lower bound transcribed from a typographic run-together in the CMP ('5881,004'); verify",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRSE2",
+"area": "Sepetiba Bay, RJ (recent)",
+"country": "Brazil",
+"low": 1560,
+"high": 1560,
+"source": "Carvalho et al. (2025)",
+"method": "As cited in SALVE (N = 1,560)",
+"origin": "SALVE"
+},
+{
+"mu": "BRSE2",
+"area": "Ilha Grande Bay, RJ (earlier)",
+"country": "Brazil",
+"low": 602,
+"high": 1296,
+"source": "Souza (2013)",
+"method": "",
+"origin": "CMP 5.3"
+},
+{
+"mu": "BRSE2",
+"area": "Ilha Grande Bay, RJ (recent)",
+"country": "Brazil",
+"low": 1949,
+"high": 1949,
+"source": "Carvalho et al. (2025)",
+"method": "As cited in SALVE (N = 1,949)",
+"origin": "SALVE"
+},
+{
+"mu": "BRS/SE",
+"area": "Paranaguá Estuarine Complex",
+"country": "Brazil",
+"low": 1811,
+"high": 1811,
+"source": "Miranda (2017)",
+"method": "As cited in SALVE",
+"origin": "SALVE"
+},
+{
+"mu": "BRS/SE",
+"area": "Paranaguá Estuarine Complex (2025 range)",
+"country": "Brazil",
+"low": 1371,
+"high": 2393,
+"source": "C. Domit, pers. comm. (2025), cited in SALVE",
+"method": "Population estimate range",
+"origin": "SALVE"
+}
+]
