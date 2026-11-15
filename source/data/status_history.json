@@ -101,33 +101,6 @@
 {
 "level": "State",
 "jurisdiction": "Brazil",
-"area": "Rio de Janeiro",
-"year": 1999,
-"category": "NT",
-"criterion": "",
-"source": "SALVE listing"
-},
-{
-"level": "State",
-"jurisdiction": "Brazil",
-"area": "São Paulo",
-"year": 2009,
-"category": "NT",
-"criterion": "",
-"source": "SALVE listing"
-},
-{
-"level": "State",
-"jurisdiction": "Brazil",
-"area": "São Paulo",
-"year": 2018,
-"category": "NT",
-"criterion": "",
-"source": "São Paulo Decree 63.853 (2018)"
-},
-{
-"level": "State",
-"jurisdiction": "Brazil",
 "area": "Paraná",
 "year": 2004,
 "category": "VU",
@@ -250,5 +223,32 @@
 "category": "EN",
 "criterion": "C2a(ii)",
 "source": "UICN France, MNHN et al. (2017), Liste rouge des espèces menacées en France: faune vertébrée de Guyane"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "São Paulo",
+"year": 2018,
+"category": "T",
+"criterion": "",
+"source": "São Paulo State Decree 63.853 of 27 Nov 2018 (in force), Annex I: regionally extinct or threatened species; sub-category not confirmed"
+},
+{
+"level": "State",
+"jurisdiction": "Brazil",
+"area": "Rio de Janeiro",
+"year": null,
+"category": "",
+"criterion": "",
+"source": "No official state list of threatened fauna naming the species was found (November 2026); earlier 'Near Threatened (1999)' is reported only by SALVE"
+},
+{
+"level": "Municipal",
+"jurisdiction": "Brazil",
+"area": "Rio de Janeiro (municipality)",
+"year": 2022,
+"category": "VU",
+"criterion": "",
+"source": "Rio de Janeiro Municipal Resolution SMAC 073 of 19 Aug 2022 (threatened native fauna of the municipality)"
 }
 ]

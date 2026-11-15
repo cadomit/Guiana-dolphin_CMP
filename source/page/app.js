@@ -53,7 +53,7 @@ GD.fill = (tbody, rows, cols) => {
 GD.more = (summary, text) => text ? GD.h('details', null, GD.h('summary', { text: summary }), GD.h('p', { text })) : null;
 GD.trim = (s) => String(s == null ? '' : s).replace(/\s+/g, ' ').replace(/\.\s*$/, '').trim();
 
-const CAT_WORD = { DD: 'Data Deficient', NT: 'Near Threatened', VU: 'Vulnerable', EN: 'Endangered' };
+const CAT_WORD = { DD: 'Data Deficient', NT: 'Near Threatened', VU: 'Vulnerable', EN: 'Endangered', T: 'Threatened, category not confirmed' };
 GD.catWord = CAT_WORD;
 
 dash.calc('kpi', {

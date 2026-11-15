@@ -1,0 +1,19 @@
+{
+ "title": "IMMA boundaries (IUCN MMPATF)",
+ "description": "Official boundaries of the IMMAs that include the Guiana dolphin within its range, simplified for display (about 500 m tolerance). Source: IUCN MMPATF (2025) Global Dataset of Important Marine Mammal Areas (IUCN-IMMA), made available under agreement on terms and conditions of use by the IUCN Joint SSC/WCPA Marine Mammal Protected Areas Task Force, https://www.marinemammalhabitat.org/imma-eatlas/",
+ "source": {
+  "kind": "file",
+  "name": "imma_polygons.json",
+  "format": "json",
+  "url": "/_blob/7d9be511e545c87da5572c45c6869c99"
+ },
+ "fixed": true,
+ "updated": {
+  "at": "2026-11-15T14:10:00Z",
+  "by": "Claude, from the IUCN IMMA GeoJSON supplied by the dashboard owner"
+ },
+ "edit": {
+  "via": "claude",
+  "at": "2026-11-15T14:10:00Z"
+ }
+}

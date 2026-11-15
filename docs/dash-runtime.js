@@ -81,6 +81,20 @@
   }
   function schedule() { if (!scheduled) { scheduled = true; requestAnimationFrame(render); } }
 
+
+  // Downloads: the static site saves files straight through the browser.
+  if (!window.claude) {
+    window.claude = { use: async (name) => (name !== 'downloads' ? null : {
+      save: async ({ filename, data }) => {
+        const blob = data instanceof Blob ? data : new Blob([data]);
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a'); a.href = url; a.download = filename;
+        document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 2000);
+        return { status: 'saved' };
+      }
+    }) };
+  }
   window.dash = {
     data,
     onData(fn) { onDataFns.push(fn); try { fn(); } catch (e) { console.error(e); } },

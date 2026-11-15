@@ -51,10 +51,14 @@ GD.select = (name, param, allLabel, src, vals) => dash.draw(name, (sel) => {
 GD.select('f_sci_year', 'sci_year', 'All years', 'scispace_live', (rows) => [...new Set(rows.map((r) => r.year).filter(Boolean))].sort((a, b) => b - a).map(String));
 GD.select('f_sci_theme', 'sci_theme', 'All themes', 'scispace_live', (rows) => [...SCI_THEMES.map((t) => t[0]), SCI_OTHER].filter((t) => rows.some((r) => r.theme === t)));
 
-const sciRows = (rows) => {
+// Only the most recent years are listed until the reader asks for the rest (or picks a year).
+const SCI_RECENT_FROM = 2025;
+const sciFiltered = (rows) => {
   const p = dash.params();
   return rows.filter((r) => (!p.sci_year || String(r.year) === String(p.sci_year)) && (!p.sci_theme || r.theme === p.sci_theme));
 };
+const sciShowAll = () => { const p = dash.params(); return !!(p.sci_all || p.sci_year); };
+const sciRows = (rows) => sciFiltered(rows).filter((r) => sciShowAll() || (r.year || 0) >= SCI_RECENT_FROM);
 dash.draw('sci_body', (el) => {
   const g = GD.gate(el, 'scispace_live'); if (!g) return;
   GD.fill(el, sciRows(g[0]), [
@@ -70,6 +74,17 @@ dash.draw('sci_body', (el) => {
 dash.draw('sci_count', (el) => {
   const g = GD.gate(el, 'scispace_live'); if (!g) return;
   el.textContent = 'Showing ' + sciRows(g[0]).length + ' of ' + g[0].length + ' records';
+});
+
+dash.draw('sci_more', (btn) => {
+  const g = GD.ok('scispace_live');
+  if (!g) { btn.style.display = 'none'; return; }
+  const p = dash.params();
+  const older = sciFiltered(g).filter((r) => (r.year || 0) < SCI_RECENT_FROM).length;
+  btn.style.display = p.sci_year || older === 0 ? 'none' : '';
+  btn.textContent = p.sci_all ? 'Hide earlier records' : 'Show ' + older + ' earlier records (before ' + SCI_RECENT_FROM + ')';
+  btn.setAttribute('aria-expanded', p.sci_all ? 'true' : 'false');
+  btn.onclick = () => dash.setParams({ sci_all: p.sci_all ? null : true });
 });
 
 })();

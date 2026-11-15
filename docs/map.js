@@ -3,12 +3,12 @@
    and the IMMAs whose factsheets name the Guiana dolphin (provisional locations). */
 dash.calc('imma_stats', {
   title: 'IMMAs that include the Guiana dolphin: counts',
-  description: 'Number of IMMAs in the provisional list and of the countries and territories they cover.',
+  description: 'Number of IMMAs that include the Guiana dolphin, of the jurisdictions they cover and of those that list it as a qualifying species.',
   inputs: ['immas'],
   fn: (immas) => {
     const countries = new Set();
     immas.forEach((r) => String(r.countries || '').split(';').map((s) => s.trim()).filter(Boolean).forEach((c) => countries.add(c)));
-    return [{ n_immas: immas.length, n_countries: countries.size }];
+    return [{ n_immas: immas.length, n_countries: countries.size, n_qualifying: immas.filter((r) => r.role === 'Qualifying species').length }];
   }
 });
 
@@ -20,9 +20,9 @@ dash.calc('imma_stats', {
     const g = GD.gate(el, 'immas', 'states'); if (!g) return;
     // range states as listed in the dashboard's range-state table; French Guiana is drawn as part of France
     const RS = new Set(g[1].map((s) => String(s.country).replace(/^French Guiana \(France\)$/, 'France')));
-    const base = dash.data('map_base'), lay = dash.data('map_layers');
-    if (base.status !== 'ok' || lay.status !== 'ok' || !base.data || !base.data.features) {
-      el.textContent = (base.status === 'error' || lay.status === 'error') ? 'Failed to load' : '—'; return;
+    const base = dash.data('map_base'), lay = dash.data('map_layers'), polys = dash.data('imma_polys');
+    if ([base, lay, polys].some((x) => x.status !== 'ok' || !x.data || !x.data.features)) {
+      el.textContent = [base, lay, polys].some((x) => x.status === 'error') ? 'Failed to load' : '—'; return;
     }
     el.replaceChildren();
     const rows = g[0];
@@ -41,7 +41,10 @@ dash.calc('imma_stats', {
       .attr('class', (d) => 'gd-land' + (RS.has(d.properties.name) ? ' rs' : '')).attr('d', path);
     const feats = lay.data.features || [];
     root.append('g').selectAll('path').data(feats.filter((f) => f.properties.kind === 'range')).join('path').attr('class', 'gd-range').attr('d', path);
-    root.append('g').selectAll('path').data(feats.filter((f) => f.properties.kind === 'imma')).join('path').attr('class', 'gd-span').attr('d', path);
+    // official IMMA boundaries (IUCN MMPATF), largest first so small areas stay on top
+    const byNo = new Map(rows.map((r) => [r.no, r]));
+    const pf = polys.data.features.slice().sort((a, b) => d3.geoArea(b) - d3.geoArea(a));
+    const pg = root.append('g').selectAll('path').data(pf).join('path').attr('class', 'gd-immapoly').attr('d', path);
 
     const r = W < 480 ? 9 : 11;
     const pts = rows.map((d) => { const p = proj([+d.lon, +d.lat]); return { d, ax: p[0], ay: p[1], x: p[0], y: p[1] }; });
@@ -58,8 +61,12 @@ dash.calc('imma_stats', {
     const mk = root.append('g').selectAll('g').data(pts).join('g').attr('class', 'gd-imma').attr('transform', (p) => `translate(${p.x},${p.y})`);
     mk.append('circle').attr('r', r);
     mk.append('text').attr('text-anchor', 'middle').attr('dy', '0.35em').text((p) => p.d.no);
-    mk.on('pointermove pointerdown', (ev, p) => tip.show(ev, p.d.no + '. ' + p.d.name, [p.d.countries, p.d.role, p.d.located + ' (not the official boundary)']))
-      .on('pointerleave', () => tip.hide());
+    const info = (d) => [d.countries, 'Guiana dolphin: ' + d.role.toLowerCase(), 'Criteria: ' + d.criteria, d3.format(',')(d.area_km2) + ' km² · recognised ' + d.year];
+    const hl = (no) => pg.classed('on', (f) => f.properties.no === no);
+    mk.on('pointermove pointerdown', (ev, p) => { hl(p.d.no); tip.show(ev, p.d.no + '. ' + p.d.name, info(p.d)); })
+      .on('pointerleave', () => { hl(null); tip.hide(); });
+    pg.on('pointermove pointerdown', (ev, f) => { const d = byNo.get(f.properties.no); if (!d) return; hl(d.no); tip.show(ev, d.no + '. ' + d.name, info(d)); })
+      .on('pointerleave', () => { hl(null); tip.hide(); });
 
     // place-name hints for orientation, kept clear of the markers
     const hints = [['Atlantic Ocean', -40, 5], ['Caribbean Sea', -73.5, 15]];
@@ -74,13 +81,15 @@ dash.calc('imma_stats', {
       { cls: 'nw', f: (r) => h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer', text: r.name }) },
       { f: (r) => r.countries },
       { f: (r) => r.role },
-      { cls: 'wide', f: (r) => r.note },
-      { f: (r) => r.located }
+      { cls: 'nw', f: (r) => r.criteria },
+      { cls: 'num', f: (r) => d3.format(',')(r.area_km2) },
+      { cls: 'num', f: (r) => r.year }
     ]);
   });
 
   dash.draw('imma_n', (el) => { const s = ok('imma_stats'); el.textContent = s && s[0] ? s[0].n_immas : '—'; });
   dash.draw('imma_c', (el) => { const s = ok('imma_stats'); el.textContent = s && s[0] ? s[0].n_countries : '—'; });
+  dash.draw('imma_q', (el) => { const s = ok('imma_stats'); el.textContent = s && s[0] ? s[0].n_qualifying : '—'; });
 })();
 
 })();
