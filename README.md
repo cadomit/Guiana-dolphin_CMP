@@ -20,6 +20,22 @@ The dashboard supports the IWC Conservation Management Plan (CMP) for the Guiana
 - **Website (GitHub Pages):** https://cadomit.github.io/Guiana-dolphin_CMP/
 - **Live version (claude.ai):** https://claude.ai/artifact/79GgPWUJPym9LimjBMkvEd. It refreshes the PubMed and SciSpace tables when opened; access depends on the owner's sharing settings.
 
+## Link to the dashboard from another website
+
+A ready-made card (photo, title and button) can be pasted into any website, for example the laboratory's page. Preview and copy button: https://cadomit.github.io/Guiana-dolphin_CMP/embed/
+
+[![Evidence and assessment dashboard for the Guiana dolphin Conservation Management Plan](docs/embed/card-preview.png)](https://cadomit.github.io/Guiana-dolphin_CMP/)
+
+To embed it, paste the content of [`docs/embed/card-snippet.html`](docs/embed/card-snippet.html) into a "Custom HTML" (WordPress), "Embed code" (Wix, Google Sites) or plain HTML block. A plain button works too:
+
+```html
+<a href="https://cadomit.github.io/Guiana-dolphin_CMP/" target="_blank" rel="noopener"
+   style="display:inline-block;padding:12px 22px;border-radius:999px;background:#3b6ea5;color:#fff;
+          font-family:Arial,Helvetica,sans-serif;font-weight:600;text-decoration:none;">
+  Guiana dolphin dashboard →
+</a>
+```
+
 ## Suggested citation
 
 Laboratório de Ecologia e Conservação, Universidade Federal do Paraná (2026). *Guiana dolphin: evidence and assessment dashboard*. Supporting the IWC Conservation Management Plan for *Sotalia guianensis*. https://cadomit.github.io/Guiana-dolphin_CMP/

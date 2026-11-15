@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard card</title>
+<style>
+:root{color-scheme:light}
+body{margin:0;padding:24px 16px;background:#f4f5f7;font-family:Arial,Helvetica,sans-serif;color:#1f2328}
+main{max-width:760px;margin:0 auto}
+h1{font-family:Georgia,serif;font-weight:400;font-size:26px;margin:0 0 6px}
+p{line-height:1.5}
+pre{background:#fff;border:1px solid #d9dde3;border-radius:8px;padding:12px;overflow-x:auto;font-size:12px;white-space:pre-wrap;word-break:break-all}
+button{font:inherit;padding:8px 14px;border-radius:999px;border:1px solid #3b6ea5;background:#3b6ea5;color:#fff;cursor:pointer}
+</style></head>
+<body><main>
+<h1>Link card for the Guiana dolphin dashboard</h1>
+<p>Paste the code below into a "Custom HTML" or "Embed code" block of any website. The card opens the dashboard in a new tab and loads the photo from this site.</p>
+<a href="https://cadomit.github.io/Guiana-dolphin_CMP/" target="_blank" rel="noopener"
+   style="display:flex;flex-wrap:wrap;max-width:720px;border:1px solid #d9dde3;border-radius:12px;overflow:hidden;
+          text-decoration:none;color:#1f2328;background:#ffffff;font-family:Arial,Helvetica,sans-serif;
+          box-shadow:0 2px 10px rgba(0,0,0,.06);">
+  <img src="https://cadomit.github.io/Guiana-dolphin_CMP/cover.jpg"
+       alt="Two Guiana dolphins (Sotalia guianensis) leaping at the surface"
+       style="flex:1 1 260px;min-width:0;width:100%;max-width:100%;height:auto;object-fit:cover;aspect-ratio:580/310;display:block;">
+  <span style="flex:1 1 260px;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:18px 20px;">
+    <span style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5c6370;">
+      IWC Conservation Management Plan · <i>Sotalia guianensis</i></span>
+    <span style="font-family:Georgia,'Times New Roman',serif;font-size:22px;line-height:1.2;">
+      Evidence and assessment dashboard for the Guiana dolphin Conservation Management Plan</span>
+    <span style="align-self:flex-start;margin-top:4px;padding:8px 16px;border-radius:999px;background:#3b6ea5;color:#ffffff;
+                 font-size:14px;font-weight:600;">Open the dashboard →</span>
+    <span style="font-size:11px;color:#5c6370;">Photo: Laboratório de Ecologia e Conservação/UFPR</span>
+  </span>
+</a>
+<h2 style="font-size:16px;margin-top:28px">Code</h2>
+<p><button type="button" id="copy">Copy code</button> <span id="msg" aria-live="polite"></span></p>
+<pre id="code">&lt;a href=&quot;https://cadomit.github.io/Guiana-dolphin_CMP/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;
+   style=&quot;display:flex;flex-wrap:wrap;max-width:720px;border:1px solid #d9dde3;border-radius:12px;overflow:hidden;
+          text-decoration:none;color:#1f2328;background:#ffffff;font-family:Arial,Helvetica,sans-serif;
+          box-shadow:0 2px 10px rgba(0,0,0,.06);&quot;&gt;
+  &lt;img src=&quot;https://cadomit.github.io/Guiana-dolphin_CMP/cover.jpg&quot;
+       alt=&quot;Two Guiana dolphins (Sotalia guianensis) leaping at the surface&quot;
+       style=&quot;flex:1 1 260px;min-width:0;width:100%;max-width:100%;height:auto;object-fit:cover;aspect-ratio:580/310;display:block;&quot;&gt;
+  &lt;span style=&quot;flex:1 1 260px;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:18px 20px;&quot;&gt;
+    &lt;span style=&quot;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5c6370;&quot;&gt;
+      IWC Conservation Management Plan · &lt;i&gt;Sotalia guianensis&lt;/i&gt;&lt;/span&gt;
+    &lt;span style=&quot;font-family:Georgia,&#x27;Times New Roman&#x27;,serif;font-size:22px;line-height:1.2;&quot;&gt;
+      Evidence and assessment dashboard for the Guiana dolphin Conservation Management Plan&lt;/span&gt;
+    &lt;span style=&quot;align-self:flex-start;margin-top:4px;padding:8px 16px;border-radius:999px;background:#3b6ea5;color:#ffffff;
+                 font-size:14px;font-weight:600;&quot;&gt;Open the dashboard →&lt;/span&gt;
+    &lt;span style=&quot;font-size:11px;color:#5c6370;&quot;&gt;Photo: Laboratório de Ecologia e Conservação/UFPR&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/a&gt;</pre>
+<p style="font-size:12px;color:#5c6370">Photo: Laboratório de Ecologia e Conservação/UFPR. Dashboard prepared by the Laboratório de Ecologia e Conservação, Universidade Federal do Paraná, Paraná, Brazil.</p>
+</main>
+<script>
+document.getElementById('copy').addEventListener('click', async () => {
+  const t = document.getElementById('code').textContent, m = document.getElementById('msg');
+  try { await navigator.clipboard.writeText(t); m.textContent = 'Copied.'; } catch (e) { m.textContent = 'Select the code and copy it manually.'; }
+});
+</script>
+</body></html>
