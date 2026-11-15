@@ -145,14 +145,15 @@ dash.draw('chart_status', (el) => {
   const lanes = [{ label: 'IUCN Red List (global)', f: (r) => r.level === 'Global' }]
     .concat(others.map((c) => ({ label: 'National · ' + c, f: (r) => r.level === 'National' && r.jurisdiction === c })))
     .concat([{ label: 'Brazil (national list)', f: (r) => r.level === 'National' && r.jurisdiction === 'Brazil' }])
-    .concat(states.map((s) => ({ label: 'State · ' + s, f: (r) => r.level === 'State' && r.area === s })));
+    .concat(states.map((s) => ({ label: 'State · ' + s, f: (r) => r.level === 'State' && r.area === s })))
+    .concat([...new Set(st.filter((r) => r.level === 'Municipal').map((r) => r.area))].map((m) => ({ label: 'Municipal · ' + m.replace(/ \(municipality\)$/, ''), f: (r) => r.level === 'Municipal' && r.area === m })));
   lanes.forEach((l) => {
     const all = st.filter(l.f);
     l.none = all.filter((r) => !r.category);
     l.pts = all.filter((r) => r.category).sort((a, b) => (a.year == null ? 9999 : a.year) - (b.year == null ? 9999 : b.year));
   });
-  const cls = { DD: 'dd', NT: 's1', VU: 's2', EN: 's3' };
-  el.append(legendOf(['DD', 'NT', 'VU', 'EN'].map((c) => ({ cls: cls[c], label: CW[c] + ' (' + c + ')' }))));
+  const cls = { DD: 'dd', NT: 's1', VU: 's2', EN: 's3', T: 'tu' };
+  el.append(legendOf(['DD', 'NT', 'VU', 'EN', 'T'].filter((c) => c !== 'T' || st.some((r) => r.category === 'T')).map((c) => ({ cls: cls[c], label: CW[c] + ' (' + c + ')' }))));
   const W = Math.max(280, el.clientWidth), narrow = W < 520, laneH = 28, top = 4, H = top + lanes.length * laneH + 26;
   const svg = d3.select(el).append('svg').attr('role', 'img').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`)
     .attr('aria-label', 'Timeline of conservation status assessments by jurisdiction, showing the category assigned in each year.');
@@ -175,7 +176,7 @@ dash.draw('chart_status', (el) => {
   });
   lanes.forEach((l, i) => {
     if (l.pts.length || !l.none.length) return;
-    const t = svg.append('text').attr('class', 'gd-gap').attr('x', x(1998) + 4).attr('y', top + i * laneH + laneH / 2 + 4).text('No national category found');
+    const t = svg.append('text').attr('class', 'gd-gap').attr('x', x(1998) + 4).attr('y', top + i * laneH + laneH / 2 + 4).text(/^State/.test(l.label) ? 'No official state listing found' : 'No national category found');
     const r0 = l.none[0];
     t.on('pointermove pointerdown', (ev) => tip.show(ev, l.label, [r0.source])).on('pointerleave', () => tip.hide());
   });
@@ -341,7 +342,10 @@ dash.draw('pm_body', (tb) => {
 });
 dash.draw('flags_body', (tb) => {
   const g = gate(tb, 'flags'); if (!g) return;
-  fill(tb, g[0], [{ cls: 'nw', f: (r) => r.topic }, { cls: 'wide', f: (r) => r.issue }, { cls: 'wide', f: (r) => r.action }]);
+  const ORD = { 'Pending in CMP text': 0, 'To confirm': 1, Open: 2, Resolved: 3 };
+  const SCL = { 'Pending in CMP text': 'hi', 'To confirm': 'md', Open: 'md', Resolved: '' };
+  const rows = g[0].slice().sort((a, b) => (ORD[a.status] ?? 9) - (ORD[b.status] ?? 9));
+  fill(tb, rows, [{ cls: 'nw', f: (r) => r.topic }, { cls: 'nw', f: (r) => badge(r.status || '', SCL[r.status] || '') }, { cls: 'wide', f: (r) => r.issue }, { cls: 'wide', f: (r) => r.action }, { cls: 'wide', f: (r) => r.resolution }]);
 });
 
 })();

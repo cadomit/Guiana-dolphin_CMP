@@ -1,7 +1,7 @@
 [
 {
 "category": "1 Residential & commercial development",
-"level1": "1.1 Housing & urban areas",
+"level1": "1.1–1.2 Urban and industrial areas",
 "level2": "",
 "timing": "Ongoing.",
 "scope": "Affects <50%.",
@@ -9,24 +9,11 @@
 "mitigation": "Yes, methods exist or could be developed in a timely manner to mitigate the threat.",
 "human_dimension": "Difficult",
 "cost": "Medium",
-"comment": "Coastal housing and land reclamation reduce or degrade estuarine habitat. Proposed scope <50% is a preliminary inference from geographically concentrated development, not a population-weighted estimate. Review regional coverage and cumulative habitat loss. Land-use planning and habitat protection are feasible but may conflict with development interests. CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, section 6.1.4; SALVE: Farro et al. (2025), doi:10.37002/salve.ficha.14515.3.",
+"comment": "Coastal housing and land reclamation reduce or degrade estuarine habitat. Proposed scope <50% is a preliminary inference from geographically concentrated development, not a population-weighted estimate. Review regional coverage and cumulative habitat loss. Land-use planning and habitat protection are feasible but may conflict with development interests. CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, section 6.1.4; SALVE: Farro et al. (2025), doi:10.37002/salve.ficha.14515.3. Port, marina and industrial development can displace dolphins and alter habitat use. Scope <50% requires regional validation. Distinguish habitat alteration here from vessel strikes (4.3) and noise (9.6.3); their impacts must not be added mechanically. Review current projects and mitigation effectiveness. CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, section 6.1.4; SALVE: Farro et al. (2025), doi:10.37002/salve.ficha.14515.3. (Rows 1.1 Housing & urban areas and 1.2 Commercial & industrial areas merged.)",
 "status": "Scored (provisional)"
 },
 {
-"category": "1 Residential & commercial development",
-"level1": "1.2 Commercial & industrial areas",
-"level2": "",
-"timing": "Ongoing.",
-"scope": "Affects <50%.",
-"severity": "Unknown",
-"mitigation": "Yes, methods exist or could be developed in a timely manner to mitigate the threat.",
-"human_dimension": "Difficult",
-"cost": "Medium",
-"comment": "Port, marina and industrial development can displace dolphins and alter habitat use. Scope <50% requires regional validation. Distinguish habitat alteration here from vessel strikes (4.3) and noise (9.6.3); their impacts must not be added mechanically. Review current projects and mitigation effectiveness. CMP: Governments of Brazil, Costa Rica, France & Panama (2024), SC/69B/CMP/18 rev1, section 6.1.4; SALVE: Farro et al. (2025), doi:10.37002/salve.ficha.14515.3.",
-"status": "Scored (provisional)"
-},
-{
-"category": "2 Commercial & industrial areas",
+"category": "2 Agriculture & aquaculture",
 "level1": "2.4 Marine & freshwater aquaculture",
 "level2": "2.4.2 Industrial aquaculture",
 "timing": "",
@@ -39,7 +26,7 @@
 "status": "Not scored"
 },
 {
-"category": "2 Commercial & industrial areas",
+"category": "2 Agriculture & aquaculture",
 "level1": "2.4 Marine & freshwater aquaculture",
 "level2": "2.4.3 Scale Unknown/Unrecorded",
 "timing": "",

@@ -3,15 +3,20 @@ Page files come from page/, data from data/, live sources from site/snapshots/."
 import json, glob, os, shutil, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(os.path.dirname(ROOT), 'docs')
+# IMMA data from the IUCN dataset are licensed (no republication): public builds use the
+# factsheet-based list in *_public files until the IMMA Secretariat authorises otherwise.
+PUBLIC = os.environ.get('DASH_PUBLIC', '0') != '0'  # IMMA data cleared for public use (permit, Nov 2026)
 LIVE_URL = 'https://claude.ai/artifact/79GgPWUJPym9LimjBMkvEd'
-SNAP_DATE = '14 November 2026'
+SNAP_DATE = '15 November 2026'
 
 sources = {}
 for f in sorted(glob.glob(os.path.join(ROOT, 'datasets', '*.json'))):
     if f.endswith(',by-others'): continue
     ds = json.load(open(f)); sid = os.path.basename(f)[:-5]; s = ds['source']
     if s['kind'] == 'file':
-        shutil.copy(os.path.join(ROOT, 'data', s['name']), os.path.join(SITE, 'data', s['name']))
+        src = s['name']
+        if PUBLIC and src == 'immas.json': src = 'immas_public.json'
+        shutil.copy(os.path.join(ROOT, 'data', src), os.path.join(SITE, 'data', s['name']))
         sources[sid] = {'file': 'data/' + s['name']}
     elif s.get('tool') == 'search_articles':
         sources[sid] = {'answer': 'snapshots/pubmed_search.json', 'calls': {'get_article_metadata': 'snapshots/pubmed_metadata.json'}, 'args': s['args']}
@@ -22,11 +27,13 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'datasets', '*.json'))):
 
 shutil.copy(os.path.join(ROOT, 'page', 'app.css'), os.path.join(SITE, 'app.css'))
 # in the dashboard each script runs in its own scope; anything shared goes on window
-for n in ['app.js', 'draw.js', 'map.js', 'sci.js', 'evid.js']:
-    src = open(os.path.join(ROOT, 'page', n)).read()
+for n in ['app.js', 'draw.js', 'map.js', 'sci.js', 'litdl.js', 'evid.js', 'overview.js', 'refs.js']:
+    pn = 'map_public.js' if PUBLIC and n == 'map.js' else n
+    if not os.path.exists(os.path.join(ROOT, 'page', pn)): continue
+    src = open(os.path.join(ROOT, 'page', pn)).read()
     open(os.path.join(SITE, n), 'w').write('(function () {\n' + src + '\n})();\n')
 
-body = open(os.path.join(ROOT, 'page', 'index.html')).read()
+body = open(os.path.join(ROOT, 'page', 'index_public.html' if PUBLIC else 'index.html')).read()
 body = body.replace('<meta name="dash-one-writer">', '').replace('<link rel="stylesheet" href="app.css">', '')
 # the snapshot tables are no longer live: say so where the page says "live"
 body = body.replace('Retrieved through the PubMed connector each time the dashboard is opened or refreshed.',
