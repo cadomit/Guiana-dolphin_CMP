@@ -88,7 +88,7 @@ dash.calc('mt_units', {
     const groups = [...new Set(st.map((s) => s.group))];
     legend(el, [['mt-dot', 'Published studies (size = number)'], ['mt-ring', 'Recorded by the CMP for the unit'], ['mt-x', 'Neither']]);
     const W = Math.max(320, el.clientWidth), narrow = W < 640;
-    const rowH = 26, labW = narrow ? 58 : 200, headH = narrow ? 96 : 104, colW = Math.max(18, Math.min(46, (W - labW - 70) / st.length));
+    const rowH = 26, showRange = W >= 820, unitW = narrow ? 58 : 190, rangeW = showRange ? Math.min(300, W * 0.26) : 0, labW = unitW + rangeW, headH = narrow ? 96 : 104, colW = Math.max(18, Math.min(46, (W - labW - 70) / st.length));
     const H = headH + units.length * rowH + 8;
     const svg = d3.select(el).append('svg').attr('role', 'img').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`)
       .attr('aria-label', 'Matrix of management units against stressors, showing where published studies document each stressor and where the CMP records it.');
@@ -106,7 +106,16 @@ dash.calc('mt_units', {
     const rows = svg.append('g').selectAll('g').data(units).join('g').attr('class', (u) => 'mt-row' + (u.mu === cur ? ' on' : '')).attr('transform', (u, i) => `translate(0,${headH + i * rowH})`)
       .on('click', (ev, u) => pick(u.mu));
     rows.append('rect').attr('class', 'mt-rowbg').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH);
-    rows.append('text').attr('class', 'gd-lbl').attr('x', 4).attr('y', rowH / 2 + 4).text((u) => (narrow ? u.mu : u.mu + ' · ' + u.name));
+    rows.append('text').attr('class', 'gd-lbl').attr('x', 4).attr('y', rowH / 2 + 4).text((u) => (narrow ? u.mu : u.mu + ' · ' + u.name))
+      .each(function () { let t = this.textContent; while (this.getComputedTextLength() > unitW - 12 && t.length > 4) { t = t.slice(0, -2); this.textContent = t + '…'; } })
+      .append('title').text((u) => u.mu + ' · ' + u.name);
+    if (showRange) {
+      svg.append('text').attr('class', 'gd-head').attr('x', 4).attr('y', headH - 12).text('Unit');
+      svg.append('text').attr('class', 'gd-head').attr('x', unitW).attr('y', headH - 12).text('Range');
+      rows.append('text').attr('class', 'mt-range').attr('x', unitW).attr('y', rowH / 2 + 4).text((u) => u.range)
+        .each(function (u) { let t = u.range; while (this.getComputedTextLength() > rangeW - 12 && t.length > 4) { t = t.slice(0, -2); this.textContent = t + '…'; } })
+        .append('title').text((u) => u.range);
+    }
     const rmax = Math.min(colW, rowH) / 2 - 2;
     const r = d3.scaleSqrt().domain([0, d3.max(g[1], (c) => c.n_studies) || 1]).range([0, rmax]);
     units.forEach((u, ui) => st.forEach((s, si) => {
@@ -119,7 +128,7 @@ dash.calc('mt_units', {
       if (!c) gg.append('circle').attr('class', 'mt-xc').attr('r', 1.6);
     }));
     svg.append('g').selectAll('text').data(units).join('text').attr('class', 'ov-tick').attr('x', labW + st.length * colW + 8).attr('y', (u, i) => headH + i * rowH + rowH / 2 + 4)
-      .text((u) => u.n_studies + (narrow ? '' : ' studies'));
+      .text((u) => u.n_studies + (narrow ? '' : (u.n_studies === 1 ? ' study' : ' studies')));
   });
 
   // Unit selector (accessible alternative to clicking the map or the matrix)

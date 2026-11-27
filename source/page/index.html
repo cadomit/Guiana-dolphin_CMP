@@ -92,7 +92,7 @@
   <h3 class="gd-h3">Management units and evidence coverage</h3>
   <div class="gd-wrap">
     <table class="gd-table" id="units-table" data-source="mu_cov" data-row-key="mu">
-      <thead><tr><th data-field="mu">Unit</th><th data-field="name">Name</th><th data-field="range">Range</th><th data-field="n_est">Studies</th><th>Estimate bounds</th><th data-field="note">Remarks</th></tr></thead>
+      <thead><tr><th data-field="mu">Unit</th><th data-field="name">Name</th><th data-field="range">Range</th><th data-field="n_est">Abundance studies</th><th data-field="note">Remarks</th></tr></thead>
       <tbody data-draw="units_body"></tbody>
     </table>
   </div>
@@ -146,12 +146,9 @@
   <h2 class="gd-h2">Threats by management unit</h2>
   <p class="gd-sub">Where in the range each stressor has been documented. A stressor counts for a unit when a published study on the Guiana dolphin documents it there; the CMP's own records for each unit are shown alongside. Select a unit on the map, in the matrix or in the list to see how its sources of pressure, stressors and reported impacts connect, and the studies behind them.</p>
   <p class="gd-note gd-warn-note"><b>How the studies were assigned.</b> 75 studies from PubMed and SciSpace were assigned to units by the places named in their title (or, failing that, their abstract) and to stressors by keywords, then checked by reading the list; studies that name only "Brazil" are not assigned to a unit. Unit boundaries on the map are approximate coastal limits drawn from the CMP's description of each unit. An empty cell means no study was found in these indexes, not that the stressor is absent.</p>
-  <div class="mt-grid">
-    <div class="gd-chart gd-map mt-map" id="threat-unit-map" data-draw="mt_map" data-source="mt_units mu_segments map_base"></div>
-    <div class="mt-side">
-      <div class="gd-chart mt-matrix" id="threat-unit-matrix" data-draw="mt_matrix" data-source="mt_units mt_cells stressor_defs"></div>
-    </div>
-  </div>
+  <div class="gd-chart gd-map mt-map" id="threat-unit-map" data-draw="mt_map" data-source="mt_units mu_segments map_base"></div>
+  <h3 class="gd-h3">Stressors documented in each unit</h3>
+  <div class="gd-chart mt-matrix" id="threat-unit-matrix" data-draw="mt_matrix" data-source="mt_units mt_cells stressor_defs"></div>
   <div class="gd-card mt-detail" id="threat-unit-detail">
     <div class="gd-controls">
       <label>Management unit <select class="dash-select" data-draw="mt_select" data-source="mt_units" aria-label="Choose a management unit"></select></label>
@@ -366,6 +363,10 @@
       <tbody data-draw="evid_body"></tbody>
     </table>
   </div>
+  <div class="gd-controls gd-dl">
+    <button type="button" class="gd-more" data-evid-dl="cmp" data-kind="pdf">Download this table (PDF)</button>
+    <span class="gd-note" data-draw="evid_dl_cmp" data-source="evid_cmp" aria-live="polite"></span>
+  </div>
 
   <h3 class="gd-h3">Brazilian national action plan for marine cetaceans (PAN)</h3>
   <p class="gd-note">The ten specific objectives are those of the executive summary published by ICMBio; the English labels are abbreviated renderings and the official Portuguese wording is given beneath each.</p>
@@ -392,6 +393,10 @@
       <thead><tr><th data-field="year">Year</th><th data-field="title">Title</th><th>Matched actions and objectives</th><th data-field="source">Source</th><th data-field="matched_by">Matched on</th><th data-field="openalex_id">Identifier</th></tr></thead>
       <tbody data-draw="oa_body"></tbody>
     </table>
+  </div>
+  <div class="gd-controls gd-dl">
+    <button type="button" class="gd-more" data-evid-dl="oa" data-kind="pdf">Download this list (PDF)</button>
+    <span class="gd-note" data-draw="evid_dl_oa" data-source="oa_records" aria-live="polite"></span>
   </div>
 </section>
 

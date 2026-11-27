@@ -183,3 +183,4 @@
 .mt-node.im rect{fill:color-mix(in srgb,var(--color-warn) 18%,var(--color-bg))}
 .gd-chart svg text.mt-sub{font-size:10px;font-weight:600;fill:var(--color-fg-muted)}
 .mt-links a{white-space:nowrap}
+.gd-chart svg text.mt-range{font-size:11px;fill:var(--color-fg-muted)}

@@ -198,3 +198,43 @@ dash.draw('instr_body', (tb) => {
     { cls: 'nw', f: (r) => (/^https?:\/\//.test(r.url) ? h('a', { class: 'gd-link', href: r.url, target: '_blank', rel: 'noopener noreferrer', text: 'Source' }) : '') }
   ]);
 });
+
+/* ---- PDF downloads of the action table and the added-records list, as currently filtered ---- */
+const evDate = () => new Date().toISOString().slice(0, 10);
+dash.draw('evid_dl_cmp', {
+  mount(el) {
+    GD.exporter([...document.querySelectorAll('[data-evid-dl="cmp"]')], (m) => { el.textContent = m; }, () => {
+      const rows = (ok('evid_cmp') ? cmpRows(ok('evid_cmp')) : []).map((r) => ({
+        id: r.id, priority: r.priority, label: r.label + (r.note ? ' (' + r.note + ')' : ''),
+        pm: r.count == null ? '' : String(r.count_pubmed), oa: r.count == null ? '' : String(r.count_oa), sci: r.count == null ? '' : String(r.count_sci || 0),
+        total: r.count == null ? 'Not measured' : String(r.count), share: r.share == null ? '' : pct(r.share) }));
+      const p = dash.params(), f = [p.e_line ? LINES[p.e_line] || p.e_line : '', p.e_prio || ''].filter(Boolean).join(', ');
+      return { name: 'guiana-dolphin-evidence-by-action', rows, groupKey: null,
+        title: 'Evidence available for each CMP action (records naming the Guiana dolphin), exported ' + evDate(),
+        subtitle: 'Distinct records matching each action topic: PubMed, added from OpenAlex and added from SciSpace. ' + (f ? 'Filter: ' + f + '. ' : '') + 'Counts overlap between actions and must not be added.',
+        cols: [{ key: 'id', label: 'Action', w: 52 }, { key: 'priority', label: 'Priority', w: 56 }, { key: 'label', label: 'Evidence topic', w: 330 }, { key: 'pm', label: 'PubMed', w: 44 },
+          { key: 'oa', label: 'OpenAlex', w: 48 }, { key: 'sci', label: 'SciSpace', w: 48 }, { key: 'total', label: 'Integrated', w: 60 }, { key: 'share', label: 'Share', w: 40 }] };
+    });
+    return {};
+  },
+  update() {}
+});
+dash.draw('evid_dl_oa', {
+  mount(el) {
+    GD.exporter([...document.querySelectorAll('[data-evid-dl="oa"]')], (m) => { el.textContent = m; }, () => {
+      const recs = ok('oa_records'), ev = ok('evidence_counts'); if (!recs || !ev) return null;
+      const m = topicIds(ev);
+      const rows = oaRows(recs).map((r) => ({ year: String(r.year), title: r.title,
+        ids: [...new Set(String(r.topics).split(';').filter(Boolean).flatMap((k) => m.get(k) || []))].join(', ') || 'No topic matched',
+        source: r.source || 'OpenAlex', matched: ({ title: 'Title', abstract: 'Abstract', 'title+abstract': 'Title and abstract' }[r.matched_by] || ''), link: r.doi || r.openalex_id }));
+      const p = dash.params(), topic = p.o_topic ? (ev.find((r) => r.query_key === p.o_topic) || {}).label : '';
+      return { name: 'guiana-dolphin-added-records', rows, groupKey: null,
+        title: 'Records added to the PubMed counts (OpenAlex and SciSpace), exported ' + evDate(),
+        subtitle: [topic ? 'Topic: ' + topic : '', p.o_q ? 'Search: ' + p.o_q : ''].filter(Boolean).join('. ') || 'All records.',
+        cols: [{ key: 'year', label: 'Year', w: 30 }, { key: 'title', label: 'Title', w: 330 }, { key: 'ids', label: 'Matched actions and objectives', w: 150 },
+          { key: 'source', label: 'Source', w: 50 }, { key: 'matched', label: 'Matched on', w: 60 }, { key: 'link', label: 'Link', w: 120 }] };
+    });
+    return {};
+  },
+  update() {}
+});

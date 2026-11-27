@@ -261,8 +261,8 @@ const blank = (v) => (v ? v : '—');
 dash.draw('units_body', (tb) => {
   const g = gate(tb, 'mu_cov'); if (!g) return;
   fill(tb, g[0], [
-    { cls: 'nw', f: (r) => r.mu }, { f: (r) => r.name }, { f: (r) => r.range }, { cls: 'num', f: (r) => String(r.n_est) },
-    { cls: 'nw', f: (r) => (r.n_est ? (r.low === r.high ? fmt(r.low) : fmt(r.low) + '–' + fmt(r.high)) : badge('No estimate', 'gap')) },
+    { cls: 'nw', f: (r) => r.mu }, { f: (r) => r.name }, { f: (r) => r.range },
+    { cls: 'num', f: (r) => (r.n_est ? String(r.n_est) : badge('No estimate', 'gap')) },
     { cls: 'wide', f: (r) => r.note }
   ]);
 });
