@@ -9,6 +9,7 @@ The dashboard supports the IWC Conservation Management Plan (CMP) for the Guiana
 - a graphical summary of the evidence ("At a glance");
 - population structure and abundance;
 - threats and the threat scoring forms;
+- threats by management unit: a map, a unit × stressor matrix, a source → stressor → impact diagram and the published studies for each unit, with links to open-access PDFs;
 - the 2024–2028 action plan;
 - IWC recommendations and CMS/IWC instruments;
 - international and Brazilian conservation status;
@@ -63,7 +64,8 @@ source/page/          the dashboard's page files (HTML, CSS, scripts)
 source/data/          data files
 source/datasets/      where each figure comes from (file or live query)
 source/snapshots/     recorded answers of the live PubMed and SciSpace queries
-source/tools/         build_site.py (rebuilds docs/), build_imma_polygons.py, build_map_layers.py
+source/tools/         build_site.py (rebuilds docs/), build_imma_polygons.py, build_map_layers.py,
+                      build_threat_corpus.py and build_mu_segments.py (threats by management unit)
 ```
 
 To rebuild the site after changing a page or data file, run `python3 source/tools/build_site.py`. `docs/dash-runtime.js` is a small stand-in for the dashboard runtime, so the page scripts run unchanged.

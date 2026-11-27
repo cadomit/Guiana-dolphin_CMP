@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="tokens.css">
 <link rel="stylesheet" href="app.css">
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-<script>window.DASH_SOURCES = {"abundance": {"file": "data/abundance.json"}, "actions": {"file": "data/actions.json"}, "cmp_threats": {"file": "data/cmp_threats.json"}, "evidence_counts": {"file": "data/evidence_counts.json"}, "fisheries": {"file": "data/fisheries_scores.json"}, "flags": {"file": "data/editorial_flags.json"}, "imma_polys": {"file": "data/imma_polygons.json"}, "immas": {"file": "data/immas.json"}, "intl_instruments": {"file": "data/intl_instruments.json"}, "iwc": {"file": "data/iwc_recommendations.json"}, "lit_records": {"file": "data/lit_landmarks.json"}, "lit_years": {"file": "data/lit_year_counts.json"}, "map_base": {"file": "data/basemap_countries.json"}, "map_layers": {"file": "data/map_layers.json"}, "milestones": {"file": "data/milestones.json"}, "mus": {"file": "data/management_units.json"}, "oa_records": {"file": "data/oa_added_records.json"}, "pubmed_live": {"answer": "snapshots/pubmed_search.json", "calls": {"get_article_metadata": "snapshots/pubmed_metadata.json"}, "args": {"max_results": 10, "query": "Sotalia guianensis", "sort": "pub_date"}}, "pubmed_years": {"file": "data/pubmed_year_counts.json"}, "salve": {"file": "data/salve_indicators.json"}, "scispace_live": {"answer": "snapshots/scispace_search.json", "args": {"query": "What is known about the conservation, abundance and threats of the Guiana dolphin (Sotalia guianensis)? year:2015-2026 sort:newest limit:100"}}, "states": {"file": "data/range_states.json"}, "status": {"file": "data/status_history.json"}, "threat_scores": {"file": "data/threat_scores.json"}, "workshop": {"file": "data/workshop_recs.json"}};</script>
+<script>window.DASH_SOURCES = {"abundance": {"file": "data/abundance.json"}, "actions": {"file": "data/actions.json"}, "cmp_threats": {"file": "data/cmp_threats.json"}, "cmp_unit_threats": {"file": "data/cmp_unit_threats.json"}, "evidence_counts": {"file": "data/evidence_counts.json"}, "fisheries": {"file": "data/fisheries_scores.json"}, "flags": {"file": "data/editorial_flags.json"}, "imma_polys": {"file": "data/imma_polygons.json"}, "immas": {"file": "data/immas.json"}, "intl_instruments": {"file": "data/intl_instruments.json"}, "iwc": {"file": "data/iwc_recommendations.json"}, "lit_records": {"file": "data/lit_landmarks.json"}, "lit_years": {"file": "data/lit_year_counts.json"}, "map_base": {"file": "data/basemap_countries.json"}, "map_layers": {"file": "data/map_layers.json"}, "milestones": {"file": "data/milestones.json"}, "mu_segments": {"file": "data/mu_segments.json"}, "mus": {"file": "data/management_units.json"}, "oa_records": {"file": "data/oa_added_records.json"}, "pubmed_live": {"answer": "snapshots/pubmed_search.json", "calls": {"get_article_metadata": "snapshots/pubmed_metadata.json"}, "args": {"max_results": 10, "query": "Sotalia guianensis", "sort": "pub_date"}}, "pubmed_years": {"file": "data/pubmed_year_counts.json"}, "salve": {"file": "data/salve_indicators.json"}, "scispace_live": {"answer": "snapshots/scispace_search.json", "args": {"query": "What is known about the conservation, abundance and threats of the Guiana dolphin (Sotalia guianensis)? year:2015-2026 sort:newest limit:100"}}, "states": {"file": "data/range_states.json"}, "status": {"file": "data/status_history.json"}, "stressor_defs": {"file": "data/stressor_defs.json"}, "threat_scores": {"file": "data/threat_scores.json"}, "threat_studies": {"file": "data/threat_studies.json"}, "workshop": {"file": "data/workshop_recs.json"}};</script>
 <script src="dash-runtime.js"></script>
 </head>
 <body>
@@ -33,6 +33,7 @@
   <a href="#overview" data-go="overview">At a glance</a>
   <a href="#units" data-go="units">Population</a>
   <a href="#threats" data-go="threats">Threats</a>
+  <a href="#threat-map" data-go="threat-map">Threats by unit</a>
   <a href="#actions" data-go="actions">Action plan</a>
   <a href="#iwc" data-go="iwc">IWC</a>
   <a href="#instruments" data-go="instruments">CMS and IWC instruments</a>
@@ -153,6 +154,42 @@
       <thead><tr><th>Gear class</th><th>Gear type</th><th>Timing</th><th>Scope</th><th>Severity</th><th>Status</th><th>Notes</th></tr></thead>
       <tbody data-draw="gear_body"></tbody>
     </table>
+  </div>
+</section>
+
+<section class="gd-sec" id="threat-map">
+  <h2 class="gd-h2">Threats by management unit</h2>
+  <p class="gd-sub">Where in the range each stressor has been documented. A stressor counts for a unit when a published study on the Guiana dolphin documents it there; the CMP's own records for each unit are shown alongside. Select a unit on the map, in the matrix or in the list to see how its sources of pressure, stressors and reported impacts connect, and the studies behind them.</p>
+  <p class="gd-note gd-warn-note"><b>How the studies were assigned.</b> 75 studies from PubMed and SciSpace were assigned to units by the places named in their title (or, failing that, their abstract) and to stressors by keywords, then checked by reading the list; studies that name only "Brazil" are not assigned to a unit. Unit boundaries on the map are approximate coastal limits drawn from the CMP's description of each unit. An empty cell means no study was found in these indexes, not that the stressor is absent.</p>
+  <div class="mt-grid">
+    <div class="gd-chart gd-map mt-map" id="threat-unit-map" data-draw="mt_map" data-source="mt_units mu_segments map_base"></div>
+    <div class="mt-side">
+      <div class="gd-chart mt-matrix" id="threat-unit-matrix" data-draw="mt_matrix" data-source="mt_units mt_cells stressor_defs"></div>
+    </div>
+  </div>
+  <div class="gd-card mt-detail" id="threat-unit-detail">
+    <div class="gd-controls">
+      <label>Management unit <select class="dash-select" data-draw="mt_select" data-source="mt_units" aria-label="Choose a management unit"></select></label>
+    </div>
+    <h3 class="gd-h3 mt-h" data-draw="mt_head" data-source="mt_units">—</h3>
+    <p class="gd-note" data-draw="mt_range" data-source="mt_units">—</p>
+    <p class="gd-p" data-draw="mt_counts" data-source="mt_units"></p>
+    <div class="gd-chart mt-flowbox" id="threat-unit-flow" data-draw="mt_flow" data-source="threat_studies mt_cells stressor_defs"></div>
+    <p class="gd-note">Line thickness between a stressor and an impact is the number of studies reporting both; "CMP" marks a stressor recorded by the CMP for the unit with no study found here.</p>
+    <div class="gd-controls gd-dl">
+      <span class="gd-note">Download this unit's studies:</span>
+      <button type="button" class="gd-more" data-mt-dl data-kind="csv">CSV</button>
+      <button type="button" class="gd-more" data-mt-dl data-kind="pdf">PDF</button>
+      <span class="gd-note" data-draw="mt_dl" data-source="threat_studies" aria-live="polite"></span>
+    </div>
+    <div class="gd-wrap">
+      <table class="gd-table" id="threat-unit-studies" data-source="threat_studies" data-row-key="id">
+        <thead><tr><th>Stressor</th><th data-field="year">Year</th><th data-field="first_author">First author</th><th data-field="title">Title</th><th>Impacts reported</th><th>Links</th></tr></thead>
+        <tbody data-draw="mt_list"></tbody>
+      </table>
+    </div>
+    <button type="button" class="gd-more" data-draw="mt_more" data-source="threat_studies" aria-controls="threat-unit-studies"></button>
+    <p class="gd-note">"Free PDF (PMC)" opens the open-access copy in PubMed Central, where the PDF can be downloaded; other articles open at the publisher or SciSpace page, where access depends on the journal.</p>
   </div>
 </section>
 
@@ -440,6 +477,7 @@
 <script src="app.js"></script>
 <script src="draw.js"></script>
 <script src="map.js"></script>
+<script src="threatmap.js"></script>
 <script src="sci.js"></script>
 <script src="litdl.js"></script>
 <script src="evid.js"></script>

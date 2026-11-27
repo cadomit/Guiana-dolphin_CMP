@@ -207,7 +207,9 @@ dash.draw('chart_lit', (el) => {
   const yt = y.ticks(4);
   svg.append('g').attr('class', 'gd-grid').selectAll('line').data(yt).join('line').attr('x1', ml).attr('x2', W - mr).attr('y1', (d) => y(d)).attr('y2', (d) => y(d));
   svg.append('g').selectAll('text').data(yt).join('text').attr('x', ml - 6).attr('y', (d) => y(d) + 4).attr('text-anchor', 'end').text((d) => d);
-  const xt = years.filter((v) => v % 5 === 0 || v === years[years.length - 1]).filter((v) => W >= 520 || v % 10 === 0 || v === years[years.length - 1]);
+  const lastY = years[years.length - 1];
+  const xt = years.filter((v) => v % 5 === 0 || v === lastY).filter((v) => W >= 520 || v % 10 === 0 || v === lastY)
+    .filter((v) => v === lastY || x(lastY) - x(v) > 38); // keep the final year's label clear of the one before
   svg.append('g').selectAll('text').data(xt).join('text').attr('x', (d) => x(d)).attr('y', H - 7).attr('text-anchor', 'middle').text((d) => d);
   const ln = d3.line().x((r) => x(r.year)).y((r) => y(r.articles));
   S.forEach((s) => {
@@ -219,6 +221,9 @@ dash.draw('chart_lit', (el) => {
   });
   const ends = S.map((s) => ({ s, yy: y(s.last.articles) })).sort((a, b) => a.yy - b.yy);
   if (ends.length === 2 && ends[1].yy - ends[0].yy < 14) ends[1].yy = ends[0].yy + 14;
+  // keep both end labels above the year labels of the x axis
+  const lowest = H - mb - 8;
+  if (ends.length && ends[ends.length - 1].yy > lowest) { const d = ends[ends.length - 1].yy - lowest; ends.forEach((e) => { e.yy -= d; }); }
   ends.forEach((e) => svg.append('text').attr('x', x(e.s.last.year) + 8).attr('y', e.yy + 4).text(e.s.short + ' · ' + e.s.last.articles));
   const tip = GD.tip(el);
   const cross = svg.append('line').attr('y1', mt).attr('y2', H - mb).style('stroke', 'var(--cds-chart-reference, var(--color-fg-muted))').attr('visibility', 'hidden');

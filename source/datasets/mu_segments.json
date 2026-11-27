@@ -1,0 +1,19 @@
+{
+ "title": "Management-unit coastal segments",
+ "description": "The species occurrence line (Natural Earth 1:50m coast) split into management units at approximate coastal limits drawn from the CMP description of each unit (CMP 5.2).",
+ "source": {
+  "kind": "file",
+  "url": "/_blob/e43f9de2e6f1bcb9e57de5005b08bac6",
+  "name": "mu_segments.json",
+  "format": "json"
+ },
+ "updated": {
+  "at": "2026-11-27T12:00:00Z",
+  "by": "Claude, from Natural Earth and the CMP"
+ },
+ "fixed": true,
+ "edit": {
+  "via": "claude",
+  "at": "2026-11-27T12:00:00Z"
+ }
+}

@@ -1,0 +1,130 @@
+[
+{
+"kind": "stressor",
+"id": "bycatch",
+"group": "Fisheries",
+"label": "Bycatch and entanglement",
+"order": 0,
+"short": "Bycatch"
+},
+{
+"kind": "stressor",
+"id": "take",
+"group": "Fisheries",
+"label": "Directed take and use as bait or food",
+"order": 1,
+"short": "Directed take"
+},
+{
+"kind": "stressor",
+"id": "prey",
+"group": "Fisheries",
+"label": "Prey depletion and overfishing",
+"order": 2,
+"short": "Prey depletion"
+},
+{
+"kind": "stressor",
+"id": "chem",
+"group": "Effluents and runoff",
+"label": "Chemical contaminants (metals, POPs, PAHs)",
+"order": 3,
+"short": "Contaminants"
+},
+{
+"kind": "stressor",
+"id": "debris",
+"group": "Effluents and runoff",
+"label": "Plastics and marine debris",
+"order": 4,
+"short": "Plastics"
+},
+{
+"kind": "stressor",
+"id": "sewage",
+"group": "Effluents and runoff",
+"label": "Sewage, eutrophication and microbial pollution",
+"order": 5,
+"short": "Sewage, microbes"
+},
+{
+"kind": "stressor",
+"id": "spill",
+"group": "Mining and oil",
+"label": "Mine tailings and oil spills",
+"order": 6,
+"short": "Tailings, oil"
+},
+{
+"kind": "stressor",
+"id": "disease",
+"group": "Pathogens",
+"label": "Infectious disease and pathogens",
+"order": 7,
+"short": "Disease"
+},
+{
+"kind": "stressor",
+"id": "noise",
+"group": "Shipping, ports and tourism",
+"label": "Underwater noise",
+"order": 8,
+"short": "Noise"
+},
+{
+"kind": "stressor",
+"id": "vessels",
+"group": "Shipping, ports and tourism",
+"label": "Vessel traffic, collisions and tourism",
+"order": 9,
+"short": "Vessels, tourism"
+},
+{
+"kind": "stressor",
+"id": "habitat",
+"group": "Coastal development",
+"label": "Habitat loss, ports and coastal development",
+"order": 10,
+"short": "Habitat loss"
+},
+{
+"kind": "stressor",
+"id": "climate",
+"group": "Climate",
+"label": "Climate change and extreme events",
+"order": 11,
+"short": "Climate"
+},
+{
+"kind": "impact",
+"id": "mortality",
+"group": "",
+"label": "Mortality",
+"order": 0,
+"short": "Mortality"
+},
+{
+"kind": "impact",
+"id": "health",
+"group": "",
+"label": "Health and body burden",
+"order": 1,
+"short": "Health and body burden"
+},
+{
+"kind": "impact",
+"id": "behaviour",
+"group": "",
+"label": "Behaviour and habitat use",
+"order": 2,
+"short": "Behaviour and habitat use"
+},
+{
+"kind": "impact",
+"id": "population",
+"group": "",
+"label": "Population decline",
+"order": 3,
+"short": "Population decline"
+}
+]

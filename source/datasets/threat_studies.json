@@ -1,0 +1,19 @@
+{
+ "title": "Studies documenting stressors by management unit",
+ "description": "Published studies on the Guiana dolphin (PubMed and SciSpace, retrieved 27 November 2026) assigned to management units by the places named in their title or abstract, and to stressors and reported impacts by keywords, then checked by reading the list. Links to the article and, where it exists, the open-access copy in PubMed Central.",
+ "source": {
+  "kind": "file",
+  "url": "/_blob/43fef7683f52a8640695d72435e77e41",
+  "name": "threat_studies.json",
+  "format": "json"
+ },
+ "updated": {
+  "at": "2026-11-27T12:00:00Z",
+  "by": "Claude, from PubMed, SciSpace and the CMP"
+ },
+ "fixed": false,
+ "edit": {
+  "via": "claude",
+  "at": "2026-11-27T12:00:00Z"
+ }
+}

@@ -1,0 +1,217 @@
+[
+{
+"unit": "BRNO",
+"stressor": "bycatch",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (fisheries interactions)"
+},
+{
+"unit": "BRNO",
+"stressor": "disease",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (diseases)"
+},
+{
+"unit": "BRNO",
+"stressor": "chem",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNO",
+"stressor": "noise",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNO",
+"stressor": "habitat",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (coastal and marine development)"
+},
+{
+"unit": "BRNE1",
+"stressor": "bycatch",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (fisheries interactions)"
+},
+{
+"unit": "BRNE1",
+"stressor": "disease",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (diseases)"
+},
+{
+"unit": "BRNE1",
+"stressor": "chem",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNE1",
+"stressor": "noise",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNE1",
+"stressor": "habitat",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (coastal and marine development)"
+},
+{
+"unit": "BRNE2",
+"stressor": "bycatch",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (fisheries interactions)"
+},
+{
+"unit": "BRNE2",
+"stressor": "disease",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (diseases)"
+},
+{
+"unit": "BRNE2",
+"stressor": "chem",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNE2",
+"stressor": "noise",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNE2",
+"stressor": "habitat",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (coastal and marine development)"
+},
+{
+"unit": "BRNE3",
+"stressor": "bycatch",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (fisheries interactions)"
+},
+{
+"unit": "BRNE3",
+"stressor": "disease",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (diseases)"
+},
+{
+"unit": "BRNE3",
+"stressor": "chem",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNE3",
+"stressor": "noise",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNE3",
+"stressor": "habitat",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (coastal and marine development)"
+},
+{
+"unit": "BRNE4",
+"stressor": "bycatch",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (fisheries interactions)"
+},
+{
+"unit": "BRNE4",
+"stressor": "disease",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (diseases)"
+},
+{
+"unit": "BRNE4",
+"stressor": "chem",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNE4",
+"stressor": "noise",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRNE4",
+"stressor": "habitat",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (coastal and marine development)"
+},
+{
+"unit": "BRSE1",
+"stressor": "bycatch",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (fisheries interactions)"
+},
+{
+"unit": "BRSE1",
+"stressor": "disease",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (diseases)"
+},
+{
+"unit": "BRSE1",
+"stressor": "chem",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRSE1",
+"stressor": "noise",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRSE1",
+"stressor": "habitat",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (coastal and marine development)"
+},
+{
+"unit": "BRSE2",
+"stressor": "bycatch",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (fisheries interactions)"
+},
+{
+"unit": "BRSE2",
+"stressor": "disease",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (diseases); morbillivirus mortality event"
+},
+{
+"unit": "BRSE2",
+"stressor": "chem",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRSE2",
+"stressor": "noise",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRSE2",
+"stressor": "habitat",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (coastal and marine development)"
+},
+{
+"unit": "BRS/SE",
+"stressor": "bycatch",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (fisheries interactions)"
+},
+{
+"unit": "BRS/SE",
+"stressor": "disease",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (diseases)"
+},
+{
+"unit": "BRS/SE",
+"stressor": "chem",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRS/SE",
+"stressor": "noise",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (pollution: chemical, noise and other)"
+},
+{
+"unit": "BRS/SE",
+"stressor": "habitat",
+"basis": "CMP Table 1: most urgent areas include all Brazilian RMUs (coastal and marine development)"
+},
+{
+"unit": "VEML",
+"stressor": "take",
+"basis": "CMP 5.2, unit remarks: directed take for food reported"
+},
+{
+"unit": "VEML",
+"stressor": "spill",
+"basis": "CMP 5.2, unit remarks: oil pollution reported"
+},
+{
+"unit": "BRSE1",
+"stressor": "spill",
+"basis": "CMP 5.2, unit remarks: Fundão tailings impact"
+}
+]

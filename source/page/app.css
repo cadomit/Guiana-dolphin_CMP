@@ -148,3 +148,38 @@
 .gd-refs-cols{columns:2 320px;column-gap:var(--cds-gap-xl)}
 .gd-refs-cols li{break-inside:avoid}
 .gd-ref-k{color:var(--color-fg-muted)}
+.mt-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:var(--cds-gap-lg);align-items:start}
+@media (max-width:900px){.mt-grid{grid-template-columns:1fr}}
+.mt-map{max-width:none}
+.mt-lead{color:var(--color-fg)}
+.gd-map .mt-seg{fill:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;cursor:pointer}
+.gd-map .mt-seg.on{stroke-width:10}
+.mt-n0{stroke:color-mix(in srgb,var(--gd-a) 12%,var(--color-bg))}.gd-sw.mt-n0{background:color-mix(in srgb,var(--gd-a) 12%,var(--color-bg));border:1px solid var(--color-border-line)}
+.mt-n1{stroke:color-mix(in srgb,var(--gd-a) 35%,var(--color-bg))}.gd-sw.mt-n1{background:color-mix(in srgb,var(--gd-a) 35%,var(--color-bg))}
+.mt-n2{stroke:color-mix(in srgb,var(--gd-a) 65%,var(--color-bg))}.gd-sw.mt-n2{background:color-mix(in srgb,var(--gd-a) 65%,var(--color-bg))}
+.mt-n3{stroke:var(--gd-a)}.gd-sw.mt-n3{background:var(--gd-a)}
+.gd-map .mt-none{stroke:var(--color-fg-muted);stroke-width:2;stroke-dasharray:3 3;cursor:default}.gd-sw.mt-none{background:none;border-top:2px dashed var(--color-fg-muted);height:0;border-radius:0;vertical-align:4px}
+.mt-lab{cursor:pointer}
+.mt-lab rect{fill:var(--color-bg);stroke:var(--color-border-line)}
+.mt-lab.on rect{fill:var(--gd-a);stroke:var(--gd-a)}
+.gd-chart svg .mt-lab text{font-size:10px;font-weight:600;fill:var(--color-fg)}
+.gd-chart svg .mt-lab.on text{fill:var(--color-bg)}
+.gd-sw.mt-dot{background:var(--gd-a);border-radius:50%}
+.gd-sw.mt-ring{background:none;border:2px solid var(--color-warn);border-radius:50%}
+.gd-sw.mt-x{width:4px;height:4px;border-radius:50%;background:var(--color-fg-muted);vertical-align:2px}
+.mt-band{fill:var(--color-bg);opacity:.6}.mt-band.alt{fill:var(--color-panel);opacity:1}
+.gd-chart svg text.mt-col{font-size:11px}
+.mt-row{cursor:pointer}.mt-rowbg{fill:transparent}.mt-row:hover .mt-rowbg{fill:color-mix(in srgb,var(--gd-a) 8%,transparent)}
+.mt-row.on .mt-rowbg{fill:color-mix(in srgb,var(--gd-a) 16%,transparent)}.gd-chart svg .mt-row.on text{font-weight:600}
+.mt-cell{cursor:pointer}.mt-dotc{fill:var(--gd-a)}.mt-ringc{fill:none;stroke:var(--color-warn);stroke-width:1.6}.mt-xc{fill:var(--color-fg-muted)}
+.mt-detail{margin-top:var(--cds-gap-lg)}
+.mt-h{margin-top:4px;font-size:var(--cds-font-size-heading);font-family:var(--font-anthropic-serif);font-weight:400}
+.mt-flowbox{min-height:40px;margin:8px 0}
+.mt-flow{fill:none;stroke:color-mix(in srgb,var(--gd-a) 40%,var(--color-bg));stroke-width:1.5}
+.mt-node rect{stroke:var(--color-border-line);fill:var(--color-bg)}
+.mt-node.src rect{fill:color-mix(in srgb,var(--gd-a) 14%,var(--color-bg))}
+.mt-node.st rect{fill:color-mix(in srgb,var(--gd-a) 30%,var(--color-bg))}
+.mt-node.st.cmp rect{fill:var(--color-bg);stroke:var(--color-warn);stroke-dasharray:3 2}
+.mt-node.im rect{fill:color-mix(in srgb,var(--color-warn) 18%,var(--color-bg))}
+.gd-chart svg text.mt-sub{font-size:10px;font-weight:600;fill:var(--color-fg-muted)}
+.mt-links a{white-space:nowrap}

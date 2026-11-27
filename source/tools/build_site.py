@@ -29,7 +29,7 @@ shutil.copy(os.path.join(ROOT, 'page', 'app.css'), os.path.join(SITE, 'app.css')
 # cover photo also served as a file, for links from other sites
 if os.path.exists(os.path.join(ROOT, 'page', 'cover.jpg')): shutil.copy(os.path.join(ROOT, 'page', 'cover.jpg'), os.path.join(SITE, 'cover.jpg'))
 # in the dashboard each script runs in its own scope; anything shared goes on window
-for n in ['app.js', 'draw.js', 'map.js', 'sci.js', 'litdl.js', 'evid.js', 'overview.js', 'refs.js']:
+for n in ['app.js', 'draw.js', 'map.js', 'threatmap.js', 'sci.js', 'litdl.js', 'evid.js', 'overview.js', 'refs.js']:
     pn = 'map_public.js' if PUBLIC and n == 'map.js' else n
     if not os.path.exists(os.path.join(ROOT, 'page', pn)): continue
     src = open(os.path.join(ROOT, 'page', pn)).read()

@@ -1,0 +1,19 @@
+{
+ "title": "CMP records of stressors by unit",
+ "description": "Stressors the CMP records for each management unit: the most urgent areas in CMP Table 1 (all Brazilian units) and the remarks on each unit in CMP 5.2.",
+ "source": {
+  "kind": "file",
+  "url": "/_blob/2c4d71261168bd906e2b8e256aef554c",
+  "name": "cmp_unit_threats.json",
+  "format": "json"
+ },
+ "updated": {
+  "at": "2026-11-27T12:00:00Z",
+  "by": "Claude, from PubMed, SciSpace and the CMP"
+ },
+ "fixed": false,
+ "edit": {
+  "via": "claude",
+  "at": "2026-11-27T12:00:00Z"
+ }
+}

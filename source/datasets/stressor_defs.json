@@ -1,0 +1,19 @@
+{
+ "title": "Stressor and impact categories",
+ "description": "Stressors grouped by source of pressure, and categories of impact reported, used to classify the studies.",
+ "source": {
+  "kind": "file",
+  "url": "/_blob/64daa1cdf232752703c5efcd967602f8",
+  "name": "stressor_defs.json",
+  "format": "json"
+ },
+ "updated": {
+  "at": "2026-11-27T12:00:00Z",
+  "by": "Claude, from PubMed, SciSpace and the CMP"
+ },
+ "fixed": true,
+ "edit": {
+  "via": "claude",
+  "at": "2026-11-27T12:00:00Z"
+ }
+}
